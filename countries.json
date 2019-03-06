@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"destination": "Americas",
+		"countries": ["Chile", "Brazil", "Bahamas", "Canada", "Argentina"],
+		"url": "Americas"
+	},
+	{
+		"id": 1,
+		"destination": "Asia",
+		"countries": ["China", "Thailand", "India", "United Arab Emirates", "Vietnam", "Japan"],
+		"url": "Asia"
+	},
+	{
+		"id": 2,
+		"destination": "Australia & South Pacific",
+		"countries": ["Australia", "New Zealand"],
+		"url": "Australia"
+	},
+	{
+		"id": 3,
+		"destination": "Europe",
+		"countries": ["Russia", "France", "Germany", "Italy", "Spain"],
+		"url": "Europe"
+	},
+	{
+		"id": 4,
+		"destination": "Africa",
+		"countries": ["South Africa", "Kenya"],
+		"url": "Africa"
+	}
+]

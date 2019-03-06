@@ -1,0 +1,777 @@
+
+*, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #103A5B;
+}
+
+.desktop-footer {
+    display: none;
+}
+
+.mobile-footer {
+    display: block;
+}
+
+.header-lg {
+    display: none;
+}
+
+.header-sm {
+    display: block;
+}
+
+/* ================= HEADER ================= */
+
+nav, .navbar {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.search-dropdown-menu {
+    width: 290px;
+    left: -163px !important;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dropright .dropdown-menu {
+    width: 257px;
+}
+
+.search-dropdown .btn-link,
+.agent-dropdown .btn-link,
+.mobile-dropdown .btn-link {
+    color: #7F7F7F;
+}
+
+.search-dropdown .btn-link:active, 
+.search-dropdown .btn-link:focus,
+.agent-dropdown .btn-link:active,
+.agent-dropdown .btn-link:focus,
+.mobile-dropdown .btn-link:active,
+.mobile-dropdown .btn-link:focus {
+    color: #1B75BB;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.mobile-agent-dropdown-menu {
+    width: 290px;
+    left: -206px !important;
+    padding: 10px;
+}
+
+/* ================= CAROUSEL ================= */
+.carousel-overlay {
+    display: block;
+    background: linear-gradient(180deg, rgba(51, 122, 178, 0.16) 0%, rgba(16, 58, 91, 0.8) 77.9%);
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+    text-align: center;
+    height: 96px;
+    width: 96px;
+    color: #FFF;
+}
+
+.banner h3 {
+    padding: 5%;
+    padding-top: 0;
+    margin-top: 6%;
+}
+
+.special-offer {
+    color: #FFF;
+    text-align: left;
+}
+
+.special-offer .duration {
+    font-size: 14px;
+}
+
+.special-offer h2 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+}
+
+.special-offer .price {
+    font-size: 18px;
+    margin-top: 7%;
+}
+
+.special-offer .price-colour {
+    font-size: 12px;
+}
+
+/* =================  SPECIAL DEALS ================= */
+
+.offer-end {
+    width: 70%;
+}
+
+/* ================= POPULAR TOURS ================= */
+.price-tag {
+    margin-left: 84%;
+}
+
+.commission-tag {
+    margin-left: 63%;
+}
+
+/* ================= TOP DESTINATIONS ================= */
+#top-destinations {
+    margin-top: 40px;
+}
+
+/* ================= REVIEW ================= */
+#reviews {
+    margin-top: 40px;
+}
+
+.review iframe {
+    height: 186px;
+}
+
+/* ================= OUR OFFER ================= */
+#our-offer p {
+    margin-top: 15px;
+}
+
+/* ================= FOOTER ================= */
+.logo {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
+.social img {
+    margin: 25px;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+/* ================= SEARCHRESULT TOP BANNER ================= */
+.numberResults {
+    display: none;
+}
+
+@media (min-width: 320px) {
+    .dropright .dropdown-menu {
+        width: 276px;
+    }
+
+    .search-dropdown-menu {
+        left: -158px !important;
+    }
+
+    .mobile-agent-dropdown-menu {
+        left: -202px !important;
+    }
+}
+
+@media (min-width: 360px) {
+    
+    .search-dropdown-menu {
+        left: -198px !important;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile-agent-dropdown-menu {
+        left: -242px !important;
+    }
+    
+    .mobile-dropdown-menu {
+        left: -279px !important;
+    }
+
+    .dropright .dropdown-menu {
+        width: 303px;
+    }
+
+    .price-tag {
+        margin-left: 88%;
+    }
+
+    .commission-tag {
+        margin-left: 70%;
+    }
+    
+    .carousel-overlay {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 375px) {
+    .dropright .dropdown-menu {
+        width: 318px;
+    }
+
+    .mobile-agent-dropdown-menu {
+        left: -257px !important;
+    }
+
+    .search-dropdown-menu {
+        left: -213px !important;
+    }
+}
+
+@media (min-width: 411px) {
+    .dropright .dropdown-menu {
+        width: 354px;
+    }
+    .search-dropdown-menu {
+        left: -249px !important;
+    }
+    .mobile-agent-dropdown-menu {
+        left: -293px !important;
+    }
+}
+
+@media (min-width: 414px) {
+    .dropright .dropdown-menu {
+        width: 357px;
+    }
+
+    .search-dropdown-menu {
+        left: -252px !important;
+    }
+
+    .mobile-agent-dropdown-menu {
+        left: -296px !important;
+    }
+}
+
+@media (min-width: 440px) {
+
+    .search-dropdown-menu {
+        left: -278px !important;
+    }
+
+    .mobile-agent-dropdown-menu {
+        left: -322px !important;
+    }
+
+    .price-tag {
+        margin-left: 92%;
+    }
+
+    .commission-tag {
+        margin-left: 76%;
+    }
+
+    .review iframe {
+        height: 216px;
+    }
+
+    .dropright .dropdown-menu {
+        width: 382px;
+    }
+}
+
+@media (min-width: 516px) {
+
+    .commission-tag {
+        margin-left: 81%;
+    }
+
+    .dropright .dropdown-menu {
+        width: 459px;
+    }
+
+    .search-dropdown-menu {
+        left: -354px !important;
+    }
+
+    .mobile-agent-dropdown-menu {
+        left: -398px !important;
+    }
+
+    #tour-description-button {
+        display: block;
+    }
+
+    .tour-description-container {
+        height: 225px;
+    }
+    
+    .optional-tour img, .extensions img {
+        height: 226px;
+    }
+}
+
+@media (min-width: 576px) {
+    nav, .navbar {
+        padding-right: 30px;
+    }
+
+    .dropright .dropdown-menu {
+        width: 518px;
+    }
+
+    .mobile-agent-dropdown-menu {
+        left: -282px !important;
+        top: 66px;
+    }
+
+    .search-dropdown-menu {
+        top: 66px;
+        left: -214px !important;
+    }
+
+    .desktop-footer {
+        display: inline-flex;
+    }
+
+    .mobile-footer { 
+        display: none;
+    }
+
+    .price-tag {
+        margin-left: 83%;
+    }
+
+    .commission-tag {
+        margin-left: 62%;
+    }
+
+    .review iframe {
+        height: 286px;
+    }
+}
+
+@media (min-width: 657px) {
+    
+    .price-tag {
+        margin-left: 87%;
+    }
+
+    .commission-tag {
+        margin-left: 68%;
+    }
+
+    .dropright .dropdown-menu {
+        width: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .numberResults, .sort {
+        display: block;
+    }
+
+    .dropright .dropdown-menu {
+        width: 710px;
+    }
+
+    .search-dropdown-menu {
+        width: 381px;
+        left: -216px !important;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .agent-dropdown-menu {
+        width: 381px;
+        left: -296px !important;
+        padding: 10px;
+    }
+    
+    .mobile-dropdown-menu {
+        /* width: 381px; */
+        left: -340px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .price-tag {
+        margin-left: 88%;
+    }
+
+    .commission-tag {
+        margin-left: 74%;
+    }
+
+    .carousel-overlay {
+        width: 33%;
+    }
+
+    .banner {
+        height: 96px;
+        width: 96px;
+    }
+
+    .header-top, .header-bottom {
+        width: 95%;
+    }
+
+    .align-right {
+        flex-wrap: nowrap;
+    }
+
+    .text-right {
+        flex-wrap: nowrap;
+    }
+
+    .align-right .agent {
+        margin-bottom: auto;
+        margin-top: 6px;
+        margin-left: 6px;
+    }
+    
+    .align-right .traveller {
+        margin-bottom: auto;
+        margin-top: 6px;
+    }
+
+    .special-offer .duration {
+        font-size: 12px;
+    }
+    
+    .special-offer h2 {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+    }
+    
+    .special-offer .price {
+        font-size: 14px;
+        margin-top: 1%;
+    }
+    
+    .special-offer .price-colour {
+        font-size: 10px;
+    }
+
+    .review iframe {
+        height: 130px;
+    }
+
+    .logo {
+        text-align: left;
+    }
+    
+    .social {
+        text-align: left;
+    }
+}
+
+@media (min-width: 850px) {
+    .price-tag {
+        margin-left: 90%;
+    }
+
+    .commission-tag {
+        margin-left: 77%;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .header-lg {
+        display: block;
+    }
+
+    .header-sm {
+        display: none;
+    }
+
+    .search-dropdown button i:focus, 
+    .search-dropdown .btn-link:focus {
+        background-color: #1B75BB;
+        color: #FFF;
+    }
+
+    .agent-dropdown .btn-link:active,
+    .agent-dropdown .btn-link:focus {
+        background-color: #1B75BB;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .traveller-dropdown .btn-link:active,
+    .traveller-dropdown .btn-link:focus {
+        background-color: #1B75BB;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .align-right {
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .align-right .agent {
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 12px;
+    }
+    
+    .align-right .traveller {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .align-right img {
+        max-height: 20px;
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+    .align-right span {
+        margin-top: 29px;
+    }
+
+    .search-dropdown-menu {
+        left: -150px !important;
+    }
+    
+    .agent-dropdown-menu {
+        width: 381px;
+        left: -144px !important;
+    }
+
+    .traveller-dropdown-menu {
+        left: -166px !important;
+    }
+    
+    .price-tag {
+        margin-left: 82%;
+    }
+
+    .commission-tag {
+        margin-left: 53%;
+    }
+
+    .carousel-overlay {
+        width: 27%;
+    }
+
+    .newsletter{
+        text-align: left;
+    }
+}
+
+@media (min-width: 1022px) {
+    
+    .search-dropdown-menu {
+        width: 381px;
+        left: -55px !important;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .agent-dropdown-menu {
+        width: 381px;
+        left: -100px !important;
+        padding: 10px;
+    }
+    
+    .traveller-dropdown-menu {
+        left: -166px !important;
+    }
+
+    .price-tag {
+        margin-left: 83%;
+    }
+
+    .commission-tag {
+        margin-left: 57%;
+    }
+
+    .review iframe {
+        height: 160px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .search-dropdown-menu {
+        width: 381px;
+        left: -130px !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .agent-dropdown-menu {
+        width: 381px;
+        left: -216px !important;
+        padding: 30px;
+    }
+
+    .traveller-dropdown-menu {
+        left: -301px !important;
+    }
+
+    .price-tag {
+        margin-left: 82%;
+    }
+
+    .commission-tag {
+        margin-left: 52%;
+    }
+
+    .header-bottom {
+        width: 70%;
+    }
+
+    .carousel-overlay {
+        width: 37%;
+    }
+
+    .banner h3 {
+        padding: 5%;
+        margin-top: 10%;
+    }
+
+    .banner, .special-offer {
+        margin-left: 35%;
+        max-width: 250px;
+    }
+
+    .special-offer .duration {
+        font-size: 14px;
+    }
+    
+    .special-offer h2 {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        margin-bottom: 8px;
+    }
+    
+    .special-offer .price {
+        font-size: 18px;
+        margin-top: 7%;
+    }
+    
+    .special-offer .price-colour {
+        font-size: 12px;
+    }
+
+    .offer-end {
+        width: 60%;
+    }
+    
+    .align-right {
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .align-right .agent {
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 12px;
+    }
+    
+    .align-right span {
+        margin-top: 29px;
+    }
+    
+    .align-right .traveller {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .align-right img {
+        max-height: 20px;
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+    #top-destinations {
+        margin-top: 80px;
+    }
+
+    .review iframe {
+        height: 165px;
+    }
+
+    #our-offer p {
+        margin-top: 16px;
+    }
+
+    .social img {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+}
+
+@media (min-width: 1433px) {
+
+    .commission-tag {
+        margin-left: 63%;
+    }
+}
+
+@media (min-width: 1550px) {
+
+    .price-tag {
+        margin-left: 84%;
+    }
+
+
+    .review iframe {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1743px) {
+    
+    .price-tag {
+        margin-left: 84%;
+    }
+
+    .commission-tag {
+        margin-left: 59%;
+    }
+
+    .special-offer h2 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .special-offer .duration {
+        font-size: 19px;
+    }
+
+    .special-offer .price-colour {
+        font-size: 17px;
+    }
+}
+
