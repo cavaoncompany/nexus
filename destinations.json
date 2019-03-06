@@ -1,7 +1,7 @@
 [
     {
                     "id": 0,
-                    "img": "~/assets/images/shutterstock_726803782.png",
+                    "img": "/images/shutterstock_726803782.png",
                     "endDate": "12 DEC 2019",
                     "tourCode": "NHFTA10",
 					"region": "Asia",

@@ -136,7 +136,7 @@ export default {
     margin: 0 auto;
     margin-top: 20px;
     position: relative;
-    /* background-image: url('~/assets/images/shutterstock_211440232.png'); */
+    background-image: url('~assets/images/shutterstock_211440232.png');
     background-size: cover;
     height: 220px;
 }

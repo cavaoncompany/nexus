@@ -46,7 +46,7 @@ export default {
 #advertStaticImage {
     margin: 0 auto;
     position: relative;
-    /* background-image: url('~/assets/images/Screen Shot 2019-02-01 at 2.6.png'); */
+    background-image: url('~assets/images/Screen Shot 2019-02-01 at 2.6.png');
     background-position-x: center;
     background-size: cover;
     height: 238px;

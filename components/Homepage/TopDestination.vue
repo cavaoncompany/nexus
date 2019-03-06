@@ -1,7 +1,7 @@
 <template>
     <a href="#top-destinations" @mouseover="hover"  @mouseout="doHover = false">
         <div class="card top-destination">
-            <img :src="`${publicPath}${destination.img}`" class="card-img-top" :alt="destination.city">
+            <img :src="destination.img" class="card-img-top" :alt="destination.city">
             <div class="card-body pl-2 pr-2">
                 <p class="card-text destination-country mb-1"  v-bind:style="[doHover ? {color:'#1B75BB', textDecoration:'none' }:{color:'#103A5B'}]">{{destination.country}}</p>
                 <p class="destination-city">{{destination.city}}</p>
@@ -15,7 +15,6 @@ export default {
     name: "TopDestination",
     data() {
         return {
-            publicPath: process.env.BASE_URL,
             doHover: false
         }
     },

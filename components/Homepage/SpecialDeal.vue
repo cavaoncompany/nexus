@@ -1,7 +1,7 @@
 <template>
     <router-link :to="{name:'ProductDetails', params:{id:deal.id}}" class="card special-deal">
         <div>
-            <img :src="`${publicPath}${deal.img}`" class="card-img-top" :alt="deal.tourTitle">
+            <img :src="deal.img" class="card-img-top" :alt="deal.tourTitle">
             <div class="offer-end card-img-overlay">
                 <p>OFFER END - {{deal.endDate}}</p>
             </div>
@@ -26,11 +26,6 @@
 <script>
 export default {
     name: "SpecialDeal",
-    data() {
-        return {
-            publicPath: process.env.BASE_URL
-        }
-    },
     props: {
         deal: Object,
         agent: Boolean

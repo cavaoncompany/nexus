@@ -95,7 +95,7 @@ export default {
     margin: 0 auto;
     margin-top: 20px;
     position: relative;
-    /* background-image: url('~/assets/images/product-details-top-banner-mobile.png'); */
+    background-image: url('~assets/images/product-details-top-banner-mobile.png');
     background-size: cover;
     height: 220px;
 }

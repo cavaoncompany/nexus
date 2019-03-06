@@ -1,7 +1,7 @@
 <template>
     <div class="card bg-dark text-white popular-tour">
         <a :href="tour.link">
-            <img :src="`${publicPath}${tour.img}`" class="card-img-top" :alt="tour.tourTitle">
+            <img :src="tour.img" class="card-img-top" :alt="tour.tourTitle">
             <div class="card-img-overlay" v-for="i in 10" @mouseover="showByIndex = i" @mouseout="showByIndex = null" v-bind:key="i">
                 <div v-show="showByIndex === null" class="price-tag text-center"><p class="pt-1">{{ tour.fromPrice }}</p></div>
                 <div v-show="showByIndex === null" class="commission-tag text-center pl-1 pr-1" v-if="agent===true"><p class="pt-1">Earn {{ tour.agentCommission }}</p></div>
@@ -25,7 +25,6 @@ export default {
     name: "SpecialDeal",
     data() {
         return {
-            publicPath: process.env.BASE_URL,
             showByIndex: null
         }
     },
@@ -118,10 +117,6 @@ export default {
     height: 26px;
 }
 
-.price-tag p {
-    /* padding: 3px; */
-}
-
 .commission-tag {
     background: rgba(16, 58, 91, 0.2);
     border-radius: 26px 0px 0px 26px;
@@ -129,10 +124,6 @@ export default {
     font-size: 14px;
     width: 110px;
     height: 26px;
-}
-
-.commission-tag p {
-    /* padding: 3px; */
 }
 
 .tour-title {

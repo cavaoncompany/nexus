@@ -68,7 +68,7 @@ export default {
     margin: 0 auto;
     margin-top: 20px;
     position: relative;
-    /* background-image: url('~/assets/images/shutterstock_376673089.jpg'); */
+    background-image: url('~assets/images/shutterstock_376673089.jpg');
     background-position-x: center;
     height: 380px;
 }
@@ -88,7 +88,7 @@ export default {
 }
 
 .banner {
-    /* background-image: url('~/assets/images/banner.png'); */
+    background-image: url('~assets/images/banner.png');
 }
 
 .banner h3 {
