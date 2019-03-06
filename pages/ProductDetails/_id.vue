@@ -61,9 +61,11 @@ export default {
     Footer
   },
   created() {
-    // this.windowWidth = window.innerWidth || document.documentElement.clientWidth
-    // if (this.windowWidth < 576) { this.isMobile = true }
-    // window.scrollTo(0,0)
+    if (process.client) {
+      this.windowWidth = window.innerWidth || document.documentElement.clientWidth
+      if (this.windowWidth < 576) { this.isMobile = true }
+      window.scrollTo(0,0)
+    }
     EventBus.$on('markButtonActive', (content) => {
       this.markButtonActive(content)
     })

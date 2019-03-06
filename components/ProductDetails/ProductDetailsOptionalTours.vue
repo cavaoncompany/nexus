@@ -24,7 +24,7 @@
                                         <img :src="tour.image" :alt="tour.title" class="w-100">
                                     </div>
                                     <div class="col-12 col-md-9">
-                                        <div class="tour-description-container d-flex flex-column justify-content-between">
+                                        <div class="tour-description d-flex flex-column justify-content-between">
                                             <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                             <p>{{ tour.description }}</p>
@@ -51,7 +51,7 @@
                                 <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                 <p class="tour-description">{{ tour.description.substring(0, 320) }}
-                                    <span v-if="optionalTourHasModal.includes(index)" data-toggle="modal" :data-target="'#extensions-modal'+index">... Read more</span>
+                                    <span v-if="optionalTourHasModal.includes(index)" v-b-modal.extensions-modal data-toggle="modal" :data-target="'#extensions-modal'+index">... Read more</span>
                                 </p>
                             </div>
                         </div>
