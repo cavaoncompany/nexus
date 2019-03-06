@@ -12,7 +12,7 @@
             <ul>
                 <li class="pl-3"><h2 class="text-left">DESTINATION</h2></li>
                 <li class="pl-3" v-for="destination in countries" :key="destination.id">
-                    <a :href="'/searchResults/'+destination.url">
+                    <a :href="$router.resolve({name:'destination', params:{destination:destination.destination}}).href">
                         {{ destination.destination }}
                     </a>
                 </li>
