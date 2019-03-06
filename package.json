@@ -1,7 +1,7 @@
 {
   "name": "nuxt-nexus",
   "version": "1.0.0",
-  "description": "Nexus holidays",
+  "description": "Nexus Holidays. One stop for all your travel needs. We offer tours to various locations worldwide.",
   "author": "Cavaon",
   "private": true,
   "scripts": {
