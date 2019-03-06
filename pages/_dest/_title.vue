@@ -88,6 +88,18 @@ export default {
         this.activeContent = 4
       }
     }
+  },
+  head () {   
+    return {
+      title: `Nexus - ${this.$route.params.title}`,
+      meta: [
+        {
+        hid: `description`,
+        name: 'description',
+        content: `Could ${this.$route.params.title} be your next tour?`
+      }
+      ]
+    }
   }
 }
 </script>

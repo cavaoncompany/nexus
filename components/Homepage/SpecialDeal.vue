@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="{name:'dest-title', params:{destination: deal.region, title:deal.tourTitle.replace(/\s+/g, '-')}}" class="card special-deal">
+    <a :href="$router.resolve({name:'dest-title', params:{dest: deal.region, title:deal.tourTitle.replace(/\s+/g, '-')}}).href" class="card special-deal">
         <div>
             <img :src="deal.img" class="card-img-top" :alt="deal.tourTitle">
             <div class="offer-end card-img-overlay">
@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-    </router-link>
+    </a>
 </template>
 
 <script>
