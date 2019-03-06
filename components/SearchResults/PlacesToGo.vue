@@ -18,14 +18,14 @@ export default {
             places: [
                 {
                     id: 0,
-                    img: 'images/Screen Shot 2019-02-01 at 2.4.jpg',
+                    img: '/images/Screen Shot 2019-02-01 at 2.4.jpg',
                     title: 'Places to go on a long weekend',
                     description: 'Places to go on a long weekend Places to go on a long weekend',
                     link: ''
                 },
                 {
                     id: 1,
-                    img: 'images/Screen Shot 2019-02-01 at 2.5.jpg',
+                    img: '/images/Screen Shot 2019-02-01 at 2.5.jpg',
                     title: 'Places to go on a long weekend',
                     description: 'Places to go on a long weekend Places to go on a long weekend',
                     link: ''

@@ -7,7 +7,7 @@
                     <div class="col-12 col-md-6" v-for="(hotel, index) in destination.hotels" :key="index">
                         <div class="card mb-4 border-0">
                             <div class="card-img-top">
-                                <img v-for="(image, index) in hotel.images" :key="index" :src="`${publicPath}${image}`" :alt="hotel.name" class="card-img-top w-50">
+                                <img v-for="(image, index) in hotel.images" :key="index" :src="image" :alt="hotel.name" class="card-img-top w-50">
                             </div>
                             <div class="card-body pl-0">
                                 <p class="city">{{ hotel.city }}</p>
@@ -28,11 +28,6 @@ import EventBus from '../../event-bus.js'
 
 export default {
     name: "ProductDetailsHotels",
-    data() {
-        return {
-            publicPath: process.env.BASE_URL
-        }
-    },
     props: {
         destination: {}
     },

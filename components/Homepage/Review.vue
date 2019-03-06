@@ -10,11 +10,6 @@
 <script>
 export default {
     name: "Review",
-    data() {
-        return {
-            publicPath: process.env.BASE_URL,
-        }
-    },
     props: {
         review: Object
     }

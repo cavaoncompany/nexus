@@ -1,7 +1,7 @@
 <template>
     <a :href="place.link" class="card place-to-go border-0">
         <div>
-            <img :src="`${publicPath}${place.img}`" class="card-img-top" :alt="place.title">
+            <img :src="place.img" class="card-img-top" :alt="place.title">
             <div class="card-body pt-2 pl-0">
                 <div class="title mb-2">{{place.title}}</div>
                 <div class="description">{{place.description}}</div>
@@ -13,11 +13,6 @@
 <script>
 export default {
     name: 'PlaceToGo',
-    data() {
-        return {
-            publicPath: process.env.BASE_URL
-        }
-    },
     props: {
         place: Object
     }

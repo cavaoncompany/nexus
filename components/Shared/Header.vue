@@ -25,19 +25,19 @@
         </div> 
         <div class="row header-bottom justify-content-md-center">
             <div class="col-sm text-center">
-                <a :href="$router.resolve({name:'SearchResults', params:{destination:'Asia'}}).href"><button type="button" class="btn btn-link header-link">ASIA</button></a>
+                <a :href="$router.resolve({name:'SearchResults-destination', params:{destination:'Asia'}}).href"><button type="button" class="btn btn-link header-link">ASIA</button></a>
             </div>
             <div class="col-sm text-center">
-                <a :href="$router.resolve({name:'SearchResults', params:{destination:'Americas'}}).href"><button type="button" class="btn btn-link header-link">AMERICAS</button></a>
+                <a :href="$router.resolve({name:'SearchResults-destination', params:{destination:'Americas'}}).href"><button type="button" class="btn btn-link header-link">AMERICAS</button></a>
             </div>
             <div class="col-sm text-center">
-                <a :href="$router.resolve({name:'SearchResults', params:{destination:'Africa'}}).href"><button type="button" class="btn btn-link header-link">AFRICA</button></a>
+                <a :href="$router.resolve({name:'SearchResults-destination', params:{destination:'Africa'}}).href"><button type="button" class="btn btn-link header-link">AFRICA</button></a>
             </div>
             <div class="col-sm text-center">
-                <a :href="$router.resolve({name:'SearchResults', params:{destination:'Australia'}}).href"><button type="button" class="btn btn-link header-link">AUSTRALIA</button></a>
+                <a :href="$router.resolve({name:'SearchResults-destination', params:{destination:'Australia'}}).href"><button type="button" class="btn btn-link header-link">AUSTRALIA</button></a>
             </div>
             <div class="col-sm text-center">
-                <a :href="$router.resolve({name:'SearchResults', params:{destination:'Europe'}}).href"><button type="button" class="btn btn-link header-link">EUROPE</button></a>
+                <a :href="$router.resolve({name:'SearchResults-destination', params:{destination:'Europe'}}).href"><button type="button" class="btn btn-link header-link">EUROPE</button></a>
             </div>
         </div>
     </header>

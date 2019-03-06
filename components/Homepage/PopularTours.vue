@@ -18,7 +18,7 @@ export default {
       return {
           popularTours: [{
               id: 0,
-              img: 'images/shutterstock_726803782.png',
+              img: '/images/shutterstock_726803782.png',
               tourTitle: 'China Discovery 9 Days',
               fromPrice: '£899',
               link: '#',
@@ -28,7 +28,7 @@ export default {
           },
           {
               id: 1,
-              img: 'images/shutterstock_222501100.png',
+              img: '/images/shutterstock_222501100.png',
               tourTitle: 'Amazing Thailand 13 Days',
               fromPrice: '£899',
               link: '#',
@@ -38,7 +38,7 @@ export default {
           },
           {
               id: 2,
-              img: 'images/shutterstock_245773267.png',
+              img: '/images/shutterstock_245773267.png',
               tourTitle: 'Thailand Allure 11 Days',
               fromPrice: '£899',
               link: '#',

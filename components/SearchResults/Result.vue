@@ -1,7 +1,7 @@
 <template>
-    <router-link :to="{name:'ProductDetails', params:{id:result.id}}" class="card result mb-2 mt-2">
+    <router-link :to="{name:'ProductDetails-id', params:{id:result.id}}" class="card result mb-2 mt-2">
         <div>
-            <img :src="`${publicPath}${result.img}`" class="card-img-top" :alt="result.tourTitle">
+            <img :src="result.img" class="card-img-top" :alt="result.tourTitle">
             <div class="card-body d-flex flex-column justify-content-between pl-2 pr-2 mb-3">
                 <div class="top">
                     <p class="card-text tour-code">Tour code: {{result.tourCode}}</p>
@@ -22,11 +22,6 @@
 <script>
 export default {
     name: "SpecialDeal",
-    data() {
-        return {
-            publicPath: process.env.BASE_URL
-        }
-    },
     props: {
         result: Object,
         agent: Boolean

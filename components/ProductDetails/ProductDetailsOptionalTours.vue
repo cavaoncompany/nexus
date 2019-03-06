@@ -5,7 +5,7 @@
                 <h2 class="font-weight-bold mt-5 mb-5">OPTIONAL TOURS</h2>
                 <div class="optional-tour row mb-5" v-for="(tour, index) in destination.optionalTours" :key="index">
                     <div class="col-12 col-md-3">
-                        <img :src="`${publicPath}${tour.image}`" :alt="tour.title" class="w-100">
+                        <img :src="tour.image" :alt="tour.title" class="w-100">
                     </div>
                     <div class="col-12 col-md-9">
                         <div class="tour-description-container d-flex flex-column justify-content-between">
@@ -21,7 +21,7 @@
                             <div class="modal-content">
                                 <div class="modal-body d-flex p-4 row">
                                     <div class="col-12 col-md-3">
-                                        <img :src="`${publicPath}${tour.image}`" :alt="tour.title" class="w-100">
+                                        <img :src="tour.image" :alt="tour.title" class="w-100">
                                     </div>
                                     <div class="col-12 col-md-9">
                                         <div class="tour-description-container d-flex flex-column justify-content-between">
@@ -44,7 +44,7 @@
                     <h2 class="font-weight-bold mt-5 mb-5">EXTENSIONS</h2>
                     <div class="extensions d-flex mb-5 row" v-for="(tour, index) in destination.extensions" :key="index">
                         <div class="col-12 col-md-3">
-                            <img :src="`${publicPath}${tour.image}`" :alt="tour.title" class="w-100">
+                            <img :src="tour.image" :alt="tour.title" class="w-100">
                         </div>
                         <div class="col-12 col-md-9">
                             <div class="tour-description-container d-flex flex-column justify-content-between">
@@ -60,7 +60,7 @@
                                 <div class="modal-content">
                                     <div class="modal-body d-flex p-4 row">
                                         <div class="col-12 col-md-3">
-                                            <img :src="`${publicPath}${tour.image}`" :alt="tour.title" class="w-100">
+                                            <img :src="tour.image" :alt="tour.title" class="w-100">
                                         </div>
                                         <div class="col-12 col-md-9">
                                             <div class="tour-description d-flex flex-column justify-content-between">
@@ -88,7 +88,6 @@ export default {
     name: "ProductDetailsOptionalTours",
     data() {
         return {
-            publicPath: process.env.BASE_URL,
             optionalTourHasModal: [],
             extensionsHasModal: []
         }

@@ -15,7 +15,7 @@
                     <div v-if="selectedDays.includes(index)">
                         <p class="mb-4">{{ itinerary.description }}</p>
                         <div class="images d-flex justify-content-between mb-4" v-if="itinerary.images.length>0">
-                            <img v-for="(image, index) in itinerary.images" :key="index" :src="`${publicPath}${image}`" :alt="itinerary.title">
+                            <img v-for="(image, index) in itinerary.images" :key="index" :src="image" :alt="itinerary.title">
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,6 @@ export default {
     name: "ProductDetailsItinerary",
     data() {
         return {
-            publicPath: process.env.BASE_URL,
             showItinerary: false,
             selectedDays: [0, 1],
             showCollapseAll: false

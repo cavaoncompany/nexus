@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="{name:'ProductDetails', params:{id:deal.id}}" class="card special-deal">
+    <router-link :to="{name:'ProductDetails-id', params:{id:deal.id}}" class="card special-deal">
         <div>
             <img :src="deal.img" class="card-img-top" :alt="deal.tourTitle">
             <div class="offer-end card-img-overlay">
