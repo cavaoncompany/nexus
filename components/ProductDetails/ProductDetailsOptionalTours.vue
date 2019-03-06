@@ -123,6 +123,7 @@ export default {
     color: #3C3C3C;
     font-size: 14px;
     line-height: 1.8em;
+    max-width: 1200px;
 }
 
 h2, h3 {

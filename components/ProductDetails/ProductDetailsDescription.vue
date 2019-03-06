@@ -83,6 +83,7 @@ export default {
     color: #3C3C3C;
     font-size: 14px;
     line-height: 2em;
+    max-width: 1200px;
 }
 
 .tour-code {

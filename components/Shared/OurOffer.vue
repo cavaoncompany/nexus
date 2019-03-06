@@ -42,6 +42,10 @@ export default {
     background-color: #F4F9FD;
 }
 
+#our-offer .container-fluid {
+    max-width: 1200px;
+}
+
 .offer-row {
     flex-wrap: nowrap;
     padding-left: 15px;
