@@ -19,7 +19,6 @@ export default {
     name: 'ProductDetailsSummary',
     data() {
         return {
-            id: Number,
             destination: {}
         }
     },
@@ -35,8 +34,9 @@ export default {
         ProductDetailsOptionalTours
     },
     created() {
-        this.id = this.$route.params.id
-        this.destination = this.destinations[this.id]
+        let tour = this.$route.params.title.replace(/-/g, ' ')
+        this.destination = (this.destinations.filter(result => result.tourTitle.toLowerCase().indexOf(tour.toLowerCase()) > -1))[0]
+        console.log(this.destination)
     }
 }
 </script>

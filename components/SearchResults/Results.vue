@@ -54,7 +54,7 @@ export default {
         Advert
     },
     created() {
-        this.getTours(this.$route.params.destination)
+        this.getTours(this.$route.params.destination.replace(/-/g, ' '))
         this.reset()
         let vm = this
         vm.sort('fromPrice', 1)
@@ -98,6 +98,9 @@ export default {
             window.scrollTo(0, coordinates.top)
         },
         getTours: function(region) {
+            if (region === 'Australia'){
+                region = 'Australia & South Pacific'
+            }
             this.searchResults = this.destinations.filter(result => result.region.toLowerCase().indexOf(region.toLowerCase()) > -1)
             EventBus.$emit('getTours', this.getToursOnPage(this.searchResults))
             this.enablePagination(this.searchResults)

@@ -42,11 +42,23 @@ export default {
     Footer
   },
   created() {
+    
     if (process.client) {
       this.windowWidth = window.innerWidth || document.documentElement.clientWidth
       if (this.windowWidth < 576) { this.isMobile = true }
     }
+  },
+  head () {   
+    return {
+      title: `Nexus - ${this.$route.params.destination}`,
+      meta: [
+        {
+        hid: `description`,
+        name: 'description',
+        content: `Find your perfect tour to ${this.$route.params.destination}`
+      }
+      ]
+    }
   }
 }
 </script>
-

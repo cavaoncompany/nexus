@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Nexus Holidays',
     htmlAttrs: {
       lang: 'en-au'
     },

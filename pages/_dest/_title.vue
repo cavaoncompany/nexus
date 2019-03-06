@@ -122,6 +122,7 @@ export default {
   -webkit-overflow-scrolling: touch;
   white-space: nowrap;
   height: 50px;
+  max-width: 1200px;
 }
 ::-webkit-scrollbar { 
     display: none; 

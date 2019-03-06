@@ -96,6 +96,9 @@ export default {
             EventBus.$emit('sort', toBeSorted)
         },
         getCountries: function(destination) {
+            if (destination === 'Australia') {
+                destination = "Australia & South Pacific"
+            }
             this.destinations = this.countryData.filter(dest => dest.destination.toLowerCase().indexOf(destination.toLowerCase()) > -1)
             this.destinations[0].countries.unshift('Show All')
         },
@@ -110,8 +113,8 @@ export default {
         }
     },
     created() {
-        this.getCountries(this.$route.params.destination)
-        
+        this.getCountries(this.$route.params.destination.replace(/-/g, ' '))
+        let test = this.getCountries(this.$route.params.destination.replace(/-/g, ' '))
         EventBus.$on('getTours', (tours) => {
             this.totalTrips = tours.total
             this.currentTrips = tours.current

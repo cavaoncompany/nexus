@@ -3,7 +3,7 @@
         <ul class="d-flex">
             <li class="mr-2"><router-link :to="{name: 'index'}">Home</router-link></li>
             <li class="mr-2">></li>
-            <li class="mr-2"><router-link :to="{name: 'SearchResults-destination', params:{destination: destination.region}}">{{ destination.region }}</router-link></li>
+            <li class="mr-2"><router-link :to="{name: 'destination', params:{destination: destination.region}}">{{ destination.region }}</router-link></li>
             <li class="mr-2">></li>
             <li class="lighter">{{ destination.tourTitle }}</li>
         </ul>

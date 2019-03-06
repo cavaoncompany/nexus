@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="{name:'ProductDetails-id', params:{id:result.id}}" class="card result mb-2 mt-2">
+    <a :href="$router.resolve({name:'dest-title', params:{dest: result.region.replace(/\s+/g, '-'), title:result.tourTitle.replace(/\s+/g, '-')}}).href" class="card result mb-2 mt-2">
         <div>
             <img :src="result.img" class="card-img-top" :alt="result.tourTitle">
             <div class="card-body d-flex flex-column justify-content-between pl-2 pr-2 mb-3">
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-    </router-link>
+    </a>
 </template>
 
 <script>
