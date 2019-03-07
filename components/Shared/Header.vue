@@ -4,12 +4,12 @@
             <div class="col-12 col-md-4 left-column" id="offsetX">
                 <a href="tel:+44-2076377760" class="header-content header-left">Call 020 7637 7760</a>
                 <button type="button" class="btn btn-link header-left">中文</button>
-                <div class="dropdown header-left">
-                    <button class="btn btn-link dropdown-toggle" type="button" id="currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</button>
-                    <div class="dropdown-menu currency-dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" v-for="currency in currencies" v-bind:key="currency.code" href="#" @click="showSelected(currency.code)">{{ currency.code }} {{currency.description}}</a>
-                    </div>
-                </div>
+                <b-dropdown class="dropdown header-left" :text="selectedCurrency">
+                    <!-- <button class="btn btn-link dropdown-toggle" type="button" id="currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</button>
+                    <div class="dropdown-menu currency-dropdown-menu" aria-labelledby="dropdownMenuButton"> -->
+                        <b-dropdown-item class="dropdown-item" v-for="currency in currencies" v-bind:key="currency.code" href="#" @click="showSelected(currency.code)">{{ currency.code }} {{currency.description}}</b-dropdown-item>
+                    <!-- </div> -->
+                </b-dropdown>
             </div>
             <div class="col-12 col-md-4 text-center">
                 <router-link to="/"><img src="~/assets/images/logo1.png" alt="Nexus logo"></router-link>
@@ -82,7 +82,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 header {
     max-width: 1200px;
     font-size: 0.932em;
@@ -111,6 +111,27 @@ header {
 .dropdown-item:hover {
     color: #1B75BB;
     background-color: #FFF;
+    box-shadow: none;
+}
+
+.btn-secondary:hover {
+    background: transparent;
+    text-decoration: none;
+    box-shadow: none;
+    color: #7F7F7F;
+}
+
+.dropdown-toggle:active, 
+.btn-secondary:active, 
+.btn-secondary.dropdown-toggle:active,
+.btn-secondary:not(:disabled):not(.disabled).active, 
+.btn-secondary:not(:disabled):not(.disabled).focus,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled):focus, 
+.show>.btn-secondary.dropdown-toggle {
+    box-shadow: none;
+    color: #FFF;
+    background: #1B75BB;
 }
 
 .dropdown-toggle::after {
@@ -119,7 +140,7 @@ header {
     border: none;
     position: absolute;
     font-size: 15px;
-    top: 0;
+    top: 30px;
     margin-top: -1px;
 }
 
@@ -152,6 +173,7 @@ header {
 
 button, .btn {
     height: 100%;
+    background: transparent;
     font-size: 13px;
     color: #7F7F7F;
     border: none;
