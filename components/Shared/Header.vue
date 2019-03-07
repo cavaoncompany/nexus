@@ -5,10 +5,7 @@
                 <a href="tel:+44-2076377760" class="header-content header-left">Call 020 7637 7760</a>
                 <button type="button" class="btn btn-link header-left">中文</button>
                 <b-dropdown class="dropdown header-left" :text="selectedCurrency">
-                    <!-- <button class="btn btn-link dropdown-toggle" type="button" id="currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</button>
-                    <div class="dropdown-menu currency-dropdown-menu" aria-labelledby="dropdownMenuButton"> -->
-                        <b-dropdown-item class="dropdown-item" v-for="currency in currencies" v-bind:key="currency.code" href="#" @click="showSelected(currency.code)">{{ currency.code }} {{currency.description}}</b-dropdown-item>
-                    <!-- </div> -->
+                    <b-dropdown-item class="dropdown-item" v-for="currency in currencies" v-bind:key="currency.code" href="#" @click="showSelected(currency.code)">{{ currency.code }} {{currency.description}}</b-dropdown-item>
                 </b-dropdown>
             </div>
             <div class="col-12 col-md-4 text-center">
