@@ -54,7 +54,12 @@ module.exports = {
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    ['nuxt-imagemin', {
+      optipng: { optimizationLevel: 5 },
+      gifsicle: { optimizationLevel: 2 }
+    },
+  ]
   ],
 
   /*

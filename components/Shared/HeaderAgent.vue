@@ -114,11 +114,12 @@ export default {
     margin-right: .5em;
 }
 
-button, .btn {
+button, .btn, .btn-link {
     height: 100%;
     font-size: 13px;
     border: none;
     border-radius: 0;
+    color: #7F7F7F;
 }
 
 button[type="submit"] {
