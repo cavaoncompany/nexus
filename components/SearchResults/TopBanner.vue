@@ -100,7 +100,7 @@ export default {
                 destination = "Australia & South Pacific"
             }
             this.destinations = this.countryData.filter(dest => dest.destination.toLowerCase().indexOf(destination.toLowerCase()) > -1)
-            this.destinations[0].countries.unshift('Show All')
+            
         },
         handleSelected: function(list, event, index) {
             this.filter(event.target.innerText, list)
@@ -119,6 +119,11 @@ export default {
             this.totalTrips = tours.total
             this.currentTrips = tours.current
         })
+    },
+    beforeMount() {
+        if(this.destinations[0] !== 'Show All') {
+            this.destinations[0].countries.unshift('Show All')
+        }
     }
 }
 </script>
