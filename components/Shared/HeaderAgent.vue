@@ -63,6 +63,7 @@ export default {
 
 #agent {
     height: 78px;
+    text-decoration: none;
 }
 
 .agent-dropdown-menu h2 {

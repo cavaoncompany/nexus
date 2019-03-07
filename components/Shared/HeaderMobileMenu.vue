@@ -61,6 +61,7 @@ export default {
     background: #103A5B;
     color: #FFF;
     height: 100vh;
+    width: 100vw;
     z-index: 1200;
 }
 

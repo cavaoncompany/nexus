@@ -148,15 +148,4 @@ button, .btn {
     padding-bottom: 0;
 }
 
-.header-top button {
-    width: 80px;
-}
-
-/* .input-group-append {
-    margin-left: 5px;
-}
-
-.header-top button:hover {
-    text-decoration: none;
-} */
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="dropdown agent-dropdown">
+    <div class="dropdown .mobile-agent-dropdown">
         <button type="button" class="btn btn-link agent header-sm" id="mobile-agent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle"></i></button>
         <div class="dropdown-menu mobile-agent-dropdown-menu p-0" aria-labelledby="dropdownMenu"
             v-bind:style="[isMobile ? {width: windowWidth + 'px !important'}:{width: '381px !important'}]">

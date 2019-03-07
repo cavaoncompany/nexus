@@ -2,7 +2,7 @@
     <header class="container-fluid" id="header">
         <div class="row header-top">
             <div class="col-12 col-md-4 left-column" id="offsetX">
-                <p class="header-content header-left">Call 020 7637 7760</p>
+                <a href="tel:+44-2076377760" class="header-content header-left">Call 020 7637 7760</a>
                 <button type="button" class="btn btn-link header-left">中文</button>
                 <div class="dropdown header-left">
                     <button class="btn btn-link dropdown-toggle" type="button" id="currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</button>
@@ -140,6 +140,14 @@ header {
 .header-content { 
     margin-top: 8px;
     margin-bottom: 0;
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+.header-content:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #7F7F7F;
 }
 
 button, .btn {

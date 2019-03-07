@@ -40,15 +40,18 @@ nav, .navbar {
     padding-bottom: 0;
 }
 
+.navbar .search-dropdown, 
+.navbar .mobile-agent-dropdown,
+.navbar .dropdown {
+    position: static !important;
+}
+
 .search-dropdown-menu {
-    width: 290px;
-    left: -163px !important;
+    width: 100vw;
+    left: 0 !important;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
-}
-.dropright .dropdown-menu {
-    width: 257px;
 }
 
 .search-dropdown .btn-link,
@@ -69,8 +72,8 @@ nav, .navbar {
 }
 
 .mobile-agent-dropdown-menu {
-    width: 290px;
-    left: -206px !important;
+    width: 100vw;
+    left: 0 !important;
     padding: 10px;
 }
 
@@ -182,39 +185,10 @@ nav, .navbar {
     display: none;
 }
 
-@media (min-width: 320px) {
-    .dropright .dropdown-menu {
-        width: 276px;
-    }
-
-    .search-dropdown-menu {
-        left: -158px !important;
-    }
-
-    .mobile-agent-dropdown-menu {
-        left: -202px !important;
-    }
-}
-
 @media (min-width: 360px) {
-    
-    .search-dropdown-menu {
-        left: -198px !important;
-        padding: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .mobile-agent-dropdown-menu {
-        left: -242px !important;
-    }
     
     .mobile-dropdown-menu {
         left: -279px !important;
-    }
-
-    .dropright .dropdown-menu {
-        width: 303px;
     }
 
     .price-tag {
@@ -230,55 +204,7 @@ nav, .navbar {
     }
 }
 
-@media (min-width: 375px) {
-    .dropright .dropdown-menu {
-        width: 318px;
-    }
-
-    .mobile-agent-dropdown-menu {
-        left: -257px !important;
-    }
-
-    .search-dropdown-menu {
-        left: -213px !important;
-    }
-}
-
-@media (min-width: 411px) {
-    .dropright .dropdown-menu {
-        width: 354px;
-    }
-    .search-dropdown-menu {
-        left: -249px !important;
-    }
-    .mobile-agent-dropdown-menu {
-        left: -293px !important;
-    }
-}
-
-@media (min-width: 414px) {
-    .dropright .dropdown-menu {
-        width: 357px;
-    }
-
-    .search-dropdown-menu {
-        left: -252px !important;
-    }
-
-    .mobile-agent-dropdown-menu {
-        left: -296px !important;
-    }
-}
-
 @media (min-width: 440px) {
-
-    .search-dropdown-menu {
-        left: -278px !important;
-    }
-
-    .mobile-agent-dropdown-menu {
-        left: -322px !important;
-    }
 
     .price-tag {
         margin-left: 92%;
@@ -291,28 +217,12 @@ nav, .navbar {
     .review iframe {
         height: 216px;
     }
-
-    .dropright .dropdown-menu {
-        width: 382px;
-    }
 }
 
 @media (min-width: 516px) {
 
     .commission-tag {
         margin-left: 81%;
-    }
-
-    .dropright .dropdown-menu {
-        width: 459px;
-    }
-
-    .search-dropdown-menu {
-        left: -354px !important;
-    }
-
-    .mobile-agent-dropdown-menu {
-        left: -398px !important;
     }
 
     #tour-description-button {
@@ -333,8 +243,10 @@ nav, .navbar {
         padding-right: 30px;
     }
 
-    .dropright .dropdown-menu {
-        width: 518px;
+    .navbar .search-dropdown, 
+    .navbar .mobile-agent-dropdown,
+    .navbar .dropdown {
+    position: relative !important;
     }
 
     .mobile-agent-dropdown-menu {
@@ -377,10 +289,6 @@ nav, .navbar {
     .commission-tag {
         margin-left: 68%;
     }
-
-    .dropright .dropdown-menu {
-        width: 600px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -389,26 +297,17 @@ nav, .navbar {
         display: block;
     }
 
-    .dropright .dropdown-menu {
-        width: 710px;
-    }
-
     .search-dropdown-menu {
         width: 381px;
         left: -216px !important;
-        padding: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     
     .agent-dropdown-menu {
         width: 381px;
         left: -296px !important;
-        padding: 10px;
     }
     
     .mobile-dropdown-menu {
-        /* width: 381px; */
         left: -340px !important;
         padding-left: 10px;
         padding-right: 10px;
@@ -563,7 +462,6 @@ nav, .navbar {
     }
     
     .agent-dropdown-menu {
-        width: 381px;
         left: -144px !important;
     }
 
@@ -593,16 +491,10 @@ nav, .navbar {
         width: 80px;
     }
     .search-dropdown-menu {
-        width: 381px;
         left: -55px !important;
-        padding: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
     }   
     .agent-dropdown-menu {
-        width: 381px;
         left: -100px !important;
-        padding: 10px;
     }
     
     .traveller-dropdown-menu {
@@ -632,7 +524,6 @@ nav, .navbar {
     }
 
     .agent-dropdown-menu {
-        width: 381px;
         left: -216px !important;
         padding: 30px;
     }
