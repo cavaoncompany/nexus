@@ -314,7 +314,7 @@ input[type=checkbox] {
     float: right;
 }
 
-.traveller-dropdown-menu {
+.traveller-dropdown .dropdown-menu {
     width: 381px;
     font-size: 14px;
     color: #1B75BB;
@@ -351,7 +351,7 @@ input[type=checkbox] {
     padding-top: 20px;
 }
 
-.traveller-dropdown-menu h2 {
+.traveller-dropdown .dropdown-menu h2 {
     color: #103A5B;
     font-size: 18px;
     font-weight: 700;
@@ -360,41 +360,34 @@ input[type=checkbox] {
     padding-top: 25px;
 }
 
-.traveller-dropdown-menu input {
+.traveller-dropdown .dropdown-menu input {
     border-radius: 50px;
 }
 
-.traveller-dropdown-menu input::placeholder {
+.traveller-dropdown .dropdown-menu input::placeholder {
     color: #CBCBCB;
     padding-left: 10px;
 }
 
-/* .traveller-dropdown-menu form {
-    border-bottom: 1px solid #EFEFEF;
-    margin-bottom: 25px;
-    margin-top: 30px;
-    padding-bottom: 25px;
-} */
-
-.traveller-dropdown-menu .signup form {
+.traveller-dropdown .dropdown-menu .signup form {
     border-bottom: none;
     border-top: 1px solid #EFEFEF;
     padding-top: 35px;
     margin-top: 15px;
 }
 
-.traveller-dropdown-menu .manageBooking form {
+.traveller-dropdown .dropdown-menu .manageBooking form {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.traveller-dropdown-menu .traveller-form-label {
+.traveller-dropdown .dropdown-menu .traveller-form-label {
     font-size: 13px;
     color: #43494D;
 }
 
-.traveller-dropdown-menu a {
+.traveller-dropdown .dropdown-menu a {
     color: #1B75BB;
 }
 

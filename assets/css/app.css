@@ -302,7 +302,7 @@ nav, .navbar {
         left: -216px !important;
     }
     
-    .agent-dropdown-menu {
+    .agent-dropdown .dropdown-menu {
         width: 381px;
         left: -296px !important;
     }
@@ -461,11 +461,11 @@ nav, .navbar {
         left: -150px !important;
     }
     
-    .agent-dropdown-menu {
+    .agent-dropdown .dropdown-menu {
         left: -144px !important;
     }
 
-    .traveller-dropdown-menu {
+    .traveller-dropdown .dropdown-menu {
         left: -166px !important;
     }
     
@@ -493,11 +493,11 @@ nav, .navbar {
     .search-dropdown-menu {
         left: -55px !important;
     }   
-    .agent-dropdown-menu {
+    .agent-dropdown .dropdown-menu {
         left: -100px !important;
     }
     
-    .traveller-dropdown-menu {
+    .traveller-dropdown .dropdown-menu {
         left: -166px !important;
     }
 
@@ -523,12 +523,12 @@ nav, .navbar {
         padding-right: 20px;
     }
 
-    .agent-dropdown-menu {
+    .agent-dropdown .dropdown-menu {
         left: -216px !important;
         padding: 30px;
     }
 
-    .traveller-dropdown-menu {
+    .traveller-dropdown .dropdown-menu {
         left: -301px !important;
     }
 

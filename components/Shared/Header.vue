@@ -131,7 +131,7 @@ header {
     background: #1B75BB;
 }
 
-.dropdown-toggle::after {
+header .dropdown-toggle::after {
     font-family: FontAwesome;
     content: "\f107";
     border: none;

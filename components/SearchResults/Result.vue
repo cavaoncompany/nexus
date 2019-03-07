@@ -79,4 +79,8 @@ export default {
     font-size: 15px;
     font-weight: 600;
 }
+
+.result  .card-img-top {
+    height: 150px;
+}
 </style>
