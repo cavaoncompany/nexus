@@ -120,14 +120,6 @@ button, .btn {
     border-radius: 0;
 }
 
-.header-top button {
-    width: 80px;
-}
-
-.header-top button:hover {
-    text-decoration: none;
-}
-
 button[type="submit"] {
     width: 100%;
     border-radius: 50px;

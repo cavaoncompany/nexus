@@ -36,6 +36,8 @@ export default {
     created() {
         let tour = this.$route.params.title.replace(/-/g, ' ')
         this.destination = (this.destinations.filter(result => result.tourTitle.toLowerCase().indexOf(tour.toLowerCase()) > -1))[0]
+        if (process.client)console.log('here', location.hash)
+        
     }
 }
 </script>

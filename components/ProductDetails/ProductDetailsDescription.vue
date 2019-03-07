@@ -1,5 +1,5 @@
 <template>
-    <div id="product-details-description" class="container-fluid" @mouseenter="markButtonActive('product-details-description')">
+    <div id="description" class="container-fluid" @mouseenter="markButtonActive('description')">
         <div class="row">
             <div class="col-12 col-md-8 border-bottom mb-4">
                 <p class="tour-code mb-3">Tour code: {{ destination.tourCode }}</p>
@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style scoped>
-#product-details-description {
+#description {
     color: #3C3C3C;
     font-size: 14px;
     line-height: 2em;

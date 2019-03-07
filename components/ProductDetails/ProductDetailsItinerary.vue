@@ -1,5 +1,5 @@
 <template>
-    <div id="product-details-itinerary" class="container-fluid" @mouseenter="markButtonActive('product-details-itinerary')">
+    <div id="itinerary" class="container-fluid" @mouseenter="markButtonActive('itinerary')">
         <div class="row">
             <div class="col-12 col-lg-8 border-bottom">
                 <div class="d-flex justify-content-between">
@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style scoped>
-#product-details-itinerary {
+#itinerary {
     color: #3C3C3C;
     font-size: 14px;
     line-height: 2em;

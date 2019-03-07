@@ -1,5 +1,5 @@
 <template>
-    <div id="product-details-hotels" class="container-fluid"  @mouseenter="markButtonActive('product-details-hotels')">
+    <div id="hotels" class="container-fluid"  @mouseenter="markButtonActive('hotels')">
         <div class="row">
             <div class="col-12 col-lg-8 border-bottom">
                 <h2 class="font-weight-bold mt-4 mb-5">HOTELS</h2>
@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style scoped>
-#product-details-hotels {
+#hotels {
     color: #3C3C3C;
     font-size: 14px;
     line-height: 1.4em;

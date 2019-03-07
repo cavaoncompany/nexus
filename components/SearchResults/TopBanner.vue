@@ -2,7 +2,7 @@
     <div id="top-banner" :key="$route.params.destination" class="mt-4">
         <img src="~/assets/images/shutterstock_211440232-l.png" alt="Top banner city view" class="header-lg w-100">
         <div id="top-banner-staticImage" class="header-sm"></div>
-        <div class="filter-info" id="filter-info">
+        <div class="filter-info" id="filter">
             <div class="container-fluid d-flex justify-content-between">
                 <div class="info-left d-flex">
                     <h2>{{destinations[0].destination}}</h2>
@@ -12,10 +12,10 @@
                     <div class="dropdown pr-lg-5 pr-md-3">
                         <button class="btn btn-link sort dropdown-toggle" type="button" id="sortDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort</button>
                         <div class="dropdown-menu sort-dropdown-menu mt-0 p-1" aria-labelledby="sortDropdownMenuButton">
-                            <a href="#filter-info" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'fromPrice')"><i class="fas fa-arrow-up"></i> Price ascending</a>
-                            <a href="#filter-info" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'fromPrice')"><i class="fas fa-arrow-down"></i> Price descending</a>
-                            <a href="#filter-info" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'days')"><i class="fas fa-arrow-up"></i> Days ascending</a>
-                            <a href="#filter-info" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'days')"><i class="fas fa-arrow-down"></i> Days descending</a>
+                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'fromPrice')"><i class="fas fa-arrow-up"></i> Price ascending</a>
+                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'fromPrice')"><i class="fas fa-arrow-down"></i> Price descending</a>
+                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'days')"><i class="fas fa-arrow-up"></i> Days ascending</a>
+                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'days')"><i class="fas fa-arrow-down"></i> Days descending</a>
                         </div>
                     </div>
                     <button type="button" role="button" aria-label="open filter panel" class="btn btn-link filter-link open-filters" v-on:click="toggle('filter')" v-bind:class="{'setColour': openFilters}">Filters <i class="fas" v-bind:class="{'fa-times': openFilters, 'setColour': openFilters, 'fa-sliders-h': !openFilters}"></i></button>

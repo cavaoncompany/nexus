@@ -1,6 +1,6 @@
 <template>
-    <div id="product-details-optional-tours" class="container-fluid">
-        <div class="row" @mouseenter="markButtonActive('product-details-optional-tours')">
+    <div id="optional-tours" class="container-fluid">
+        <div class="row" @mouseenter="markButtonActive('optional-tours')">
             <div class="col-12 col-lg-8 border-bottom">
                 <h2 class="font-weight-bold mt-5 mb-5">OPTIONAL TOURS</h2>
                 <div class="optional-tour row mb-5" v-for="(tour, index) in destination.optionalTours" :key="index">
@@ -38,8 +38,8 @@
                 </div>
             </div>
         </div>
-        <div class="row" @mouseenter="markButtonActive('product-details-extensions')">
-            <div id="product-details-extensions" class="mb-5">
+        <div class="row" @mouseenter="markButtonActive('extensions')">
+            <div id="extensions" class="mb-5">
                 <div class="col-12 col-lg-8">
                     <h2 class="font-weight-bold mt-5 mb-5">EXTENSIONS</h2>
                     <div class="extensions d-flex mb-5 row" v-for="(tour, index) in destination.extensions" :key="index">
@@ -119,7 +119,7 @@ export default {
 </script>
 
 <style scoped>
-#product-details-optional-tours {
+#optional-tours {
     color: #3C3C3C;
     font-size: 14px;
     line-height: 1.8em;

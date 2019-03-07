@@ -9,19 +9,19 @@
         <div class="top-banner-navigation border-bottom sticky-top">
             <div class="container-fluid d-flex pl-sm-1 pr-sm-1 pl-md-3">
                 <button id="tour-description-button" class="btn btn-link description border-right pr-4" type="button" aria-label="seeTourDescription" role="link">
-                    <a href="#product-details-description" v-bind:class="{'activeContent':activeContent===0}">Description</a> 
+                    <a href="#description" v-bind:class="{'activeContent':activeContent===0}">Description</a> 
                 </button>
                 <button class="btn btn-link itinerary border-right pl-4 pr-md-4" type="button" aria-label="see tour itenerary" role="link">
-                    <a href="#product-details-itinerary" v-bind:class="{'activeContent':activeContent===1}">Itinerary</a>
+                    <a href="#itinerary" v-bind:class="{'activeContent':activeContent===1}">Itinerary</a>
                 </button>
                 <button class="btn btn-link hotel border-right pl-4 pr-4" type="button" aria-label="see tour hotel" role="link">
-                    <a href="#product-details-hotels" v-bind:class="{'activeContent':activeContent===2}">Hotels</a>
+                    <a href="#hotels" v-bind:class="{'activeContent':activeContent===2}">Hotels</a>
                 </button>
                 <button class="btn btn-link optional-tour border-right pl-4 pr-4" type="button" aria-label="see optional tours" role="link">
-                    <a href="#product-details-optional-tours" v-bind:class="{'activeContent':activeContent===3}">Optional Tours</a>
+                    <a href="#optional-tours" v-bind:class="{'activeContent':activeContent===3}">Optional Tours</a>
                 </button>
                 <button class="btn btn-link extension border-right pl-4 pr-4" type="button" aria-label="see tour extension" role="link">
-                    <a href="#product-details-extensions" v-bind:class="{'activeContent':activeContent===4}">Extensions</a>
+                    <a href="#extensions" v-bind:class="{'activeContent':activeContent===4}">Extensions</a>
                 </button>
             </div>
         </div>
@@ -52,7 +52,8 @@ export default {
       isMobile: false,
       countryData: countryData,
       destinations: destinations,
-      activeContent: 0
+      activeContent: 0,
+      hash: Object
     }
   },
   components: {
@@ -66,6 +67,7 @@ export default {
     if (process.client) {
       this.windowWidth = window.innerWidth || document.documentElement.clientWidth
       if (this.windowWidth < 576) { this.isMobile = true }
+      this.hash = location.hash
     }
     EventBus.$on('markButtonActive', (content) => {
       this.markButtonActive(content)
@@ -88,7 +90,14 @@ export default {
       else if (content === 'product-details-extensions') {
         this.activeContent = 4
       }
-    }
+    },
+    updateHash: function() {
+        this.hash = location.hash
+        if (this.hash != '') {
+          location.hash = ''
+        }
+        console.log('there', this.location)
+      }
   },
   head () {   
     return {

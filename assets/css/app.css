@@ -507,6 +507,10 @@ nav, .navbar {
         display: none;
     }
 
+    .header-top button {
+        width: 60px;
+    }
+
     .search-dropdown button i:focus, 
     .search-dropdown .btn-link:focus {
         background-color: #1B75BB;
@@ -585,15 +589,16 @@ nav, .navbar {
 }
 
 @media (min-width: 1022px) {
-    
+    .header-top button {
+        width: 80px;
+    }
     .search-dropdown-menu {
         width: 381px;
         left: -55px !important;
         padding: 10px;
         padding-left: 10px;
         padding-right: 10px;
-    }
-    
+    }   
     .agent-dropdown-menu {
         width: 381px;
         left: -100px !important;

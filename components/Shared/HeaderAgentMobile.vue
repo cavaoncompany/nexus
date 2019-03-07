@@ -266,14 +266,6 @@ button, .btn {
     border-radius: 0;
 }
 
-.header-top button {
-    width: 80px;
-}
-
-.header-top button:hover {
-    text-decoration: none;
-}
-
 input[type=checkbox] {
     visibility: hidden;
 }

@@ -14,7 +14,7 @@
             <div class="search-results">
                 <ul>
                     <li v-for="result in results" v-bind:key="result.title">
-                        <a :href="$router.resolve({name:'ProductDetails', params:{id:result.id}}).href">{{ result.tourTitle }}</a>
+                        <a :href="$router.resolve({name:'dest-title', params:{dest:result.region, title:result.tourTitle.replace(/\s+/g, '-')}}).href">{{ result.tourTitle }}</a>
                     </li>
                 </ul>
             </div>
@@ -152,11 +152,11 @@ button, .btn {
     width: 80px;
 }
 
-.input-group-append {
+/* .input-group-append {
     margin-left: 5px;
 }
 
 .header-top button:hover {
     text-decoration: none;
-}
+} */
 </style>

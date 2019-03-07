@@ -159,10 +159,6 @@ button, .btn {
     padding-left: 2px;
 }
 
-.header-top button {
-    width: 80px;
-}
-
 .header-top button:hover {
     text-decoration: none;
 }
