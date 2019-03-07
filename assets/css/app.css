@@ -55,15 +55,15 @@ nav, .navbar {
 }
 
 .search-dropdown .btn-link,
-.agent-dropdown .btn-link,
+.mobile-agent-dropdown .btn-link,
 .mobile-dropdown .btn-link {
     color: #7F7F7F;
 }
 
 .search-dropdown .btn-link:active, 
 .search-dropdown .btn-link:focus,
-.agent-dropdown .btn-link:active,
-.agent-dropdown .btn-link:focus,
+.mobile-agent-dropdown .btn-link:active,
+.mobile-agent-dropdown .btn-link:focus,
 .mobile-dropdown .btn-link:active,
 .mobile-dropdown .btn-link:focus {
     color: #1B75BB;
@@ -251,11 +251,11 @@ nav, .navbar {
 
     .mobile-agent-dropdown-menu {
         left: -282px !important;
-        top: 66px;
+        top: 70px;
     }
 
     .search-dropdown-menu {
-        top: 66px;
+        top: 70px;
         left: -214px !important;
     }
 

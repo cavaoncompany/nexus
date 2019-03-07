@@ -18,7 +18,7 @@ import HeaderMobileMenu from './HeaderMobileMenu'
 import EventBus from '../../event-bus.js'
 
 export default {
-    name: 'HeaderTraveller',
+    name: 'HeaderMobile',
     data() {
         return {
             mobileMenuOpen: false
