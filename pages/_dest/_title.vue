@@ -42,6 +42,8 @@ import destinations from '~/destinations.json'
 import EventBus from '~/event-bus.js'
 
 export default {
+    transition: 'fade',
+    scrollToTop: true,
     name: 'ProductDetails',
     data() {
     return {
@@ -64,7 +66,6 @@ export default {
     if (process.client) {
       this.windowWidth = window.innerWidth || document.documentElement.clientWidth
       if (this.windowWidth < 576) { this.isMobile = true }
-      window.scrollTo(0,0)
     }
     EventBus.$on('markButtonActive', (content) => {
       this.markButtonActive(content)

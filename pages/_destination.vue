@@ -23,6 +23,7 @@ import destinations from '~/destinations.json'
 
 export default {
     name: 'SearchResults',
+    transition: 'fade',
     data() {
     return {
       agent: true,

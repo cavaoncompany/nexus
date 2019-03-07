@@ -32,6 +32,7 @@
 import Result from './Result'
 import Advert from '../Shared/Advert'
 import EventBus from '../../event-bus.js'
+import { setTimeout } from 'timers';
 
 export default {
     name: 'SearchResults',
@@ -95,7 +96,7 @@ export default {
             scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
             scrollTop = window.pageYOffset || document.documentElement.scrollTop
             let coordinates = { top: rect.top + scrollTop, left: rect.left + scrollLeft }
-            window.scrollTo(0, coordinates.top)
+            window.scrollTo({top: coordinates.top, behavior: 'smooth'})
         },
         getTours: function(region) {
             if (region === 'Australia'){

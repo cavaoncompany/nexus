@@ -27,6 +27,7 @@ import destinations from '~/destinations.json'
 
 export default {
   name: 'Homepage',
+  transition: 'fade',
   data() {
     return {
       agent: true,
