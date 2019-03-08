@@ -9,15 +9,12 @@
                     <div class="numberResults">{{currentTrips}} / {{totalTrips}} Trips</div>
                 </div>
                 <div class="filters d-flex">
-                    <div class="dropdown pr-lg-5 pr-md-3">
-                        <button class="btn btn-link sort dropdown-toggle" type="button" id="sortDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort</button>
-                        <div class="dropdown-menu sort-dropdown-menu mt-0 p-1" aria-labelledby="sortDropdownMenuButton">
-                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'fromPrice')"><i class="fas fa-arrow-up"></i> Price ascending</a>
-                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'fromPrice')"><i class="fas fa-arrow-down"></i> Price descending</a>
-                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'days')"><i class="fas fa-arrow-up"></i> Days ascending</a>
-                            <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'days')"><i class="fas fa-arrow-down"></i> Days descending</a>
-                        </div>
-                    </div>
+                    <b-dropdown class="sort-dropdown pr-lg-5 pr-md-3" text="Sort">
+                        <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'fromPrice')"><i class="fas fa-arrow-up"></i> Price ascending</a>
+                        <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'fromPrice')"><i class="fas fa-arrow-down"></i> Price descending</a>
+                        <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'days')"><i class="fas fa-arrow-up"></i> Days ascending</a>
+                        <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'days')"><i class="fas fa-arrow-down"></i> Days descending</a>
+                    </b-dropdown>
                     <button type="button" role="button" aria-label="open filter panel" class="btn btn-link filter-link open-filters" v-on:click="toggle('filter')" v-bind:class="{'setColour': openFilters}">Filters <i class="fas" v-bind:class="{'fa-times': openFilters, 'setColour': openFilters, 'fa-sliders-h': !openFilters}"></i></button>
                 </div>
             </b-container>
@@ -164,12 +161,16 @@ export default {
     font-size: 14px;
 }
 
-.sort-dropdown-menu a {
+.sort-dropdown .dropdown-menu {
+    margin-top: 0;
+}
+
+.sort-dropdown .dropdown-menu a {
     font-size: 14px;
     color: #575757;
 }
 
-.sort-dropdown-menu a:hover {
+.sort-dropdown .dropdown-menu a:hover {
     background-color: #EBF3F8;
     border-radius: 50px;
     color: #1B75BB;
@@ -189,14 +190,35 @@ export default {
     margin-bottom: auto;
 }
 
-.filters .btn-link {
+.filters .btn-link, .filters .btn-secondary {
     color: #FFF;
     font-size: 14px;
     height: 60px;
 }
 
-.filters .btn-link:hover, .filters .btn-link:active, .filters .btn-link:focus {
+.filters .btn-link:hover, 
+.filters .btn-link:active, 
+.filters .btn-link:focus {
     text-decoration: none;
+}
+
+.filters .btn-secondary:hover,
+.filters .btn-secondary:active,
+.filters .btn-secondary:focus,
+.filters .btn-secondary.dropdown-toggle:active,
+.filters .btn-secondary.dropdown-toggle:active:focus {
+    text-decoration: none;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.filter-dropdown .btn:active, 
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
+    background-color: #103A5B;
+    color: #FFF;
 }
 
 .filter-dropdown h3 {

@@ -118,7 +118,7 @@ export default {
     margin-right: .5em;
 }
 
-.dropdown-menu button, .btn, .btn-secondary {
+.dropdown-menu button, .agent-dropdown .btn, .agent-dropdown .btn-secondary {
     height: 73px;
     font-size: 13px;
     border: none;

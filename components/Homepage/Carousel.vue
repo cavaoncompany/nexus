@@ -1,12 +1,19 @@
 <template>
-    <div id="carousel" class="p-0" >
+    <b-carousel id="carousel"
+        class="p-0" 
+        indicators
+        :interval="4000"
+        v-model="slide"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+        >
         <div id="top-carousel" class="carousel slide header-lg" data-ride="carousel">
-            <ol class="carousel-indicators mb-3">
-                <li data-target="#top-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#top-carousel" data-slide-to="1"></li>
-                <li data-target="#top-carousel" data-slide-to="2"></li>
-                <li data-target="#top-carousel" data-slide-to="3"></li>
-            </ol>
+            <!-- <ol class="carousel-indicators mb-3">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+            </ol> -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100 img-fluid" src="~/assets/images/shutterstock_376673089.jpg" alt="Beautiful city view">
@@ -37,7 +44,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </b-carousel>
 </template>
 
 <script>
@@ -45,13 +52,23 @@ export default {
   name: 'Carousel',
   data() {
       return {
-          specialOffer: {
-              duration: '12 Day',
-              title: 'Charming Vietnam, Cambodia and...',
-              fromPrice: '£1,899',
-              originalPrice: '£1,999' 
-          },
-          height: 0
+        specialOffer: {
+            duration: '12 Day',
+            title: 'Charming Vietnam, Cambodia and...',
+            fromPrice: '£1,899',
+            originalPrice: '£1,999' 
+        },
+        height: 0,
+        slide: 0,
+        sliding: null
+      }
+  },
+  methods: {
+      onSlideStart(slide) {
+            this.sliding = true
+        },
+        onSlideEnd(slide) {
+            this.sliding = false
       }
   }
 }

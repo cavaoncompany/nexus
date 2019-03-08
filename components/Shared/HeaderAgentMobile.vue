@@ -196,7 +196,7 @@ export default {
     display: none !important;
 }
 
-.btn-link:active, .btn-link:focus {
+.mobile-agent-dropdown .btn-link:active, .mobile-agent-dropdown .btn-link:focus {
     color: #1B75BB;
     text-decoration: none;
     background: #FFF;
@@ -260,11 +260,12 @@ export default {
     margin-right: .5em;
 }
 
-button, .btn {
+.mobile-agent-dropdown button, .mobile-agent-dropdown .btn {
     height: 100%;
     font-size: 13px;
     border: none;
     border-radius: 0;
+    color: #7F7F7F;
 }
 
 input[type=checkbox] {
@@ -410,14 +411,6 @@ button[type="submit"] {
 
 button:hover {
     text-decoration: none;
-}
-
-button, .btn {
-    height: 100%;
-    font-size: 13px;
-    color: #7F7F7F;
-    border: none;
-    border-radius: 0;
 }
 
 .forgotPassword {

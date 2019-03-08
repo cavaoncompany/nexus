@@ -169,7 +169,7 @@ export default {
     color: #7F7F7F;
 }
 
-button, .btn {
+#header button, #header .btn {
     height: 100%;
     background: transparent;
     font-size: 13px;

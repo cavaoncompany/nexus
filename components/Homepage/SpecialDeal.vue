@@ -1,6 +1,6 @@
 <template>
     <a :href="$router.resolve({name:'dest-title', params:{dest: deal.region, title:deal.tourTitle.replace(/\s+/g, '-')}}).href" class="card special-deal">
-        <div>
+        <div class="special-deal-card">
             <img :src="deal.img" class="card-img-top" :alt="deal.tourTitle">
             <div class="offer-end card-img-overlay">
                 <p>OFFER END - {{deal.endDate}}</p>
@@ -41,6 +41,10 @@ export default {
 .special-deal:hover {
     text-decoration: none;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.special-deal-card .card-img-top {
+    height: 200px;
 }
 
 .offer-end {

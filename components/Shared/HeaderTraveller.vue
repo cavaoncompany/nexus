@@ -277,7 +277,7 @@ button:hover {
     text-decoration: none;
 }
 
-button, .btn {
+.traveller-dropdown button, .traveller-dropdown .btn {
     height: 100%;
     font-size: 13px;
     color: #7F7F7F;
@@ -285,7 +285,7 @@ button, .btn {
     border-radius: 0;
 }
 
-.btn-link:active, .btn-link:focus {
+.traveller-dropdown .btn-link:active, .traveller-dropdown .btn-link:focus {
     background-color: #1B75BB;
     color: #FFF;
     text-decoration: none;

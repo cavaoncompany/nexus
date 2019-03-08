@@ -146,8 +146,7 @@ export default {
             } else if (type === 'language') {
                 this.selectedLanguage = selected
             }
-        },
-
+        }
     }
 }
 </script>
@@ -224,7 +223,10 @@ export default {
     width: 100%;
 }
 
-.footer-bottom .dropdown a, .footer-bottom .dropdown a:active, .show>.btn-secondary.dropdown-toggle, .dropdown-toggle, #footer-currency {
+.footer-bottom .dropdown a, 
+.footer-bottom .dropdown a:active, 
+.show>.btn-secondary.dropdown-toggle, 
+#footer-currency {
     background-color: transparent;
     border: none;
     padding-top: 12px;
@@ -236,7 +238,7 @@ export default {
     box-shadow: none;
 }
 
-footer .dropdown-toggle::after {
+#footer .dropdown-toggle::after {
     font-family: FontAwesome;
     content: "\f107";
     border: none;

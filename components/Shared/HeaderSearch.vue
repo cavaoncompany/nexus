@@ -101,6 +101,10 @@ header {
     text-decoration: none;
 }
 
+.search-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
 .search-results li a {
     font-size: 14px;
     color: #666666;
@@ -130,7 +134,7 @@ header {
     background-color: #FFF;
 }
 
-button, .btn {
+.search-dropdown button, .search-dropdown .btn {
     height: 100%;
     font-size: 13px;
     border: none;
