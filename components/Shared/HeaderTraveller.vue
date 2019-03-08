@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown right class="dropdown traveller-dropdown" text="Traveller">
+    <b-dropdown right class="dropdown traveller-dropdown" text="Traveller" no-caret>
             <div class="links" v-if="view===0">
                 <ul>
                     <li class="traveller-menu" v-on:click.stop="setView(1)">

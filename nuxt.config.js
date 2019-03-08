@@ -1,8 +1,8 @@
 const pkg = require('./package')
 
+
 module.exports = {
   mode: 'universal',
-
   /*
   ** Headers of the page
   */
@@ -17,14 +17,10 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     script: [
-      // { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js'},
-      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js' },
-      { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat:500,600,700'},
-      { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'},
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css'},
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'}
     ]
@@ -40,14 +36,14 @@ module.exports = {
   */
   css: [
     '@/assets/css/reset.css',
+    '@/assets/css/bootstrap.min.css',
     '@/assets/css/app.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [],
 
   /*
   ** Nuxt.js modules

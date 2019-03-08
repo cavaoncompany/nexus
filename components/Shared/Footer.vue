@@ -1,20 +1,20 @@
 <template>
-    <footer class="container-fluid mt-5" id="footer">
-        <div class="row footer-top ml-auto mr-auto pt-3 mt-5">
-            <div class="col-lg-3 logo text-md-center text-lg-left">
+    <b-container fluid class="mt-5" id="footer">
+        <b-row class="row footer-top ml-auto mr-auto pt-3 mt-5">
+            <b-col lg="3" class="logo text-md-center text-lg-left">
                 <img src="~/assets/images/logo1.png" alt="Nexus logo">
-            </div>
-            <div class="col-lg-2 social text-md-center text-lg-left">
+            </b-col>
+            <b-col lg="2" class="social text-md-center text-lg-left">
                 <a href="#"><img src="~/assets/images/Instagram Icon.png" alt="Instagram icon"></a>
                 <a href="#"><img src="~/assets/images/Facebook Icon.png" alt="Facebook icon"></a>
-            </div>
-            <div class="col-12 col-lg-7 newsletter-container">
-                <div class="row">
-                    <div class="col-md-5 col-lg-4 newsletter mt-1">
+            </b-col>
+            <b-col cols="12" lg="7" class="newsletter-container">
+                <b-row class="row">
+                    <b-col md="5" lg="4" class="newsletter mt-1">
                         <p class="join mb-1">Join our community</p>
                         <p class="subscribe mb-2">Subscribe to our newsletter</p>
-                    </div>
-                    <div class="col-md-7 col-lg-8">
+                    </b-col>
+                    <b-col md="7" lg="8">
                         <div class="input-group flex-nowrap desktop-footer" >
                             <input type="email" class="form-control" v-model="email" placeholder="Email address" aria-label="email" aria-describedby="addon-wrapping">
                             <div class="input-group-append">
@@ -27,31 +27,31 @@
                                 <button class="btn btn-outline-secondary" type="button">Subscribe</button>
                             </form>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row footer-bottom mt-5 ml-auto mr-auto w-100">
-            <div class="col-6 col-md-3 col-sm-3">
+                    </b-col>
+                </b-row>
+            </b-col>
+        </b-row>
+        <b-row class="row footer-bottom mt-5 ml-auto mr-auto w-100">
+            <b-col cols="6" sm="3" md="3">
                 <h3>SITE</h3>
                 <ul>
                     <li v-for="item in site" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
-            </div>
-            <div class="col-6 col-md-3 col-sm-3">
+            </b-col>
+            <b-col cols="6" sm="3" md="3">
                 <h3>RESOURCES</h3>
                 <ul>
                     <li v-for="item in resources" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
-            </div>
-            <div class="col-6 col-md-3 col-sm-3">
+            </b-col>
+            <b-col cols="6" sm="3" md="3">
                 <h3>ABOUT US</h3>
                 <ul>
                     <li v-for="item in about" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
-            </div>
+            </b-col>
             <img class="cardsMobile mobile-footer" src="~/assets/images/payment-types.png" alt="Visa and MasterCard accepted">
-            <div class="col-md-3 col-sm-3 text-md-right">
+            <b-col sm="3" md="3" class="text-md-right">
                 <div class="dropdown">
                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="footer-currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</a>
                     <div class="dropdown-menu" aria-labelledby="currency">
@@ -65,9 +65,9 @@
                     </div>
                 </div>
                 <img class="desktop-footer" src="~/assets/images/payment-types.png" alt="Visa and MasterCard accepted">
-            </div>
-        </div>
-    </footer>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
@@ -159,7 +159,7 @@ export default {
 </script>
 
 <style scoped>
-footer {
+#footer {
     max-width: 1200px;
 }
 
@@ -241,7 +241,7 @@ footer {
     box-shadow: none;
 }
 
-.dropdown-toggle::after {
+footer .dropdown-toggle::after {
     font-family: FontAwesome;
     content: "\f107";
     border: none;

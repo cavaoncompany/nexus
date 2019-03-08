@@ -1,7 +1,7 @@
 <template>
-    <div id="itinerary" class="container-fluid" @mouseenter="markButtonActive('itinerary')">
-        <div class="row">
-            <div class="col-12 col-lg-8 border-bottom">
+    <b-container fluid id="itinerary" class="container-fluid" @mouseenter="markButtonActive('itinerary')">
+        <b-row class="row">
+            <b-col cols="6" lg="8" class="border-bottom">
                 <div class="d-flex justify-content-between">
                     <h2 class="font-weight-bold">ITINERARY</h2>
                     <button v-if="!showCollapseAll" type="button" role="button" aria-labelledby="see itinerary details of all days" class="btn btn-link expand-all" @click="handleExpandAll">Expand all</button>
@@ -19,9 +19,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>

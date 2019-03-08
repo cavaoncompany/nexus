@@ -1,11 +1,11 @@
 <template>
-    <div class="places-to-go container-fluid">
-        <div class="row places-to-go-container">
-            <div class="col-12 col-md-6" v-for="place in places" :key="place.id">
+    <b-container fluid class="places-to-go container-fluid">
+        <b-row class="row places-to-go-container">
+            <b-col cols="12" md="6" v-for="place in places" :key="place.id">
                 <PlaceToGo :place="place" />
-            </div>
-        </div>
-    </div>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>

@@ -1,8 +1,6 @@
 <template>
-    <div class="dropdown .mobile-agent-dropdown">
-        <button type="button" class="btn btn-link agent header-sm" id="mobile-agent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle"></i></button>
-        <div class="dropdown-menu mobile-agent-dropdown-menu p-0" aria-labelledby="dropdownMenu"
-            v-bind:style="[isMobile ? {width: windowWidth + 'px !important'}:{width: '381px !important'}]">
+    <b-dropdown class="dropdown .mobile-agent-dropdown" right no-caret>
+        <template slot="button-content"><i class="fas fa-user-circle"></i></template>
             <div class="navigation d-flex h-100">
             <button class="btn btn-link w-50 tab-link" v-on:click.stop="toggle('traveller')" v-bind:class="{'active': !agent}" >Traveller</button>
             <button class="btn btn-link w-50 tab-link" v-on:click.stop="toggle('agent')" v-bind:class="{'active': agent}" >Agent</button>
@@ -127,8 +125,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+    </b-dropdown>
 </template>
 
 <script>
@@ -171,8 +168,8 @@ export default {
 }
 </script>
 
-<style scoped>
-.mobile-agent-dropdown-menu {
+<style>
+.mobile-agent-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;
@@ -187,12 +184,16 @@ export default {
     font-size: 20px;
 }
 
-.mobile-agent-dropdown-menu h2 {
+.mobile-agent-dropdown .dropdown-menu h2 {
     color: #103A5B;
     font-size: 18px;
     font-weight: 700;
     text-align: left;
     margin-bottom: 15px;
+}
+
+.mobile-agent-dropdown .dropdown-toggle::after {
+    display: none !important;
 }
 
 .btn-link:active, .btn-link:focus {
@@ -216,40 +217,40 @@ export default {
     line-height: 1.5em;
 }
 
-.mobile-agent-dropdown-menu h3 {
+.mobile-agent-dropdown .dropdown-menu h3 {
     font-size: 14px;
     color: #103A5B;
     font-weight: 600;
 }
 
-.mobile-agent-dropdown-menu input {
+.mobile-agent-dropdown .dropdown-menu input {
     border-radius: 50px;
 }
 
-.mobile-agent-dropdown-menu input::placeholder {
+.mobile-agent-dropdown .dropdown-menu input::placeholder {
     color: #CBCBCB;
     padding-left: 10px;
 }
 
-.mobile-agent-dropdown-menu form {
+.mobile-agent-dropdown .dropdown-menu form {
     border-bottom: 1px solid #EFEFEF;
     margin-bottom: 25px;
     margin-top: 30px;
     padding-bottom: 25px;
 }
 
-.mobile-agent-dropdown-menu .mobile-sign-up-form {
+.mobile-agent-dropdown .dropdown-menu .mobile-sign-up-form {
     border-bottom: none;
     border-top: 1px solid #EFEFEF;
     margin-top: 30px;
     padding-top: 30px;
 }
 
-.mobile-agent-dropdown-menu .agent-form-label {
+.mobile-agent-dropdown .dropdown-menu .agent-form-label {
     font-size: 13px;
 }
 
-.mobile-agent-dropdown-menu a {
+.mobile-agent-dropdown .dropdown-menu a {
     color: #1B75BB;
 }
 

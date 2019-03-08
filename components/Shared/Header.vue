@@ -1,43 +1,43 @@
 <template>
-    <header class="container-fluid" id="header">
-        <div class="row header-top">
-            <div class="col-12 col-md-4 left-column" id="offsetX">
+    <b-container fluid id="header">
+        <b-row class="row header-top">
+            <b-col cols="12" md="4" class="left-column" id="offsetX">
                 <a href="tel:+44-2076377760" class="header-content header-left">Call 020 7637 7760</a>
                 <button type="button" class="btn btn-link header-left">中文</button>
                 <b-dropdown class="dropdown header-left" :text="selectedCurrency">
                     <b-dropdown-item class="dropdown-item" v-for="currency in currencies" v-bind:key="currency.code" href="#" @click="showSelected(currency.code)">{{ currency.code }} {{currency.description}}</b-dropdown-item>
                 </b-dropdown>
-            </div>
-            <div class="col-12 col-md-4 text-center">
+            </b-col>
+            <b-col cols="12" md="4" class="text-center">
                 <router-link to="/"><img src="~/assets/images/logo1.png" alt="Nexus logo"></router-link>
-            </div>
-            <div class="col-12 col-md-4 align-right">
-                <div class="row justify-content-end">
+            </b-col>
+            <b-col cols="12" md="4" class="align-right">
+                <b-row class="row justify-content-end">
                     <HeaderSearch class="col-md-cust" />
                     <HeaderAgent class="col-md-cust" />
                     <span>|</span>
                     <HeaderTraveller class="col-md-cust" /> 
-                </div>
-            </div>
-        </div> 
-        <div class="row header-bottom justify-content-md-center">
-            <div class="col-sm text-center">
+                </b-row>
+            </b-col>
+        </b-row> 
+        <b-row class="row header-bottom justify-content-md-center">
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Asia'}}).href"><button type="button" class="btn btn-link header-link">ASIA</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Americas'}}).href"><button type="button" class="btn btn-link header-link">AMERICAS</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Africa'}}).href"><button type="button" class="btn btn-link header-link">AFRICA</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Australia'}}).href"><button type="button" class="btn btn-link header-link">AUSTRALIA</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Europe'}}).href"><button type="button" class="btn btn-link header-link">EUROPE</button></a>
-            </div>
-        </div>
-    </header>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
@@ -80,10 +80,11 @@ export default {
 </script>
 
 <style>
-header {
+#header {
     max-width: 1200px;
     font-size: 0.932em;
     color: #6B797C;
+    margin: 0 auto;
     margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.7);
 }
@@ -131,7 +132,7 @@ header {
     background: #1B75BB;
 }
 
-header .dropdown-toggle::after {
+#header .dropdown-toggle::after {
     font-family: FontAwesome;
     content: "\f107";
     border: none;

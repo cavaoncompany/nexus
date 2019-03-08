@@ -1,12 +1,12 @@
 <template>
-    <div id="reviews"  class="container-fluid mt-5 mb-5">
+    <b-container id="reviews"  class="container-fluid mt-5 mb-5">
         <h2 class="text-center font-weight-bold">REVIEWS & VIDEOS</h2>
         <div class="review-container row mt-5">
-            <div class="col-12 col-md-4" v-for="review in reviews" :key="review.id">
+            <b-col cols="12" md="4" v-for="review in reviews" :key="review.id">
                 <Review :review="review"/>
-            </div>
+            </b-col>
         </div>
-    </div>
+    </b-container>
 </template>
 
 <script>

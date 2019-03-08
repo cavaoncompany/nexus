@@ -1,11 +1,11 @@
 <template>
-    <div class="product-details-summary container-fluid">
+    <b-container fluid class="product-details-summary container-fluid">
         <Breadcrumb :destination="destination" />
         <ProductDetailsDescription :destination="destination" :agent="agent" />
         <ProductDetailsItinerary :destination="destination" />
         <ProductDetailsHotels :destination="destination" />
         <ProductDetailsOptionalTours :destination="destination" />
-    </div>
+    </b-container>
 </template>
 
 <script>

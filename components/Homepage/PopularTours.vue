@@ -1,12 +1,12 @@
 <template>
-    <div id="popular-tours"  class="container-fluid mt-5">
+    <b-container fluid id="popular-tours"  class="container-fluid mt-5">
         <h2 class="text-center font-weight-bold">POPULAR TOURS</h2>
-        <div class="row tour-container  mt-5 mr-auto ml-auto">
-            <div class="col-12 col-sm-6 col-lg-3" v-for="tour in popularTours" :key="tour.id">
+        <b-row class="row tour-container  mt-5 mr-auto ml-auto">
+            <b-col cols="12" sm="6" lg="3" v-for="tour in popularTours" :key="tour.id">
             <PopularTour :tour="tour" :agent="agent"/>
-            </div>
-        </div>
-    </div>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>

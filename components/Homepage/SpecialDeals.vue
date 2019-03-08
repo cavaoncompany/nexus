@@ -1,12 +1,12 @@
 <template>
-    <div id="special-deals"  class="container-fluid mt-5">
+    <b-container id="special-deals"  class="container-fluid mt-5">
         <h2 class="text-center font-weight-bold">SPECIAL DEALS</h2>
-        <div class="row deal-container mt-5 mr-auto ml-auto">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-4" v-for="deal in specialDeals" :key="deal.id">
+        <b-row class="row deal-container mt-5 mr-auto ml-auto">
+            <b-col cols="12" sm="6" lg="4" v-for="deal in specialDeals" :key="deal.id">
                 <SpecialDeal  :deal="deal" :agent="agent"/>
-            </div>
-        </div>
-    </div>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>

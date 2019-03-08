@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown class="dropdown agent-dropdown" text="Agent">
+    <b-dropdown class="dropdown agent-dropdown" text="Agent" no-caret>
             <h2>AGENT LOG IN</h2>
             <p>Welcome back, Nexus Travel agents</p>
             <form>

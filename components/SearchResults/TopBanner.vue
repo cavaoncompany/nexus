@@ -3,7 +3,7 @@
         <img src="~/assets/images/shutterstock_211440232-l.png" alt="Top banner city view" class="header-lg w-100">
         <div id="top-banner-staticImage" class="header-sm"></div>
         <div class="filter-info" id="filter">
-            <div class="container-fluid d-flex justify-content-between">
+            <b-container fluid class="container-fluid d-flex justify-content-between">
                 <div class="info-left d-flex">
                     <h2>{{destinations[0].destination}}</h2>
                     <div class="numberResults">{{currentTrips}} / {{totalTrips}} Trips</div>
@@ -20,26 +20,26 @@
                     </div>
                     <button type="button" role="button" aria-label="open filter panel" class="btn btn-link filter-link open-filters" v-on:click="toggle('filter')" v-bind:class="{'setColour': openFilters}">Filters <i class="fas" v-bind:class="{'fa-times': openFilters, 'setColour': openFilters, 'fa-sliders-h': !openFilters}"></i></button>
                 </div>
-            </div>
+            </b-container>
         </div>
-        <div class="filter-dropdown container-fluid" v-if="openFilters">
+        <b-container fluid class="filter-dropdown container-fluid" v-if="openFilters">
             <h3>Destinations</h3>
-            <div class="row btn-group d-flex" data-toggle="buttons">
-                <div class="col-6 col-lg-2 col-md-4 mb-3" v-for="(destination, index) in destinations[0].countries" :key="index">
+            <b-row class="row btn-group d-flex" data-toggle="buttons">
+                <b-col cols="6" md="4" lg="2" class="mb-3" v-for="(destination, index) in destinations[0].countries" :key="index">
                     <label for="" class="btn btn-primary pt-2 pb-2 border-0 text-truncate destination-radio" v-bind:class="{'active': selectedDestination === index}" @click="handleSelected('destination-radio', $event, index)">
                         <input type="radio">{{ destination }}
                     </label>
-                </div>
-            </div>
+                </b-col>
+            </b-row>
             <h3>Travel Styles</h3>
-            <div class="row btn-group d-flex" data-toggle="buttons">
-                <div class="col-6 col-lg-2 col-md-4 mb-3" v-for="(style, index) in travelStyles" :key="index">
+            <b-row class="row btn-group d-flex" data-toggle="buttons">
+                <b-col cols="6" md="4" lg="2" class="mb-3" v-for="(style, index) in travelStyles" :key="index">
                     <label for="" class="btn btn-primary travel-style-radio pt-2 pb-2 border-0" v-bind:class="{'active': selectedStyle === index}" @click="handleSelected('travel-style-radio', $event, index)">
                         <input type="radio">{{ style }}
                     </label>
-                </div>
-            </div>
-        </div>
+                </b-col>
+            </b-row>
+        </b-container>
     </div>
 </template>
 
@@ -176,7 +176,7 @@ export default {
     text-decoration: none;
 }
 
-.dropdown-toggle::after {
+#top-banner .dropdown-toggle::after {
     font-family: FontAwesome;
     content: "\f107";
     border: none;
@@ -213,7 +213,10 @@ export default {
     color: #103A5B;
 }
 
-.filter-dropdown .btn:active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+.filter-dropdown .btn:active, 
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
     background-color: #103A5B;
     color: #FFF;
 }
@@ -223,7 +226,10 @@ export default {
     color: #FFF !important;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, .btn-primary.focus, .btn-primary:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-primary.dropdown-toggle:focus, 
+.btn-primary.focus, .btn-primary:focus {
     box-shadow: none;
 }
 

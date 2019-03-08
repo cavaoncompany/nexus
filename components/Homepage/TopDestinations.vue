@@ -1,12 +1,12 @@
 <template>
-    <div id="top-destinations"  class="container-fluid mt-5">
+    <b-container fluid id="top-destinations"  class="container-fluid mt-5">
         <h2 class="text-center font-weight-bold">TOP DESTINATIONS</h2>
-        <div class="row destination-container ml-auto mr-auto mt-5">
-            <div class="col-6 col-md-4 col-lg-2" v-for="destination in topDestinations" :key="destination.id">
+        <b-row class="row destination-container ml-auto mr-auto mt-5">
+            <b-col cols="6" md="4" lg="2" v-for="destination in topDestinations" :key="destination.id">
                 <TopDestination :destination="destination"/>
-            </div>
-        </div>
-    </div>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>

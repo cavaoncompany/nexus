@@ -46,7 +46,7 @@ nav, .navbar {
     position: static !important;
 }
 
-.search-dropdown-menu {
+.search-dropdown .dropdown-menu {
     width: 100vw;
     left: 0 !important;
     padding: 10px;
@@ -71,7 +71,7 @@ nav, .navbar {
     text-decoration: none;
 }
 
-.mobile-agent-dropdown-menu {
+.mobile-agent-dropdown .dropdown-menu {
     width: 100vw;
     left: 0 !important;
     padding: 10px;
@@ -249,12 +249,12 @@ nav, .navbar {
     position: relative !important;
     }
 
-    .mobile-agent-dropdown-menu {
-        left: -282px !important;
+    .mobile-agent-dropdown .dropdown-menu {
+        width: 381px;
         top: 70px;
     }
 
-    .search-dropdown-menu {
+    .search-dropdown .dropdown-menu {
         top: 70px;
         left: -214px !important;
     }
@@ -297,7 +297,7 @@ nav, .navbar {
         display: block;
     }
 
-    .search-dropdown-menu {
+    .search-dropdown .dropdown-menu {
         width: 381px;
         left: -216px !important;
     }
@@ -457,7 +457,7 @@ nav, .navbar {
         margin-top: 29px;
     }
 
-    .search-dropdown-menu {
+    .search-dropdown .dropdown-menu {
         left: -150px !important;
     }
     
@@ -490,7 +490,7 @@ nav, .navbar {
     .header-top button {
         width: 80px;
     }
-    .search-dropdown-menu {
+    .search-dropdown .dropdown-menu {
         left: -55px !important;
     }   
     .agent-dropdown .dropdown-menu {
@@ -516,7 +516,7 @@ nav, .navbar {
 
 @media (min-width: 1200px) {
 
-    .search-dropdown-menu {
+    .search-dropdown .dropdown-menu {
         width: 381px;
         left: -130px !important;
         padding-left: 20px;
