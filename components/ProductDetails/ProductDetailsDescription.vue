@@ -23,7 +23,7 @@
                     <li v-for="(tour, index) in destination.optionalTours" :key="index">{{ tour.title }} £{{ tour.fromPrice }}</li>
                 </ul>
             </b-col>
-            <b-row cols="12" md="4" class="mb-5">
+            <b-col cols="12" md="4" class="mb-5">
                 <div class="prices d-flex mb-5">
                     <p class="from-price font-weight-bold mr-4"><span>From</span> <br/>£{{destination.fromPrice}}</p>
                     <p class="mt-auto original-price">{{ destination.originalPrice }}</p>
@@ -44,7 +44,7 @@
                     <a href=""><img src="~/assets/images/pinterest.png" alt="link to pinterest"></a>
                     <a href=""><img src="~/assets/images/twitter.png" alt="link to twitter"></a>
                 </div>
-            </b-row>
+            </b-col>
         </b-row>  
     </b-container>
 </template>

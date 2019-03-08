@@ -36,7 +36,7 @@
 						{
 							"title": "Day 2 - Beijing (B)",
 							"description": "After breakfast, visit the Tiananmen Square , which is a city square in the centre of Beijing, China, named after the Tiananmen (“Gate of Heavenly Peace”) located to its north, separating it from the Forbidden City. The square contains the Monument to the People’s Heroes, the Great Hall of the People, the National Museum of China, and the Mausoleum of Chairman Mao Zedong. Followed by an optional Forbidden City Tour (£45/person), the former seat of the emperors throughout the Ming and Qingdynasties. It is a true architectural masterpiece and home to the National Palace Museum. Optional banquet lunch (£30/person) featuring the famous “Peking Duck”.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Beijing (B,L)",
@@ -51,7 +51,7 @@
 						{
 							"title": "Day 5 - Suzhou - Wuxi (B,L) ",
 							"description": "Suzhou–the city of paradise is also known as the Oriental Venice for its exquisite canals, bridges, pagodas, and beautiful gardens. Suzhou is designated a UNESCO World Heritage Site. After breakfast, tour the Lingering Garden, a classic private garden with 500 years of history. Next, visit the Suzhou Silk Factory, the largest silk factory in the country to discover the mysterious processing of silk. Then cruise along the ancient canal from the city to the picturesque Grand Canal. Later in the afternoon, continue to Wuxi and visit the Three Kingdoms City . The Three Kingdoms City is one of the CCTV Television Bases and a renowned tourist attraction. Covering an area of about 35 hectares, the Three Kingdoms City showcases structures built in the Han Dynasty style and served as the filming location for one of China’s most popular historical TV series, Three Kingdoms.",
-							"images": ["images/shutterstock_222501101.png", "images/shutterstock_245773267.png"]
+							"images": ["/images/shutterstock_222501101.png", "/images/shutterstock_245773267.png"]
 						},
 						{
 							"title": "Day 6 - Wuxi - Hangzhou (B, L)",
@@ -80,73 +80,73 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "The Golden Mask Dynasty (Beijing)",
 							"fromPrice": 55,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An original Chinese drama play, which features Chinese dances, acrobatics, costumes, lighting and acoustics. The play has eight chapters and more than 200 actors from China and abrouad. Produced by Chinese playwrights, directors and designers."
 						},
 						{
 							"title": "Temple of Heaven & Hutong Life tour with lunch (Beijing)",
 							"fromPrice": 60,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Temple  of  Heaven,  inscribed  as  a  UNESCO  World  Heritage  Site,  was  visited  by  the  Emperors of the Ming and Qing dynasties for annual ceremonies of prayer to Heaven for good harvest. Then take a famous rickshaw Hutong Tour & Local Family Visit, this package also includes a traditional  Beijing  Zhajiangmian  (“Fried  Sauce  noodles”)  as  lunch.  Hutongs  are  traditional  alley  ways  that  made  up  Beijing’s  old  city  planning,  take  a  special  rickshaw  ride  for  an  immersive  tour  to  get  a  wonderful glimpse into yesterday’s world, the old way of life and traditional Beijing culture, and see the  dramatic  changes  the  city  has  undergone,  continue  to  visit  a  local  family  and  local  market  afterwards."
 						},
 						{
 							"title": "Impression West Lake (Hangzhou)",
 							"fromPrice": 70,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Staged entirely upon the lake itself, this show is a spectacle of light, music, dance and theatrics. It is famous for its dreamlike show and fantastic elegance. The director of the show, Zhang Yimou, is China’s most famous movie director and the general director of the opening ceremony of the Beijing 2008 Olympic Games."
 						},
 						{
 							"title": "Huangpu River Night Cruise (Shanghai)",
 							"fromPrice": 40,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Cruising along the Huangpu River, you will take a glimpse of the history and charming night view of the cosmopolitan of Shanghai. On one side of the river, there is the Bund, a landmark of Shanghai, Western-style buildings dating back to the early 19th century. On the other side is the image of a new Shanghai with steel and glass skyscrapers."
 						},
 						{
 							"title": "ERA: The Intersection of Time (Shanghai)",
 							"fromPrice": 40,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This multi-million dollar show is Shanghai’s most popular acrobatic show, featuring the gamut of traditional and contemporary Chinese acrobatics from aerial walking, bowl balancing, and trampoline shows to high flying trapeze acts and motorcycle cage stunts."
 						}
 					],
@@ -154,31 +154,31 @@
 						{
 							"title": "Hong Kong 3 Days 2 Nights / 4 Days 3 Nights",
 							"fromPrice": 550,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An open city with a wonderful natural harbor, Hong Kong is the meeting place of various cultures that blend harmoniously with Chinese traditions and exotic influences. On one hand traces of British culture can be found everywhere as a result of former colonial rule. On the other hand, the city preserves traditional customs and the core values of Confucianism that have faded in Mainland China. This is reflected in its colorful festivals ranging from Spring Festival to Christmas. Nowhere else on earth do luxury restaurants, street side food-stalls known locally as dai pai dong, grand mansions and penthouses, tenements, wooden boats and huge liners coupled with English in a variety of accents and multifarious Chinese dialects coexist peacefully."
 						},
 						{
 							"title": "Xi’an Terra Cotta Warriors 3 Days 2 Nights",
 							"fromPrice": 490,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Xi'an was the first Chinese city to open its doors to the world during the Tang Dynasty. Over a period of more than 2000 years, Xi'an was the capital for eleven dynasties. Upon arrival, you will visit the Terra Cotta Warriors and Horses Museum and see the attached life-sized defending army to the first emperor of China, Qin Shi Huang."
 						},
 						{
 							"title": "Yangtze River Cruise 5 Days 4 Nights",
 							"fromPrice": 550,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "A Yangtze River cruise is the thrill of a lifetime. You will enjoy the stunning picturesque scenery and amazing natural beauties of the famed Three Gorges -Qutang Gorge, Wu Gorge and Xiling Gorge, while exploring the historic relics and ancient cultural sites along the mighty river. Enjoy shore excursions to explore the fascinating history and tranquil landscapes including the spectacle of Fengdu Ghost City, a peculiar site that contains statues of demons and ghosts that roam the after-world; the fun of drifting through Shennong Stream, which offers clear running waters, picturesque rock formations, and monkeys and goats along its banks; and the wonder of the Three Gorges Dam, the world's largest dam. The Yangtze River Panorama is a visual delight, full of pleasant surprises and many treasures waiting to be discovered. The images will stay with you long after you have returned home."
 						},
 						{
 							"title": "Guilin & Yangshuo 4 Days 3 Nights",
 							"fromPrice": 500,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Guilin is regarded by many as China's most picturesque city. Cruise down the world famous Li River through the surreal karst mountains to the global village Yangshuo, wander along West Street for its mixed lifestyle and culture of East and West, bicycle through rice paddies or trek through age old villages perched along rice terraces carved in the mountains for unforgettable experiences."
 						},
 						{
 							"title": "Vietnam Treasure 9 Days 8 Nights",
 							"fromPrice": 799,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Vietnam’s colour, chaos and beautiful sceneries bring you new feeling every day. Feel the vivid Vietnam as you sail on a traditional junk through Halong Bay, savour the rural delights of the Mekong Delta, immerse yourself in the vibrant city life of Saigon and take a boat ride downstream from My Tho to Bentre. Discover the fascinating culture, scenery and food of Vietnam with this sensational deal!"
 						}
 					]
@@ -221,7 +221,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -280,67 +280,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -348,19 +348,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -402,7 +402,7 @@
 						{
 							"title": "Day 2 - Beijing (B)",
 							"description": "After breakfast, visit the Tiananmen Square , which is a city square in the centre of Beijing, China, named after the Tiananmen (“Gate of Heavenly Peace”) located to its north, separating it from the Forbidden City. The square contains the Monument to the People’s Heroes, the Great Hall of the People, the National Museum of China, and the Mausoleum of Chairman Mao Zedong. Followed by an optional Forbidden City Tour (£45/person), the former seat of the emperors throughout the Ming and Qingdynasties. It is a true architectural masterpiece and home to the National Palace Museum. Optional banquet lunch (£30/person) featuring the famous “Peking Duck”.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Beijing (B,L)",
@@ -417,7 +417,7 @@
 						{
 							"title": "Day 5 - Suzhou - Wuxi (B,L) ",
 							"description": "Suzhou–the city of paradise is also known as the Oriental Venice for its exquisite canals, bridges, pagodas, and beautiful gardens. Suzhou is designated a UNESCO World Heritage Site. After breakfast, tour the Lingering Garden, a classic private garden with 500 years of history. Next, visit the Suzhou Silk Factory, the largest silk factory in the country to discover the mysterious processing of silk. Then cruise along the ancient canal from the city to the picturesque Grand Canal. Later in the afternoon, continue to Wuxi and visit the Three Kingdoms City . The Three Kingdoms City is one of the CCTV Television Bases and a renowned tourist attraction. Covering an area of about 35 hectares, the Three Kingdoms City showcases structures built in the Han Dynasty style and served as the filming location for one of China’s most popular historical TV series, Three Kingdoms.",
-							"images": ["images/shutterstock_222501101.png", "images/shutterstock_245773267.png"]
+							"images": ["/images/shutterstock_222501101.png", "/images/shutterstock_245773267.png"]
 						},
 						{
 							"title": "Day 6 - Wuxi - Hangzhou (B, L)",
@@ -446,73 +446,73 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "The Golden Mask Dynasty (Beijing)",
 							"fromPrice": 55,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An original Chinese drama play, which features Chinese dances, acrobatics, costumes, lighting and acoustics. The play has eight chapters and more than 200 actors from China and abrouad. Produced by Chinese playwrights, directors and designers."
 						},
 						{
 							"title": "Temple of Heaven & Hutong Life tour with lunch (Beijing)",
 							"fromPrice": 60,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Temple  of  Heaven,  inscribed  as  a  UNESCO  World  Heritage  Site,  was  visited  by  the  Emperors of the Ming and Qing dynasties for annual ceremonies of prayer to Heaven for good harvest. Then take a famous rickshaw Hutong Tour & Local Family Visit, this package also includes a traditional  Beijing  Zhajiangmian  (“Fried  Sauce  noodles”)  as  lunch.  Hutongs  are  traditional  alley  ways  that  made  up  Beijing’s  old  city  planning,  take  a  special  rickshaw  ride  for  an  immersive  tour  to  get  a  wonderful glimpse into yesterday’s world, the old way of life and traditional Beijing culture, and see the  dramatic  changes  the  city  has  undergone,  continue  to  visit  a  local  family  and  local  market  afterwards."
 						},
 						{
 							"title": "Impression West Lake (Hangzhou)",
 							"fromPrice": 70,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Staged entirely upon the lake itself, this show is a spectacle of light, music, dance and theatrics. It is famous for its dreamlike show and fantastic elegance. The director of the show, Zhang Yimou, is China’s most famous movie director and the general director of the opening ceremony of the Beijing 2008 Olympic Games."
 						},
 						{
 							"title": "Huangpu River Night Cruise (Shanghai)",
 							"fromPrice": 40,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Cruising along the Huangpu River, you will take a glimpse of the history and charming night view of the cosmopolitan of Shanghai. On one side of the river, there is the Bund, a landmark of Shanghai, Western-style buildings dating back to the early 19th century. On the other side is the image of a new Shanghai with steel and glass skyscrapers."
 						},
 						{
 							"title": "ERA: The Intersection of Time (Shanghai)",
 							"fromPrice": 40,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This multi-million dollar show is Shanghai’s most popular acrobatic show, featuring the gamut of traditional and contemporary Chinese acrobatics from aerial walking, bowl balancing, and trampoline shows to high flying trapeze acts and motorcycle cage stunts."
 						}
 					],
@@ -520,31 +520,31 @@
 						{
 							"title": "Hong Kong 3 Days 2 Nights / 4 Days 3 Nights",
 							"fromPrice": 550,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An open city with a wonderful natural harbor, Hong Kong is the meeting place of various cultures that blend harmoniously with Chinese traditions and exotic influences. On one hand traces of British culture can be found everywhere as a result of former colonial rule. On the other hand, the city preserves traditional customs and the core values of Confucianism that have faded in Mainland China. This is reflected in its colorful festivals ranging from Spring Festival to Christmas. Nowhere else on earth do luxury restaurants, street side food-stalls known locally as dai pai dong, grand mansions and penthouses, tenements, wooden boats and huge liners coupled with English in a variety of accents and multifarious Chinese dialects coexist peacefully."
 						},
 						{
 							"title": "Xi’an Terra Cotta Warriors 3 Days 2 Nights",
 							"fromPrice": 490,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Xi'an was the first Chinese city to open its doors to the world during the Tang Dynasty. Over a period of more than 2000 years, Xi'an was the capital for eleven dynasties. Upon arrival, you will visit the Terra Cotta Warriors and Horses Museum and see the attached life-sized defending army to the first emperor of China, Qin Shi Huang."
 						},
 						{
 							"title": "Yangtze River Cruise 5 Days 4 Nights",
 							"fromPrice": 550,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "A Yangtze River cruise is the thrill of a lifetime. You will enjoy the stunning picturesque scenery and amazing natural beauties of the famed Three Gorges -Qutang Gorge, Wu Gorge and Xiling Gorge, while exploring the historic relics and ancient cultural sites along the mighty river. Enjoy shore excursions to explore the fascinating history and tranquil landscapes including the spectacle of Fengdu Ghost City, a peculiar site that contains statues of demons and ghosts that roam the after-world; the fun of drifting through Shennong Stream, which offers clear running waters, picturesque rock formations, and monkeys and goats along its banks; and the wonder of the Three Gorges Dam, the world's largest dam. The Yangtze River Panorama is a visual delight, full of pleasant surprises and many treasures waiting to be discovered. The images will stay with you long after you have returned home."
 						},
 						{
 							"title": "Guilin & Yangshuo 4 Days 3 Nights",
 							"fromPrice": 500,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Guilin is regarded by many as China's most picturesque city. Cruise down the world famous Li River through the surreal karst mountains to the global village Yangshuo, wander along West Street for its mixed lifestyle and culture of East and West, bicycle through rice paddies or trek through age old villages perched along rice terraces carved in the mountains for unforgettable experiences."
 						},
 						{
 							"title": "Vietnam Treasure 9 Days 8 Nights",
 							"fromPrice": 799,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Vietnam’s colour, chaos and beautiful sceneries bring you new feeling every day. Feel the vivid Vietnam as you sail on a traditional junk through Halong Bay, savour the rural delights of the Mekong Delta, immerse yourself in the vibrant city life of Saigon and take a boat ride downstream from My Tho to Bentre. Discover the fascinating culture, scenery and food of Vietnam with this sensational deal!"
 						}
 					]
@@ -586,7 +586,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -645,67 +645,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -713,19 +713,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -767,7 +767,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -826,67 +826,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -894,19 +894,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -948,7 +948,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -1007,67 +1007,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -1075,19 +1075,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -1129,7 +1129,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -1188,67 +1188,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -1256,19 +1256,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -1310,7 +1310,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -1369,67 +1369,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -1437,19 +1437,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -1491,7 +1491,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -1550,67 +1550,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -1618,19 +1618,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -1672,7 +1672,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -1731,67 +1731,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -1799,19 +1799,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -1853,7 +1853,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -1912,67 +1912,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -1980,19 +1980,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -2034,7 +2034,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -2093,67 +2093,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -2161,19 +2161,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -2215,7 +2215,7 @@
 						{
 							"title": "Day 2 - Beijing (B)",
 							"description": "After breakfast, visit the Tiananmen Square , which is a city square in the centre of Beijing, China, named after the Tiananmen (“Gate of Heavenly Peace”) located to its north, separating it from the Forbidden City. The square contains the Monument to the People’s Heroes, the Great Hall of the People, the National Museum of China, and the Mausoleum of Chairman Mao Zedong. Followed by an optional Forbidden City Tour (£45/person), the former seat of the emperors throughout the Ming and Qingdynasties. It is a true architectural masterpiece and home to the National Palace Museum. Optional banquet lunch (£30/person) featuring the famous “Peking Duck”.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Beijing (B,L)",
@@ -2230,7 +2230,7 @@
 						{
 							"title": "Day 5 - Suzhou - Wuxi (B,L) ",
 							"description": "Suzhou–the city of paradise is also known as the Oriental Venice for its exquisite canals, bridges, pagodas, and beautiful gardens. Suzhou is designated a UNESCO World Heritage Site. After breakfast, tour the Lingering Garden, a classic private garden with 500 years of history. Next, visit the Suzhou Silk Factory, the largest silk factory in the country to discover the mysterious processing of silk. Then cruise along the ancient canal from the city to the picturesque Grand Canal. Later in the afternoon, continue to Wuxi and visit the Three Kingdoms City . The Three Kingdoms City is one of the CCTV Television Bases and a renowned tourist attraction. Covering an area of about 35 hectares, the Three Kingdoms City showcases structures built in the Han Dynasty style and served as the filming location for one of China’s most popular historical TV series, Three Kingdoms.",
-							"images": ["images/shutterstock_222501101.png", "images/shutterstock_245773267.png"]
+							"images": ["/images/shutterstock_222501101.png", "/images/shutterstock_245773267.png"]
 						},
 						{
 							"title": "Day 6 - Wuxi - Hangzhou (B, L)",
@@ -2259,73 +2259,73 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Swiss Bellhotel Liyuan 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "The Golden Mask Dynasty (Beijing)",
 							"fromPrice": 55,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An original Chinese drama play, which features Chinese dances, acrobatics, costumes, lighting and acoustics. The play has eight chapters and more than 200 actors from China and abrouad. Produced by Chinese playwrights, directors and designers."
 						},
 						{
 							"title": "Temple of Heaven & Hutong Life tour with lunch (Beijing)",
 							"fromPrice": 60,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Temple  of  Heaven,  inscribed  as  a  UNESCO  World  Heritage  Site,  was  visited  by  the  Emperors of the Ming and Qing dynasties for annual ceremonies of prayer to Heaven for good harvest. Then take a famous rickshaw Hutong Tour & Local Family Visit, this package also includes a traditional  Beijing  Zhajiangmian  (“Fried  Sauce  noodles”)  as  lunch.  Hutongs  are  traditional  alley  ways  that  made  up  Beijing’s  old  city  planning,  take  a  special  rickshaw  ride  for  an  immersive  tour  to  get  a  wonderful glimpse into yesterday’s world, the old way of life and traditional Beijing culture, and see the  dramatic  changes  the  city  has  undergone,  continue  to  visit  a  local  family  and  local  market  afterwards."
 						},
 						{
 							"title": "Impression West Lake (Hangzhou)",
 							"fromPrice": 70,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Staged entirely upon the lake itself, this show is a spectacle of light, music, dance and theatrics. It is famous for its dreamlike show and fantastic elegance. The director of the show, Zhang Yimou, is China’s most famous movie director and the general director of the opening ceremony of the Beijing 2008 Olympic Games."
 						},
 						{
 							"title": "Huangpu River Night Cruise (Shanghai)",
 							"fromPrice": 40,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Cruising along the Huangpu River, you will take a glimpse of the history and charming night view of the cosmopolitan of Shanghai. On one side of the river, there is the Bund, a landmark of Shanghai, Western-style buildings dating back to the early 19th century. On the other side is the image of a new Shanghai with steel and glass skyscrapers."
 						},
 						{
 							"title": "ERA: The Intersection of Time (Shanghai)",
 							"fromPrice": 40,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This multi-million dollar show is Shanghai’s most popular acrobatic show, featuring the gamut of traditional and contemporary Chinese acrobatics from aerial walking, bowl balancing, and trampoline shows to high flying trapeze acts and motorcycle cage stunts."
 						}
 					],
@@ -2333,31 +2333,31 @@
 						{
 							"title": "Hong Kong 3 Days 2 Nights / 4 Days 3 Nights",
 							"fromPrice": 550,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An open city with a wonderful natural harbor, Hong Kong is the meeting place of various cultures that blend harmoniously with Chinese traditions and exotic influences. On one hand traces of British culture can be found everywhere as a result of former colonial rule. On the other hand, the city preserves traditional customs and the core values of Confucianism that have faded in Mainland China. This is reflected in its colorful festivals ranging from Spring Festival to Christmas. Nowhere else on earth do luxury restaurants, street side food-stalls known locally as dai pai dong, grand mansions and penthouses, tenements, wooden boats and huge liners coupled with English in a variety of accents and multifarious Chinese dialects coexist peacefully."
 						},
 						{
 							"title": "Xi’an Terra Cotta Warriors 3 Days 2 Nights",
 							"fromPrice": 490,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Xi'an was the first Chinese city to open its doors to the world during the Tang Dynasty. Over a period of more than 2000 years, Xi'an was the capital for eleven dynasties. Upon arrival, you will visit the Terra Cotta Warriors and Horses Museum and see the attached life-sized defending army to the first emperor of China, Qin Shi Huang."
 						},
 						{
 							"title": "Yangtze River Cruise 5 Days 4 Nights",
 							"fromPrice": 550,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "A Yangtze River cruise is the thrill of a lifetime. You will enjoy the stunning picturesque scenery and amazing natural beauties of the famed Three Gorges -Qutang Gorge, Wu Gorge and Xiling Gorge, while exploring the historic relics and ancient cultural sites along the mighty river. Enjoy shore excursions to explore the fascinating history and tranquil landscapes including the spectacle of Fengdu Ghost City, a peculiar site that contains statues of demons and ghosts that roam the after-world; the fun of drifting through Shennong Stream, which offers clear running waters, picturesque rock formations, and monkeys and goats along its banks; and the wonder of the Three Gorges Dam, the world's largest dam. The Yangtze River Panorama is a visual delight, full of pleasant surprises and many treasures waiting to be discovered. The images will stay with you long after you have returned home."
 						},
 						{
 							"title": "Guilin & Yangshuo 4 Days 3 Nights",
 							"fromPrice": 500,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Guilin is regarded by many as China's most picturesque city. Cruise down the world famous Li River through the surreal karst mountains to the global village Yangshuo, wander along West Street for its mixed lifestyle and culture of East and West, bicycle through rice paddies or trek through age old villages perched along rice terraces carved in the mountains for unforgettable experiences."
 						},
 						{
 							"title": "Vietnam Treasure 9 Days 8 Nights",
 							"fromPrice": 799,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Vietnam’s colour, chaos and beautiful sceneries bring you new feeling every day. Feel the vivid Vietnam as you sail on a traditional junk through Halong Bay, savour the rural delights of the Mekong Delta, immerse yourself in the vibrant city life of Saigon and take a boat ride downstream from My Tho to Bentre. Discover the fascinating culture, scenery and food of Vietnam with this sensational deal!"
 						}
 					]
@@ -2399,7 +2399,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -2458,67 +2458,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -2526,19 +2526,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -2580,7 +2580,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -2639,67 +2639,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -2707,19 +2707,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -2761,7 +2761,7 @@
 						{
 							"title": "Day 2 - Shanghai (B,L)",
 							"description": "Shanghai is the vibrant metropolis and commercial center of China. Today we will visit the Shanghai Museum and indulge in ancient Chinese art, furniture, and jade. Then we will  visit Shanghai Old City God Temple area, a busy shopping centre where you may find souvenirs and delicious local food. Enjoy some free time here. In the afternoon you will walk along the famous Bund, a mile-long stretch along the Huangpu River. Lined by the colonial architectures of European design, this area is the best place to capture the western influences of the old days. At night, you may enjoy an optional 'Huangpu River Night Cruise' and get a glimpse of the dazzling and charming night view of Shanghai at your own expense (£40/pp).",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Shanghai - Suzhou (B, L,D)",
@@ -2830,79 +2830,79 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Pan Pacific Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Pan Pacific Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "The Golden Mask Dynasty (Beijing)",
 							"fromPrice": 55,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An original Chinese drama play, which features Chinese dances, acrobatics, costumes, lighting and acoustics. The play has eight chapters and more than 200 actors from China and abrouad. Produced by Chinese playwrights, directors and designers."
 						},
 						{
 							"title": "Impression West Lake (Hangzhou)",
 							"fromPrice": 70,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Staged entirely upon the lake itself, this show is a spectacle of light, music, dance and theatrics. It is famous for its dreamlike show and fantastic elegance. The director of the show, Zhang Yimou, is China’s most famous movie director and the general director of the opening ceremony of the Beijing 2008 Olympic Games."
 						},
 						{
 							"title": "Huangpu River Night Cruise (Shanghai)",
 							"fromPrice": 40,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Cruising along the Huangpu River, you will take a glimpse of the history and charming night view of the cosmopolitan of Shanghai. On one side of the river, there is the Bund, a landmark of Shanghai, Western-style buildings dating back to the early 19th century. On the other side is the image of a new Shanghai with steel and glass skyscrapers."
 						},
 						{
 							"title": "ERA: The Intersection of Time (Shanghai)",
 							"fromPrice": 60,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "This multi-million dollar show is Shanghai’s most popular acrobatic show, featuring the gamut of traditional and contemporary Chinese acrobatics from aerial walking, bowl balancing, and trampoline shows to high flying trapeze acts and motorcycle cage stunts."
 						},
 						{
 							"title": "Grand Canal Cruise (Suzhou)",
 							"fromPrice": 30,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "The Grand Canal is the world’s longest man-made waterway, being 1,800 kilometers long. The canal connects the present cities of Beijing in the north and Huangzhou in the south. Since most of China’s major rivers flow from the west to east, the fact that the Grand Canal runs north and south provides an important connector between the Yangtze River valley and the Yellow River valley."
 						},
 						{
 							"title": "Panda House (Suzhou)",
 							"fromPrice": 60,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Chongqing Zoo was built in 1953 and lies in the southern suburb of Chongqing. It occupies an area of 45 hectares (112 acres), making it one of the biggest urban zoos in China. The panda house alone is about 2 hectares (5 acres) in size. The zoo is home to more than 230 different animal species, and contains a total of more than 6000 animals."
 						}
 					],
@@ -2910,19 +2910,19 @@
 						{
 							"title": "Hong Kong 3 Days 2 Nights / 4 Days 3 Nights",
 							"fromPrice": 550,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "An open city with a wonderful natural harbor, Hong Kong is the meeting place of various cultures that blend harmoniously with Chinese traditions and exotic influences. On one hand traces of British culture can be found everywhere as a result of former colonial rule. On the other hand, the city preserves traditional customs and the core values of Confucianism that have faded in Mainland China. This is reflected in its colorful festivals ranging from Spring Festival to Christmas. Nowhere else on earth do luxury restaurants, street side food-stalls known locally as dai pai dong, grand mansions and penthouses, tenements, wooden boats and huge liners coupled with English in a variety of accents and multifarious Chinese dialects coexist peacefully."
 						},
 						{
 							"title": "Xi’an Terra Cotta Warriors 3 Days 2 Nights",
 							"fromPrice": 490,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Xi'an was the first Chinese city to open its doors to the world during the Tang Dynasty. Over a period of more than 2000 years, Xi'an was the capital for eleven dynasties. Upon arrival, you will visit the Terra Cotta Warriors and Horses Museum and see the attached life-sized defending army to the rst emperor of China, Qin Shi Huang."
 						},
 						{
 							"title": "Guilin & Yangshuo 4 Days 3 Nights",
 							"fromPrice": 500,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "Guilin is regarded by many as China's most picturesque city. Cruise down the world famous Li River through the surreal karst mountains to the global village Yangshuo, wander along West Street for its mixed lifestyle and culture of East and West, bicycle through rice paddies or trek through age old villages perched along rice terraces carved in the mountains for unforgettable experiences."
 						}
 					]
@@ -2964,7 +2964,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -3023,67 +3023,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -3091,19 +3091,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -3145,7 +3145,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -3204,67 +3204,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -3272,19 +3272,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -3326,7 +3326,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -3385,67 +3385,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -3453,19 +3453,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -3507,7 +3507,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -3566,67 +3566,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -3634,19 +3634,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -3688,7 +3688,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -3747,67 +3747,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -3815,19 +3815,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -3869,7 +3869,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -3928,67 +3928,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -3996,19 +3996,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]
@@ -4050,7 +4050,7 @@
 						{
 							"title": "Day 2 - Ho Chi Minh City City Tour – Cu Chi Tunnel (Optional Tour)  (B) ",
 							"description": "This morning enjoy a city tour including Re-unification, Notre Dame Cathedral, City Hall, Central Post Office, and Ben Thanh Market. Afternoon, take optional tour and travel 70km northwest to Saigon to explore the Cu Chi Tunnels, one of the most famous battlegrounds of the Vietnam War. The secret tunnel system is 200 km long deep inside the earth, and was used for hiding in during combat, also serving as communication and supply routes during the Vietnam War. Back to Saigon and check in hotel.",
-							"images": ["images/shutterstock_628814105.png", "images/shutterstock_726803782.png"]
+							"images": ["/images/shutterstock_628814105.png", "/images/shutterstock_726803782.png"]
 						},
 						{
 							"title": "Day 3 - Ho Chi Minh City – My Tho in Mekong Delta – Embarkation (B, L, D) ",
@@ -4109,67 +4109,67 @@
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Ramada Beijing North 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel1.png", "images/hotel2.png"]
+							"images": ["/images/hotel1.png", "/images/hotel2.png"]
 						},
 						{
 							"name": "Wyndham Bund East Shanghai Hotel 5*",
 							"city": "Beijing",
 							"address": "319 Changping Road, Changping District, Beijing, 102208 China",
 							"telephone": "0086 10 80791188",
-							"images": ["images/hotel3.png", "images/hotel4.png"]
+							"images": ["/images/hotel3.png", "/images/hotel4.png"]
 						}
 					],
 					"optionalTours": [
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						}
 					],
@@ -4177,19 +4177,19 @@
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						},
 						{
 							"title": "Day 3 Thai Dinner & Classical Dances at Silom Village Dinner & Classical Dances",
 							"fromPrice": 1099,
-							"image": "images/extras2.png",
+							"image": "/images/extras2.png",
 							"description": "Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”. The tour starts by taking a Phang Nga Bay is one of the most beautiful bays of Thailand. It is known for its gravity-defying limestone formations. The most famous of the many islands in the bay is the so-called James Bond Island, a needle formed limestone rock in the sea, which featured in the movie “The Manwith the Golden Gun”."
 						},
 						{
 							"title": "Day 2 Thai Dinner & Classical Dances at Silom Village",
 							"fromPrice": 1099,
-							"image": "images/extras1.png",
+							"image": "/images/extras1.png",
 							"description": "This evening introduces you to mystical dances,Thai food and a truly Thai ambiance. During dinner feast your eyes on the grace and beauty of the dancers, elegantly performing stories from classical Thai literature and folklore. These traditional colorful costumes must be captured on camera."
 						}
 					]

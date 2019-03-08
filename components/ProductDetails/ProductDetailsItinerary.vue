@@ -80,6 +80,10 @@ h2, h3, .expand {
     color: #103A5B;
 }
 
+#itinerary h3 {
+    font-size: 14px;
+}
+
 .expand-all {
     color: #3173A7;
     font-size: 14px;
