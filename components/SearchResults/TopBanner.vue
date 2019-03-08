@@ -54,7 +54,8 @@ export default {
             totalTrips: 0,
             currentTrips: 0,
             selectedDestination: 0,
-            selectedStyle: 0
+            selectedStyle: 0,
+            built: false
         }
     },
     props: {
@@ -90,7 +91,12 @@ export default {
                 sortAscending: sortOrder,
                 item: item
             }
+            if (this.built){
+                console.log(document.getElementsByClassName('.filters')[0])
+            }
             EventBus.$emit('sort', toBeSorted)
+            // this.scrollToTop(document.getElementById('.filters'))
+            console.log(document.getElementById('#filter'))
         },
         getCountries: function(destination) {
             if (destination === 'Australia') {
@@ -107,7 +113,14 @@ export default {
             else if (list === 'destination-radio') {
                 this.selectedDestination = index
             }
-        }
+        },
+        scrollToTop: function(el) {
+            let rect = el.getBoundingClientRect(),
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop
+            let coordinates = { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+            window.scrollTo({top: coordinates.top, behavior: 'smooth'})
+        },
     },
     created() {
         this.getCountries(this.$route.params.destination.replace(/-/g, ' '))
@@ -116,6 +129,7 @@ export default {
             this.totalTrips = tours.total
             this.currentTrips = tours.current
         })
+        this.built = true
     },
     beforeMount() {
         if(this.destinations[0] !== 'Show All') {

@@ -52,6 +52,7 @@ export default {
     if (process.client) {
       this.windowWidth = window.innerWidth || document.documentElement.clientWidth
       if (this.windowWidth < 576) { this.isMobile = true }
+      console.log(this.isMobile)
     }
   }
 }

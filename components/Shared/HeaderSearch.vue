@@ -63,6 +63,7 @@ header {
     font-size: 14px;
     color: #1B75BB;
     z-index: 1200;
+    transform: translate3d(0px, 52px, 0px);
 }
 
 .search-dropdown .dropdown-menu .input-group {
@@ -117,7 +118,8 @@ header {
     margin-top: 15px;
 }
 
-#header .search-results li:hover, #header .search-results li a:hover {
+#header .search-results li:hover, 
+#header .search-results li a:hover {
     background-color: #EBF3F8;
     border-radius: 50px;
     color: #1B75BB;
@@ -134,11 +136,24 @@ header {
     background-color: #FFF;
 }
 
-.search-dropdown button, .search-dropdown .btn {
+.search-dropdown button, 
+.search-dropdown .btn-secondary,
+.search-dropdown .btn-secondary.dropdown-toggle
+ {
     height: 100%;
     font-size: 13px;
     border: none;
     border-radius: 0;
+    background-color: #FFF;
+    color: #7F7F7F;
+}
+
+.search-dropdown .btn-secondary.dropdown-toggle:active,
+.search-dropdown .btn-secondary.dropdown-toggle:focus,
+.search-dropdown .btn-secondary.dropdown-toggle:active:focus {
+    background: #FFF;
+    color: #1B75BB;
+    box-shadow: none;
 }
 
 #search-button {

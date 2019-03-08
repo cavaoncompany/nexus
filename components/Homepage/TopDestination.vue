@@ -1,5 +1,5 @@
 <template>
-    <a href="#top-destinations" @mouseover="hover"  @mouseout="doHover = false">
+    <a @mouseover="hover"  @mouseout="doHover = false">
         <div class="card top-destination">
             <img :src="destination.img" class="card-img-top" :alt="destination.city">
             <div class="card-body pl-2 pr-2">

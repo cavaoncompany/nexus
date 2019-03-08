@@ -53,10 +53,6 @@ export default {
     z-index: 1200;
 }
 
-.agent-dropdown {
-    height: 73px;
-}
-
 #agent i, #mobile-agent i {
     font-size: 20px;
 }

@@ -12,7 +12,7 @@
                 <router-link to="/"><img src="~/assets/images/logo1.png" alt="Nexus logo"></router-link>
             </b-col>
             <b-col cols="12" md="4" class="align-right">
-                <b-row class="row justify-content-end">
+                <b-row class="row header-dropdown-buttons justify-content-end">
                     <HeaderSearch class="col-md-cust" />
                     <HeaderAgent class="col-md-cust" />
                     <span>|</span>
@@ -218,9 +218,10 @@ export default {
     text-decoration: none;
 }
 
-.justify-content-end {
+.header-dropdown-buttons {
     margin: 0;
     width: 100%;
+    height: 100%;
 }
 
 

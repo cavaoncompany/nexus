@@ -56,7 +56,7 @@ export default {
     border-radius: 15px;
     height: 32px;
     display: inline-block;
-    margin-top: 52%;
+    margin-top: 185px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;

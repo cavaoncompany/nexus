@@ -464,10 +464,6 @@ nav, .navbar {
     .agent-dropdown .dropdown-menu {
         left: -144px !important;
     }
-
-    .traveller-dropdown .dropdown-menu {
-        left: -166px !important;
-    }
     
     .price-tag {
         margin-left: 82%;
@@ -496,10 +492,6 @@ nav, .navbar {
     .agent-dropdown .dropdown-menu {
         left: -100px !important;
     }
-    
-    .traveller-dropdown .dropdown-menu {
-        left: -166px !important;
-    }
 
     .price-tag {
         margin-left: 83%;
@@ -526,10 +518,6 @@ nav, .navbar {
     .agent-dropdown .dropdown-menu {
         left: -216px !important;
         padding: 30px;
-    }
-
-    .traveller-dropdown .dropdown-menu {
-        left: -301px !important;
     }
 
     .price-tag {

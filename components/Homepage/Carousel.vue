@@ -1,13 +1,11 @@
 <template>
-    <b-carousel id="carousel"
-        class="p-0" 
+    <div id="carousel" class="p-0">
+        <b-carousel id="top-carousel" class="carousel header-lg" data-ride="carousel"
         indicators
         :interval="4000"
         v-model="slide"
         @sliding-start="onSlideStart"
-        @sliding-end="onSlideEnd"
-        >
-        <div id="top-carousel" class="carousel slide header-lg" data-ride="carousel">
+        @sliding-end="onSlideEnd">
             <!-- <ol class="carousel-indicators mb-3">
                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel" data-slide-to="1"></li>
@@ -28,7 +26,7 @@
                     <img class="d-block w-100 img-fluid" src="~/assets/images/shutterstock_376673089.jpg" alt="Beautiful city view">
                 </div>
             </div>
-        </div>
+        </b-carousel>
         <div id="staticImage" class="header-sm"></div>
             <div class="carousel-overlay d-flex flex-column justify-content-between pr-3">
                 <div class="banner">
@@ -44,7 +42,7 @@
                     </div>
                 </div>
             </div>
-        </b-carousel>
+        </div>
 </template>
 
 <script>

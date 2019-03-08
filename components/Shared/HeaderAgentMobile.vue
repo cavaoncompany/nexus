@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown class="dropdown .mobile-agent-dropdown" right no-caret>
+    <b-dropdown class="dropdown mobile-agent-dropdown" right no-caret>
         <template slot="button-content"><i class="fas fa-user-circle"></i></template>
             <div class="navigation d-flex h-100">
             <button class="btn btn-link w-50 tab-link" v-on:click.stop="toggle('traveller')" v-bind:class="{'active': !agent}" >Traveller</button>
@@ -208,7 +208,10 @@ export default {
     color: #FFF;
 }
 
-.navigation .tab-link:active, .navigation .tab-link:focus, .tab-link.focus, .tab-link.active {
+.navigation .tab-link:active, 
+.navigation .tab-link:focus, 
+.tab-link.focus, 
+.tab-link.active {
     background: #FFF;
     color: #1B75BB;
 }
@@ -260,12 +263,29 @@ export default {
     margin-right: .5em;
 }
 
-.mobile-agent-dropdown button, .mobile-agent-dropdown .btn {
+.mobile-agent-dropdown button, 
+.mobile-agent-dropdown 
+.btn-secondary,
+.mobile-agent-dropdown .show>.btn-secondary.dropdown-toggle {
     height: 100%;
     font-size: 13px;
     border: none;
     border-radius: 0;
+    background: #FFF;
     color: #7F7F7F;
+}
+
+
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle:active,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle.active,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle:focus,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle.focus,
+.mobile-agent-dropdown .show>.btn-secondary.dropdown-toggle:active,
+.mobile-agent-dropdown .show>.btn-secondary.dropdown-toggle:focus,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle:active:focus {
+    background: #FFF;
+    color: #1B75BB;
+    box-shadow: none;
 }
 
 input[type=checkbox] {

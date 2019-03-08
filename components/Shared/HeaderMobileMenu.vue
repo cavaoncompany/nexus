@@ -1,10 +1,6 @@
 <template>
     <b-dropdown class="btn-group dropright header-mobile-menu" no-caret @click="openMobileMenu">
         <template slot="button-content"><i class="fas fa-bars"></i></template>
-        <!-- <button type="button" class="btn btn-link pr-4 pl-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" @click="openMobileMenu">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="dropdown-menu text-left"> -->
             <ul class="mb-5">
                 <li class="pl-3 pt-2"><h2 class="text-left">CURRENCY</h2></li>
                 <li class="pl-3">EUR</li>
@@ -18,7 +14,6 @@
                     </a>
                 </li>
             </ul>
-        <!-- </div> -->
     </b-dropdown>
 </template>
 
@@ -71,15 +66,16 @@ export default {
     text-decoration: none;
 }
 
+.header-mobile-menu .btn-secondary {
+    background-color: #FFF;
+    border: none;
+    color: #7F7F7F;
+}
+
 .header-mobile-menu h2 {
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
-}
-
-.header-mobile-menu i {
-    color: #7F7F7F;
-    border: none;
 }
 
 .header-mobile-menu ul li {
