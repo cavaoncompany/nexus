@@ -51,7 +51,7 @@ header {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.dropdown-menu {
+.search-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;

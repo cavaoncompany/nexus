@@ -52,18 +52,12 @@
             </b-col>
             <img class="cardsMobile mobile-footer" src="~/assets/images/payment-types.png" alt="Visa and MasterCard accepted">
             <b-col sm="3" md="3" class="text-md-right">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="footer-currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</a>
-                    <div class="dropdown-menu" aria-labelledby="currency">
-                        <a v-for="currency in currencies" :key="currency.id" class="dropdown-item" href="#footer" @click="showSelected('currency', currency.currency)">{{ currency.currency }}</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedLanguage }}</a>
-                    <div class="dropdown-menu" aria-labelledby="language">
-                        <a v-for="language in languages" :key="language.id" class="dropdown-item" href="#footer" @click="showSelected('language', language.language)">{{ language.language }}</a>
-                    </div>
-                </div>
+                <b-dropdown class="dropdown-menu-currency" :text="selectedCurrency">
+                    <a v-for="currency in currencies" :key="currency.id" class="dropdown-item" @click="showSelected('currency', currency.currency)">{{ currency.currency }}</a>
+                </b-dropdown>
+                <b-dropdown class="dropdown-menu-language" :text="selectedLanguage">
+                    <a v-for="language in languages" :key="language.id" class="dropdown-item" @click="showSelected('language', language.language)">{{ language.language }}</a>
+                </b-dropdown>
                 <img class="desktop-footer" src="~/assets/images/payment-types.png" alt="Visa and MasterCard accepted">
             </b-col>
         </b-row>
@@ -158,7 +152,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #footer {
     max-width: 1200px;
 }
@@ -227,6 +221,7 @@ export default {
     height: 50px;
     margin-bottom: 20px;
     text-align: left;
+    width: 100%;
 }
 
 .footer-bottom .dropdown a, .footer-bottom .dropdown a:active, .show>.btn-secondary.dropdown-toggle, .dropdown-toggle, #footer-currency {
@@ -251,9 +246,23 @@ footer .dropdown-toggle::after {
     margin-top: -5px;
 }
 
-.dropdown-menu {
+.dropdown-menu-currency .dropdown-menu,
+.dropdown-menu-language .dropdown-menu {
     min-width: 100%;
     border: none;
+}
+
+#footer .dropdown-toggle:active, 
+#footer .btn-secondary:active, 
+#footer .btn-secondary.dropdown-toggle:active,
+#footer .btn-secondary:not(:disabled):not(.disabled).active, 
+#footer .btn-secondary:not(:disabled):not(.disabled).focus,
+#footer .btn-secondary:not(:disabled):not(.disabled):active,
+#footer .btn-secondary:not(:disabled):not(.disabled):focus, 
+#footer .show>.btn-secondary.dropdown-toggle {
+    box-shadow: none;
+    color: #666666;
+    background: transparent;
 }
 
 .cardsMobile {

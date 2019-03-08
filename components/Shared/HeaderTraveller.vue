@@ -120,7 +120,7 @@ export default {
 </script>
 
 <style>
-.dropdown-menu {
+.traveller-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;

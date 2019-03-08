@@ -89,7 +89,7 @@ export default {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.dropdown-menu {
+#header .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;
@@ -119,14 +119,14 @@ export default {
     color: #7F7F7F;
 }
 
-.dropdown-toggle:active, 
-.btn-secondary:active, 
-.btn-secondary.dropdown-toggle:active,
-.btn-secondary:not(:disabled):not(.disabled).active, 
-.btn-secondary:not(:disabled):not(.disabled).focus,
-.btn-secondary:not(:disabled):not(.disabled):active,
-.btn-secondary:not(:disabled):not(.disabled):focus, 
-.show>.btn-secondary.dropdown-toggle {
+#header .dropdown-toggle:active, 
+#header .btn-secondary:active, 
+#header .btn-secondary.dropdown-toggle:active,
+#header .btn-secondary:not(:disabled):not(.disabled).active, 
+#header .btn-secondary:not(:disabled):not(.disabled).focus,
+#header .btn-secondary:not(:disabled):not(.disabled):active,
+#header .btn-secondary:not(:disabled):not(.disabled):focus, 
+#header .show>.btn-secondary.dropdown-toggle {
     box-shadow: none;
     color: #FFF;
     background: #1B75BB;
