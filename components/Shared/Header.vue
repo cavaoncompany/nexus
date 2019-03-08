@@ -191,7 +191,7 @@ export default {
     text-decoration: none;
 }
 
-.text-center img {
+#header .text-center img {
     margin-top: 15px;
 }
 

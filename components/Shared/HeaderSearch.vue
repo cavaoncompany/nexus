@@ -105,19 +105,19 @@ header {
     display: none;
 }
 
-.search-results li a {
+#header .search-results li a {
     font-size: 14px;
     color: #666666;
 }
 
-.search-results li {
+#header .search-results li {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 20px;
     margin-top: 15px;
 }
 
-.search-results li:hover, .search-results li a:hover {
+#header .search-results li:hover, #header .search-results li a:hover {
     background-color: #EBF3F8;
     border-radius: 50px;
     color: #1B75BB;

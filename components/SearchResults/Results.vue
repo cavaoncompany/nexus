@@ -200,6 +200,8 @@ export default {
     color: #FFF;
     border-radius: 18px;
     width: 33px;
+    box-shadow: none;
+    border: none;
 }
 
 .selected {

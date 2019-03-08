@@ -225,7 +225,8 @@ export default {
 
 .footer-bottom .dropdown a, 
 .footer-bottom .dropdown a:active, 
-.show>.btn-secondary.dropdown-toggle, 
+#footer .btn-secondary,
+#footer.show>.btn-secondary.dropdown-toggle, 
 #footer-currency {
     background-color: transparent;
     border: none;

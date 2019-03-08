@@ -205,10 +205,11 @@ export default {
 .filters .btn-secondary:hover,
 .filters .btn-secondary:active,
 .filters .btn-secondary:focus,
+.filters .btn-secondary.dropdown-toggle,
 .filters .btn-secondary.dropdown-toggle:active,
 .filters .btn-secondary.dropdown-toggle:active:focus {
     text-decoration: none;
-    background: transparent;
+    background: #103A5B;
     box-shadow: none;
     border: none;
 }
