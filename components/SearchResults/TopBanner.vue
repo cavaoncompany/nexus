@@ -9,7 +9,7 @@
                     <div class="numberResults">{{currentTrips}} / {{totalTrips}} Trips</div>
                 </div>
                 <div class="filters d-flex">
-                    <b-dropdown class="sort-dropdown pr-lg-5 pr-md-3" text="Sort">
+                    <b-dropdown right class="sort-dropdown pr-lg-5 pr-md-3" text="Sort">
                         <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'fromPrice')"><i class="fas fa-arrow-up"></i> Price ascending</a>
                         <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(false, 'fromPrice')"><i class="fas fa-arrow-down"></i> Price descending</a>
                         <a href="#filter" class="dropdown-item mt-3 mb-3" v-on:click="handleSort(true, 'days')"><i class="fas fa-arrow-up"></i> Days ascending</a>

@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown class="dropdown mobile-agent-dropdown" right no-caret>
+    <b-dropdown class="dropdown mobile-agent-dropdown" id="mobile-agent-dropdown" right no-caret>
         <template slot="button-content"><i class="fas fa-user-circle"></i></template>
             <div class="navigation d-flex h-100">
             <button class="btn btn-link w-50 tab-link" v-on:click.stop="toggle('traveller')" v-bind:class="{'active': !agent}" >Traveller</button>
@@ -264,8 +264,7 @@ export default {
 }
 
 .mobile-agent-dropdown button, 
-.mobile-agent-dropdown 
-.btn-secondary,
+.mobile-agent-dropdown .btn-secondary,
 .mobile-agent-dropdown .show>.btn-secondary.dropdown-toggle {
     height: 100%;
     font-size: 13px;
@@ -275,7 +274,7 @@ export default {
     color: #7F7F7F;
 }
 
-
+#mobile-agent-dropdown.show>.btn-secondary.dropdown-toggle,
 .mobile-agent-dropdown .btn-secondary.dropdown-toggle:active,
 .mobile-agent-dropdown .btn-secondary.dropdown-toggle.active,
 .mobile-agent-dropdown .btn-secondary.dropdown-toggle:focus,

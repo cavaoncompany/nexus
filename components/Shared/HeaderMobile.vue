@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg pt-0">
             <router-link to="/" v-show="mobileMenuOpen===false" class="pt-3"><img src="~/assets/images/logo1.png" alt="Nexus logo" id="mobileOffsetX"/></router-link>
             <b-row class="row pt-0">
-                <HeaderSearch :windowWidth="windowWidth" :isMobile="isMobile" v-show="mobileMenuOpen===false" class="pt-3" />
+                <HeaderSearch :windowWidth="windowWidth" :isMobile="isMobile" v-if="mobileMenuOpen===false" class="pt-3" />
                 <HeaderAgentMobile :windowWidth="windowWidth" :isMobile="isMobile" v-show="mobileMenuOpen===false" class="pt-3" />
                 <HeaderMobileMenu :windowWidth="windowWidth" :isMobile="isMobile" class="pt-3" />
             </b-row>
@@ -36,6 +36,7 @@ export default {
     created() {
         EventBus.$on('openMobileMenu', (mobileMenuOpen) => {
             this.mobileMenuOpen = mobileMenuOpen
+            console.log(mobileMenuOpen)
         })
     }
 }

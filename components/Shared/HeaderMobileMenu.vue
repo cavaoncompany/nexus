@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown class="btn-group dropright header-mobile-menu" no-caret @click="openMobileMenu">
+    <b-dropdown split dropright id="header-mobile-menu" class="btn-group header-mobile-menu" no-caret @click="openMobileMenu">
         <template slot="button-content"><i class="fas fa-bars"></i></template>
             <ul class="mb-5">
                 <li class="pl-3 pt-2"><h2 class="text-left">CURRENCY</h2></li>
@@ -46,6 +46,7 @@ export default {
     methods: {
         openMobileMenu: function() {
             this.mobileMenuOpen = !this.mobileMenuOpen
+            console.log('fff',this.mobileMenuOpen)
             EventBus.$emit('openMobileMenu', this.mobileMenuOpen)
         }
     }
@@ -57,7 +58,7 @@ export default {
     background: #103A5B;
     color: #FFF;
     height: 100vh;
-    width: 100vw;
+    width: 80vw;
     z-index: 1200;
 }
 
@@ -66,6 +67,7 @@ export default {
     text-decoration: none;
 }
 
+#header-mobile-menu.show>.btn-secondary.dropdown-toggle,
 .header-mobile-menu .btn-secondary {
     background-color: #FFF;
     border: none;
@@ -87,7 +89,10 @@ export default {
     border-top: none;
 }
 
-.header-mobile-menu i:active, .header-mobile-menu:focus, .header-mobile-menu i:active, .header-mobile-menu:focus {
+.header-mobile-menu i:active, 
+.header-mobile-menu:focus, 
+.header-mobile-menu i:active, 
+.header-mobile-menu:focus {
     color: #1B75BB;
 }
 
