@@ -1,6 +1,7 @@
-# nuxt-nexus
+# nexus
 
 > Nexus holidays
+Built using Nuxt.js with Bootstrap-Vue.
 
 ## Build Setup
 
