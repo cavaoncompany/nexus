@@ -261,7 +261,7 @@ input[type=checkbox] {
     opacity: 1;
 }
 
-button[type="submit"] {
+.traveller-dropdown button[type="submit"], .traveller-dropdown .btn-primary {
     width: 100%;
     border-radius: 50px;
     font-size: 14px;
@@ -304,7 +304,7 @@ button:hover {
     color: #3C3C3C;
 }
 
-.social-login {
+.traveller-dropdown .social-login {
     width: 100%;
     border-radius: 50px;
     background-color: #FFF;
