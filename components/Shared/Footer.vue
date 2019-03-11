@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid class="mt-5" id="footer">
+    <b-container fluid class="mt-5 mb-4" id="footer">
         <b-row class="row footer-top ml-auto mr-auto pt-3 mt-5">
             <b-col lg="3" class="logo text-md-center text-lg-left">
                 <img src="~/assets/images/logo1.png" alt="Nexus logo">
@@ -33,19 +33,19 @@
         </b-row>
         <b-row class="row footer-bottom mt-5 ml-auto mr-auto w-100">
             <b-col cols="6" sm="3" md="3">
-                <h3>SITE</h3>
+                <h3 class="mb-3">SITE</h3>
                 <ul>
                     <li v-for="item in site" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
             </b-col>
             <b-col cols="6" sm="3" md="3">
-                <h3>RESOURCES</h3>
+                <h3 class="mb-3">RESOURCES</h3>
                 <ul>
                     <li v-for="item in resources" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
             </b-col>
             <b-col cols="6" sm="3" md="3">
-                <h3>ABOUT US</h3>
+                <h3 class="mb-3">ABOUT US</h3>
                 <ul>
                     <li v-for="item in about" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
@@ -205,7 +205,7 @@ export default {
 
 .footer-bottom li a {
     font-size: 14px;
-    line-height: 40px;
+    line-height: 35px;
     color: #666666;
 }
 

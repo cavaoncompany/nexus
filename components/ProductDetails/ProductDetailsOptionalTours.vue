@@ -12,11 +12,11 @@
                             <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                             <p class="tour-description">{{ tour.description.substring(0, 320) }}
-                                <span v-if="optionalTourHasModal.includes(index)" data-toggle="modal" :data-target="'#optional-tour-modal'+index">... Read more</span>
+                                <span v-if="optionalTourHasModal.includes(index)" v-b-modal="'optional-tour-modal'+index+'___BV_modal_outer_'">... Read more</span>
                             </p>
                         </div>
                     </b-col>
-                    <div class="modal fade" :id="'optional-tour-modal'+index" tabindex="-1" role="dialog" aria-labelledby="optionalTourDescription" aria-hidden="true">
+                    <b-modal class="modal fade" :id="'optional-tour-modal'+index" tabindex="-1" role="dialog" aria-labelledby="optionalTourDescription" aria-hidden="true">
                         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-body d-flex p-4 row">
@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </b-modal>
                 </div>
             </b-col>
         </b-row>
