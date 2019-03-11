@@ -108,7 +108,7 @@ export default {
 .price-tag {
     font-size: 14px;
     color: #1B75BB;
-    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.2);
     opacity: 0.6;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;

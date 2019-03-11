@@ -40,12 +40,6 @@ nav, .navbar {
     padding-bottom: 0;
 }
 
-/* .navbar .search-dropdown, 
-.navbar .mobile-agent-dropdown,
-.navbar .dropdown {
-    position: static !important;
-} */
-
 .search-dropdown .dropdown-menu {
     width: 100vw;
     left: 0 !important;
@@ -141,7 +135,7 @@ nav, .navbar {
 }
 
 .commission-tag {
-    margin-left: 63%;
+    margin-left: 65%;
 }
 
 /* ================= TOP DESTINATIONS ================= */
@@ -204,6 +198,12 @@ nav, .navbar {
     }
 }
 
+@media (min-width: 400px) {
+    .commission-tag {
+        margin-left: 73%;
+    }
+}
+
 @media (min-width: 440px) {
 
     .price-tag {
@@ -216,6 +216,12 @@ nav, .navbar {
 
     .review iframe {
         height: 216px;
+    }
+}
+
+@media (min-width: 485px) {
+    .commission-tag {
+        margin-left: 79%;
     }
 }
 
@@ -287,7 +293,7 @@ nav, .navbar {
     }
 
     .commission-tag {
-        margin-left: 68%;
+        margin-left: 70%;
     }
 }
 
@@ -392,7 +398,13 @@ nav, .navbar {
     }
 
     .commission-tag {
-        margin-left: 77%;
+        margin-left: 76%;
+    }
+}
+
+@media (min-width: 930px) {
+    .commission-tag {
+        margin-left: 78%;
     }
 }
 
@@ -525,7 +537,7 @@ nav, .navbar {
     }
 
     .commission-tag {
-        margin-left: 52%;
+        margin-left: 59%;
     }
 
     .header-bottom {
