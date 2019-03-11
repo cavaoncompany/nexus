@@ -12,11 +12,11 @@
                             <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                             <p class="tour-description">{{ tour.description.substring(0, 320) }}
-                                <span v-if="optionalTourHasModal.includes(index)" v-b-modal="'optional-tour-modal'+index+'___BV_modal_outer_'">... Read more</span>
+                                <span v-if="optionalTourHasModal.includes(index)" v-b-modal="'optional-tour-modal'+index">... Read more</span>
                             </p>
                         </div>
                     </b-col>
-                    <b-modal class="modal fade" :id="'optional-tour-modal'+index" tabindex="-1" role="dialog" aria-labelledby="optionalTourDescription" aria-hidden="true">
+                    <b-modal centered scrollable size="lg" :id="'optional-tour-modal'+index">
                         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-body d-flex p-4 row">
@@ -28,7 +28,6 @@
                                             <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                             <p>{{ tour.description }}</p>
-                                            <button type="button" class="btn btn-primary w-50 mt-5" data-dismiss="modal">OK</button>
                                         </div>
                                     </b-col>
                                 </div>
@@ -51,11 +50,11 @@
                                 <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                 <p class="tour-description">{{ tour.description.substring(0, 320) }}
-                                    <span v-if="optionalTourHasModal.includes(index)" v-b-modal.extensions-modal data-toggle="modal" :data-target="'#extensions-modal'+index">... Read more</span>
+                                    <span v-if="optionalTourHasModal.includes(index)" v-b-modal="'extensions-modal'+index" data-toggle="modal" :data-target="'#extensions-modal'+index">... Read more</span>
                                 </p>
                             </div>
                         </b-col>
-                        <div class="modal fade" :id="'extensions-modal'+index" tabindex="-1" role="dialog" aria-labelledby="extensionsDescription" aria-hidden="true">
+                        <b-modal centered scrollable size="lg" :id="'extensions-modal'+index">
                             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body d-flex p-4 row">
@@ -67,13 +66,12 @@
                                                 <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                                 <p>{{ tour.description }}</p>
-                                                <button type="button" class="btn btn-primary w-50 mt-5" data-dismiss="modal">OK</button>
                                             </div>
                                         </b-col>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </b-modal>
                     </div>
                 </b-col>
             </div>  
@@ -89,7 +87,8 @@ export default {
     data() {
         return {
             optionalTourHasModal: [],
-            extensionsHasModal: []
+            extensionsHasModal: [],
+            show: false
         }
     },
     props: {
@@ -113,12 +112,15 @@ export default {
         },
         markButtonActive: function(content) {
             EventBus.$emit('markButtonActive', content)
+        },
+        closeModal: function(event) {
+            console.log(event.target.parent)
         }
     }
 }
 </script>
 
-<style scoped>
+<style>
 #optional-tours {
     color: #3C3C3C;
     font-size: 14px;
@@ -146,14 +148,50 @@ h3 {
     cursor: pointer;
 }
 
-.modal-body img {
+.optional-tour .modal-header,
+.optional-tour .modal-footer .btn-secondary,
+.extensions .modal-header,
+.extensions .modal-footer .btn-secondary {
+    display: none !important;
+}
+
+.extensions .modal-footer,
+.optional-tour .modal-footer {
+    border: none;
+    justify-content: center;
+}
+
+.optional-tour .modal-content,
+.optional-tour .modal-dialog,
+.extensions .modal-content,
+.extensions .modal-dialog {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.optional-tour .modal-body,
+.extensions .modal-body {
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+}
+
+.optional-tour .modal-body img,
+.extensions .modal-body img {
     height: 220px;
 }
 
-.btn-primary {
+.optional-tour .modal-dialog-centered.modal-content,
+.extensions .modal-dialog-centered .modal-content {
+    max-height: 530px;
+}
+
+.optional-tour .modal-footer .btn-primary,
+.extensions .modal-footer .btn-primary {
     background: #1B75BB;
     border-radius: 59px;
     font-size: 14px;
     height: 40px;
+    width: 40%;
 }
 </style>
