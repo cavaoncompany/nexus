@@ -5,7 +5,10 @@
             <b-row class="row pt-0">
                 <HeaderSearch :windowWidth="windowWidth" :isMobile="isMobile" v-if="mobileMenuOpen===false" class="pt-3" />
                 <HeaderAgentMobile :windowWidth="windowWidth" :isMobile="isMobile" v-show="mobileMenuOpen===false" class="pt-3" />
-                <HeaderMobileMenu :windowWidth="windowWidth" :isMobile="isMobile" class="pt-3" />
+                <no-ssr>
+                    <HeaderMobileMenu :windowWidth="windowWidth" :isMobile="isMobile" class="pt-3" />
+                </no-ssr>
+                
             </b-row>
         </nav>
     </header>
@@ -36,7 +39,6 @@ export default {
     created() {
         EventBus.$on('openMobileMenu', (mobileMenuOpen) => {
             this.mobileMenuOpen = mobileMenuOpen
-            console.log(mobileMenuOpen)
         })
     }
 }
@@ -53,6 +55,7 @@ export default {
 }
 
 header {
+    margin-top: 0;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: -8px;

@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown split dropright id="header-mobile-menu" class="btn-group header-mobile-menu" no-caret @click="openMobileMenu">
+    <b-dropdown split dropright id="header-mobile-menu" class="btn-group header-mobile-menu" no-caret>
         <template slot="button-content"><i class="fas fa-bars"></i></template>
             <ul class="mb-5">
                 <li class="pl-3 pt-2"><h2 class="text-left">CURRENCY</h2></li>
@@ -43,12 +43,12 @@ export default {
         isMobile: Boolean,
         windowWidth: Number
     },
-    methods: {
-        openMobileMenu: function() {
-            this.mobileMenuOpen = !this.mobileMenuOpen
-            console.log('fff',this.mobileMenuOpen)
-            EventBus.$emit('openMobileMenu', this.mobileMenuOpen)
-        }
+    mounted() {
+            document.querySelector('#header-mobile-menu__BV_toggle_').addEventListener('click', function() {
+                this.mobileMenuOpen = !this.mobileMenuOpen
+                EventBus.$emit('openMobileMenu', this.mobileMenuOpen)
+                console.log(this.mobileMenuOpen)
+            })
     }
 }
 </script>
@@ -58,8 +58,9 @@ export default {
     background: #103A5B;
     color: #FFF;
     height: 100vh;
-    width: 80vw;
+    width: calc(100vw - 42px);
     z-index: 1200;
+    left: calc(100vw - 42px);
 }
 
 .header-mobile-menu .dropdown-menu a {
@@ -101,8 +102,12 @@ export default {
     display:none !important;
 }
 
-.hide {
-    display: none;
+#header-mobile-menu__BV_toggle_ {
+    opacity: 0;
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 40px;
 }
-
 </style>

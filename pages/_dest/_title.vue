@@ -96,7 +96,6 @@ export default {
         if (this.hash != '') {
           location.hash = ''
         }
-        console.log('there', this.location)
       }
   },
   head () {   

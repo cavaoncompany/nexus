@@ -91,12 +91,7 @@ export default {
                 sortAscending: sortOrder,
                 item: item
             }
-            if (this.built){
-                console.log(document.getElementsByClassName('.filters')[0])
-            }
             EventBus.$emit('sort', toBeSorted)
-            // this.scrollToTop(document.getElementById('.filters'))
-            console.log(document.getElementById('#filter'))
         },
         getCountries: function(destination) {
             if (destination === 'Australia') {

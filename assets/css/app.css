@@ -40,11 +40,11 @@ nav, .navbar {
     padding-bottom: 0;
 }
 
-.navbar .search-dropdown, 
+/* .navbar .search-dropdown, 
 .navbar .mobile-agent-dropdown,
 .navbar .dropdown {
     position: static !important;
-}
+} */
 
 .search-dropdown .dropdown-menu {
     width: 100vw;
