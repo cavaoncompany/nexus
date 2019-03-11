@@ -44,13 +44,6 @@ export default {
 </script>
 
 <style>
-header {
-    font-size: 0.932em;
-    color: #6B797C;
-    margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
 .search-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
@@ -106,12 +99,14 @@ header {
     display: none;
 }
 
-#header .search-results li a {
+#header .search-results li a,
+.search-dropdown .search-results li a {
     font-size: 14px;
     color: #666666;
 }
 
-#header .search-results li {
+#header .search-results li,
+.search-dropdown .search-results li {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 20px;
@@ -119,7 +114,9 @@ header {
 }
 
 #header .search-results li:hover, 
-#header .search-results li a:hover {
+#header .search-results li a:hover,
+.search-dropdown .search-results li:hover,
+.search-dropdown .search-results li a:hover {
     background-color: #EBF3F8;
     border-radius: 50px;
     color: #1B75BB;
@@ -150,7 +147,10 @@ header {
 
 .search-dropdown .btn-secondary.dropdown-toggle:active,
 .search-dropdown .btn-secondary.dropdown-toggle:focus,
-.search-dropdown .btn-secondary.dropdown-toggle:active:focus {
+.search-dropdown .btn-secondary.dropdown-toggle:active:focus,
+.search-dropdown .btn-secondary.dropdown-toggle i:active,
+.search-dropdown .btn-secondary.dropdown-toggle i:focus,
+.search-dropdown .btn-secondary:active {
     background: #FFF;
     color: #1B75BB;
     box-shadow: none;

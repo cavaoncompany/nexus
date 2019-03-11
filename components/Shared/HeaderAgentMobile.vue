@@ -416,7 +416,7 @@ input[type=checkbox] {
     visibility: hidden;
 }
 
-button[type="submit"] {
+.mobile-agent-dropdown button[type="submit"], .mobile-agent-dropdown .btn-primary {
     width: 100%;
     border-radius: 50px;
     font-size: 14px;
@@ -445,7 +445,7 @@ button:hover {
     color: #3C3C3C;
 }
 
-.social-login {
+.mobile-agent-dropdown .social-login {
     width: 100%;
     border-radius: 50px;
     background-color: #FFF;
@@ -461,9 +461,9 @@ button:hover {
     height: 25px;
 }
 
-.divider {
+.mobile-agent-dropdown .divider {
     position: absolute;
-    bottom: 155px;
+    bottom: 159px;
     left: 44%;
     background: #FFF;
     width: 40px;
@@ -471,9 +471,9 @@ button:hover {
     color: #CBCBCB;
 }
 
-.dividerTop {
+.mobile-agent-dropdown .dividerTop {
     position: absolute;
-    bottom: 520px;
+    bottom: 568px;
     left: 44%;
     background: #FFF;
     width: 40px;

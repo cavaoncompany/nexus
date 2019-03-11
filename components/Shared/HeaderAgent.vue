@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown class="dropdown agent-dropdown" text="Agent" no-caret>
+    <b-dropdown right offset="-90" class="dropdown agent-dropdown" text="Agent" no-caret>
             <h2>AGENT LOG IN</h2>
             <p>Welcome back, Nexus Travel agents</p>
             <form>
@@ -122,7 +122,7 @@ export default {
     color: #7F7F7F;
 }
 
-button[type="submit"] {
+.agent-dropdown button[type="submit"], .agent-dropdown .btn-primary {
     width: 100%;
     border-radius: 50px;
     color: #FFF;

@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid class="search-results container-fluid mt-5">
+    <b-container fluid class="tour-search-results container-fluid mt-5">
         <b-row class="row result-container" v-for="i in 9" :key="i">
             <b-col cols="12" sm="6" lg="3" v-for="result in paginatedData.slice((i-1)*8, i*8)" :key="result.id">
             <Result :result="result" :agent="agent"/>
@@ -182,7 +182,7 @@ export default {
 </script>
 
 <style>
-.search-results {
+.tour-search-results {
     max-width: 1200px;
 }
 
