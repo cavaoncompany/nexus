@@ -259,20 +259,16 @@ nav, .navbar {
         padding-right: 30px;
     }
 
-    .navbar .search-dropdown, 
-    .navbar .mobile-agent-dropdown,
-    .navbar .dropdown {
-    position: relative !important;
-    }
-
     .mobile-agent-dropdown .dropdown-menu {
         width: 381px;
+        left: calc(100vw - 381px) !important;
         top: 70px;
     }
 
     .search-dropdown .dropdown-menu {
+        width: 381px;
         top: 70px;
-        left: -214px !important;
+        left: calc(100vw - 381px) !important;
     }
 
     .desktop-footer {
@@ -311,16 +307,6 @@ nav, .navbar {
     
     .numberResults, .sort {
         display: block;
-    }
-
-    .search-dropdown .dropdown-menu {
-        width: 381px;
-        left: -216px !important;
-    }
-    
-    .agent-dropdown .dropdown-menu {
-        width: 381px;
-        left: -296px !important;
     }
     
     .mobile-dropdown-menu {
@@ -419,7 +405,12 @@ nav, .navbar {
 }
 
 @media (min-width: 992px) {
-    
+    .navbar .search-dropdown, 
+    .navbar .mobile-agent-dropdown,
+    .navbar .dropdown {
+    position: relative !important;
+    }
+
     .header-lg {
         display: block;
     }
@@ -430,6 +421,11 @@ nav, .navbar {
 
     .header-top button {
         width: 60px;
+    }
+
+    .agent-dropdown .dropdown-menu {
+        width: 381px;
+        padding: 20px;
     }
 
     .search-dropdown button i:focus, 
@@ -450,6 +446,10 @@ nav, .navbar {
         background-color: #1B75BB;
         color: #FFF;
         text-decoration: none;
+    }
+
+    .search-dropdown .dropdown-menu {
+        top: 78px !important;
     }
 
     .align-right {
@@ -480,11 +480,7 @@ nav, .navbar {
     }
 
     .search-dropdown .dropdown-menu {
-        left: -150px !important;
-    }
-    
-    .agent-dropdown .dropdown-menu {
-        left: -144px !important;
+        left: -130px !important;
     }
     
     .price-tag {
@@ -508,12 +504,6 @@ nav, .navbar {
     .header-top button {
         width: 80px;
     }
-    .search-dropdown .dropdown-menu {
-        left: -55px !important;
-    }   
-    .agent-dropdown .dropdown-menu {
-        left: -100px !important;
-    }
 
     .price-tag {
         margin-left: 83%;
@@ -531,17 +521,10 @@ nav, .navbar {
 @media (min-width: 1200px) {
 
     .search-dropdown .dropdown-menu {
-        width: 381px;
-        left: -130px !important;
         padding-left: 20px;
         padding-right: 20px;
     }
-
-    .agent-dropdown .dropdown-menu {
-        left: -216px !important;
-        padding: 30px;
-    }
-
+    
     .price-tag {
         margin-left: 82%;
     }

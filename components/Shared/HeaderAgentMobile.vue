@@ -335,7 +335,7 @@ input[type=checkbox] {
     float: right;
 }
 
-.traveller-dropdown .dropdown-menu {
+.mobile-agent-dropdown .traveller-dropdown .dropdown-menu {
     width: 381px;
     font-size: 14px;
     color: #1B75BB;

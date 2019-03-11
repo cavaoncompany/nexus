@@ -1,5 +1,5 @@
 <template>
-    <b-dropdown class="dropdown search-dropdown">
+    <b-dropdown right offset="-90" class="dropdown search-dropdown">
         <template slot="button-content"><i class="fas fa-search"></i></template>
             <div class="input-group">
                 <input type="text" placeholder="Enter product name or tour code" aria-label="Search product name or tour code" v-model="searchTerm" @keyup="findResults($event)"/>

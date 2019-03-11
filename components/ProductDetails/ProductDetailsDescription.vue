@@ -1,7 +1,7 @@
 <template>
     <b-container fluid id="description" class="container-fluid" @mouseenter="markButtonActive('description')">
         <b-row class="row">
-            <b-col cols="12" md="8" class="border-bottom mb-4">
+            <b-col cols="12" md="7" lg="8" class="border-bottom mb-4">
                 <p class="tour-code mb-3">Tour code: {{ destination.tourCode }}</p>
                 <h1 class="font-weight-bold">{{ destination.tourTitle }}</h1>
                 <p class="tour-type mt-3">{{ destination.type }}</p>
