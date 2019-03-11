@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import PlaceToGo from './PlaceToGo'
+import PlaceToGo from './SearchResultsPlaceToGo'
 
 export default {
     name: 'PlacesToGo',

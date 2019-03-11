@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Result from './Result'
+import Result from './SearchResultsResult'
 import Advert from '../Shared/Advert'
 import EventBus from '../../event-bus.js'
 import { setTimeout } from 'timers';
