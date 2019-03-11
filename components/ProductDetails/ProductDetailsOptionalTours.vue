@@ -153,6 +153,7 @@ h3 {
 .extensions .modal-header,
 .extensions .modal-footer .btn-secondary {
     display: none !important;
+    height: 0;
 }
 
 .extensions .modal-footer,
@@ -168,22 +169,18 @@ h3 {
     border: none;
     margin-top: 0;
     margin-bottom: 0;
+    max-height: 60vh;
 }
 
 .optional-tour .modal-body,
 .extensions .modal-body {
-    padding-top: 10px !important;
-    padding-bottom: 30px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 .optional-tour .modal-body img,
 .extensions .modal-body img {
     height: 220px;
-}
-
-.optional-tour .modal-dialog-centered.modal-content,
-.extensions .modal-dialog-centered .modal-content {
-    max-height: 530px;
 }
 
 .optional-tour .modal-footer .btn-primary,

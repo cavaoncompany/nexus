@@ -321,7 +321,7 @@ button:hover {
 
 .divider {
     position: absolute;
-    bottom: 147px;
+    bottom: 144px;
     left: 44%;
     background: #FFF;
     width: 40px;
@@ -331,7 +331,7 @@ button:hover {
 
 .dividerTop {
     position: absolute;
-    bottom: 516px;
+    bottom: 554px;
     left: 44%;
     background: #FFF;
     width: 40px;
