@@ -80,13 +80,13 @@ export default {
 
 .hover .tour-type {
     font-size: 12px;
-    line-height: 1em;
+    line-height: 1rem;
 }
 
 .hover .from-price {
     font-size: 14px;
     color: #9CC0DE;
-    line-height: .7em;
+    line-height: .7rem;
     margin-bottom: 6px;
 }
 
@@ -154,7 +154,7 @@ export default {
 .agent-commission {
     font-size: 14px;
     color: #FFF;
-    line-height: .9em;
+    line-height: .9rem;
 }
 
 .card-img-overlay {

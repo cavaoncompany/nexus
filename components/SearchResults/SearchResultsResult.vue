@@ -54,7 +54,7 @@ export default {
     font-weight: 600;
     color: #103A5B;
     margin-bottom: 0;
-    line-height: 1.5em;
+    line-height: 1.5rem;
     height: 3em;
     overflow: hidden;
 }

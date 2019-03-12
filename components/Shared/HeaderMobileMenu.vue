@@ -83,7 +83,7 @@ export default {
 
 .header-mobile-menu ul li {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    line-height: 2.5em;
+    line-height: 2.5rem;
 }
 
 .header-mobile-menu ul li:first-child {

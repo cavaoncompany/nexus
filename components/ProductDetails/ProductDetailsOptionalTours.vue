@@ -1,13 +1,13 @@
 <template>
     <b-container fluid id="optional-tours" class="container-fluid">
         <b-row class="row" @mouseenter="markButtonActive('optional-tours')">
-            <b-col cols="6" lg="8" class="border-bottom">
+            <b-col cols="12" lg="8" class="border-bottom">
                 <h2 class="font-weight-bold mt-5 mb-5">OPTIONAL TOURS</h2>
                 <div class="optional-tour row mb-5" v-for="(tour, index) in destination.optionalTours" :key="index">
                     <b-col cols="12" md="3">
-                        <img :src="tour.image" :alt="tour.title" class="w-100">
+                        <img :src="tour.image" :alt="tour.title" class="w-100 optional-tour-img">
                     </b-col>
-                    <b-col cols="12" md="9">
+                    <b-col cols="12" md="9" class="optional-tours-text">
                         <div class="tour-description-container d-flex flex-column justify-content-between">
                             <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
@@ -25,7 +25,7 @@
                                     </b-col>
                                     <b-col cols="12" md="9">
                                         <div class="tour-description d-flex flex-column justify-content-between">
-                                            <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
+                                            <h3 class="font-weight-bold mb-2 mt-sm-3">{{ tour.title }}</h3>
                                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                             <p>{{ tour.description }}</p>
                                         </div>
@@ -43,9 +43,9 @@
                     <h2 class="font-weight-bold mt-5 mb-5">EXTENSIONS</h2>
                     <div class="extensions d-flex mb-5 row" v-for="(tour, index) in destination.extensions" :key="index">
                         <b-col cols="12" md="3">
-                            <img :src="tour.image" :alt="tour.title" class="w-100">
+                            <img :src="tour.image" :alt="tour.title" class="w-100 extensions-img">
                         </b-col>
-                        <b-col cols="12" md="9">
+                        <b-col cols="12" md="9" class="extensions-text">
                             <div class="tour-description-container d-flex flex-column justify-content-between">
                                 <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
@@ -58,12 +58,12 @@
                             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body d-flex p-4 row">
-                                        <b-col cols="12" md="3">
+                                        <b-col cols="12" md="4" lg="3">
                                             <img :src="tour.image" :alt="tour.title" class="w-100">
                                         </b-col>
-                                        <b-col cols="12" md="9">
+                                        <b-col cols="12" md="8" lg="9">
                                             <div class="tour-description d-flex flex-column justify-content-between">
-                                                <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
+                                                <h3 class="font-weight-bold mb-2 mt-3">{{ tour.title }}</h3>
                                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                                 <p>{{ tour.description }}</p>
                                             </div>
@@ -112,9 +112,6 @@ export default {
         },
         markButtonActive: function(content) {
             EventBus.$emit('markButtonActive', content)
-        },
-        closeModal: function(event) {
-            console.log(event.target.parent)
         }
     }
 }
@@ -124,19 +121,19 @@ export default {
 #optional-tours {
     color: #3C3C3C;
     font-size: 14px;
-    line-height: 1.8em;
+    line-height: 1.8rem;
     max-width: 1200px;
 }
 
-h2, h3 {
+#optional-tours h2, h3 {
     color: #103A5B;
 }
 
-h3 {
+#optional-tours h3 {
     font-size: 16px;
 }
 
-.price {
+#optional-tours .price {
     color: #FF5E19;
 }
 
@@ -159,7 +156,6 @@ h3 {
 .extensions .modal-footer,
 .optional-tour .modal-footer {
     border: none;
-    justify-content: center;
 }
 
 .optional-tour .modal-content,
@@ -167,20 +163,13 @@ h3 {
 .extensions .modal-content,
 .extensions .modal-dialog {
     border: none;
-    margin-top: 0;
     margin-bottom: 0;
-    max-height: 60vh;
 }
 
 .optional-tour .modal-body,
 .extensions .modal-body {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
-}
-
-.optional-tour .modal-body img,
-.extensions .modal-body img {
-    height: 220px;
 }
 
 .optional-tour .modal-footer .btn-primary,

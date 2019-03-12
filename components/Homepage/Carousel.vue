@@ -106,9 +106,10 @@ export default {
     background-image: url('~assets/images/banner.png');
 }
 
-.banner h3 {
+#carousel .banner h3 {
     font-size: 11px;
     display: inline-block;
+    color: #FFF;
     border-bottom: 1px solid #FFF;
 }
 

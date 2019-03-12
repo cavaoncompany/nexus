@@ -1,7 +1,7 @@
 <template>
     <b-container fluid id="itinerary" class="container-fluid" @mouseenter="markButtonActive('itinerary')">
         <b-row class="row">
-            <b-col cols="6" lg="8" class="border-bottom">
+            <b-col cols="12" lg="8" class="border-bottom">
                 <div class="d-flex justify-content-between">
                     <h2 class="font-weight-bold">ITINERARY</h2>
                     <button v-if="!showCollapseAll" type="button" role="button" aria-labelledby="see itinerary details of all days" class="btn btn-link expand-all" @click="handleExpandAll">Expand all</button>
@@ -72,7 +72,7 @@ export default {
 #itinerary {
     color: #3C3C3C;
     font-size: 14px;
-    line-height: 2em;
+    line-height: 2rem;
     max-width: 1200px;
 }
 

@@ -82,7 +82,7 @@ export default {
 #description {
     color: #3C3C3C;
     font-size: 14px;
-    line-height: 2em;
+    line-height: 2rem;
     max-width: 1200px;
 }
 
@@ -96,7 +96,7 @@ h1, h2, h3, .tour-type {
 
 h1 {
     font-size: 32px;
-    line-height: 1.3em;
+    line-height: 1.3rem;
 }
 
 .bullet-list li::before {

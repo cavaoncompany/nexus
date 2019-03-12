@@ -189,6 +189,26 @@ nav, .navbar {
     display: none;
 }
 
+/* ================= PRODUCT DETAILS ===================*/
+
+.optional-tour .modal-content,
+.optional-tour .modal-dialog,
+.extensions .modal-content,
+.extensions .modal-dialog {
+    margin-top: 10px;
+}
+
+.optional-tours-text,
+.extensions-text {
+    margin-top: 20px;
+}
+
+.extensions .modal-footer,
+.optional-tour .modal-footer {
+    justify-content: left;
+    margin-left: 1.5rem;
+}
+
 @media (min-width: 360px) {
     
     .mobile-dropdown-menu {
@@ -249,7 +269,7 @@ nav, .navbar {
         height: 225px;
     }
     
-    .optional-tour img, .extensions img {
+    .optional-tour-img, .extensions-img {
         height: 226px;
     }
 }
@@ -386,6 +406,31 @@ nav, .navbar {
     .social {
         text-align: left;
     }
+
+    .optional-tour .modal-content,
+    .optional-tour .modal-dialog,
+    .extensions .modal-content,
+    .extensions .modal-dialog {
+        max-height: 60vh;
+        margin-top: 0;
+    }
+
+    .optional-tour .modal-body,
+    .extensions .modal-body {
+        height: 55vh;
+
+    }
+
+    .optional-tours-text,
+    .extensions-text {
+        margin-top: 0px;
+    }
+
+    .extensions .modal-footer,
+    .optional-tour .modal-footer {
+        justify-content: center;
+        margin-left: -1.5rem;
+    }
 }
 
 @media (min-width: 850px) {
@@ -498,6 +543,11 @@ nav, .navbar {
     .newsletter{
         text-align: left;
     }
+
+    .optional-tour .modal-body img,
+    .extensions .modal-body img {
+    height: 220px;
+}
 }
 
 @media (min-width: 1022px) {

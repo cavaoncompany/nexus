@@ -43,7 +43,7 @@ export default {
 #hotels {
     color: #3C3C3C;
     font-size: 14px;
-    line-height: 1.4em;
+    line-height: 1.4rem;
     max-width: 1200px;
 }
 

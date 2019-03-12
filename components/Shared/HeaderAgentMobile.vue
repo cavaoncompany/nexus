@@ -217,7 +217,7 @@ export default {
 }
 
 .tab-agent p {
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 .mobile-agent-dropdown .dropdown-menu h3 {
@@ -485,7 +485,7 @@ button:hover {
     color: #7F7F7F;
     font-size: 12px;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 .manageBooking p {

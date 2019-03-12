@@ -105,7 +105,7 @@ export default {
 }
 
 .agent-dropdown .dropdown-menu p {
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 .form-check-input {
