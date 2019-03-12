@@ -1,10 +1,6 @@
 <template>
-    <div class="dropdown search-dropdown">
-        <button type="button" role="button" aria-label="Open search" class="btn btn-link pl-sm-4 pr-sm-4" id="search-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-search"></i>
-        </button>
-        <div class="dropdown-menu search-dropdown-menu" aria-labelledby="dropdownMenuButton" 
-        v-bind:style="[isMobile ? {width: windowWidth + 'px !important'}:{width: '381px !important'}]">
+    <b-dropdown right offset="-90" class="dropdown search-dropdown">
+        <template slot="button-content"><i class="fas fa-search"></i></template>
             <div class="input-group">
                 <input type="text" placeholder="Enter product name or tour code" aria-label="Search product name or tour code" v-model="searchTerm" @keyup="findResults($event)"/>
                 <div class="input-group-append">
@@ -19,8 +15,7 @@
                 </ul>
             </div>
             <p class="pt-3 pb-3"><a href=''>See all search results <i class="fas fa-arrow-right"></i></a></p>
-        </div>
-    </div>
+    </b-dropdown>
 </template>
 
 <script>
@@ -48,15 +43,8 @@ export default {
 }
 </script>
 
-<style scoped>
-header {
-    font-size: 0.932em;
-    color: #6B797C;
-    margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
-.dropdown-menu {
+<style>
+.search-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;
@@ -64,25 +52,26 @@ header {
     z-index: 1200;
 }
 
-.search-dropdown-menu {
+.search-dropdown .dropdown-menu {
     font-size: 14px;
     color: #1B75BB;
     z-index: 1200;
+    transform: translate3d(0px, 52px, 0px);
 }
 
-.search-dropdown-menu .input-group {
+.search-dropdown .dropdown-menu .input-group {
     width: 100%;
     border-bottom: 1px solid #E0E0E0;
     height: 60px;
 }
 
-.search-dropdown-menu .input-group-append i {
+.search-dropdown .dropdown-menu .input-group-append i {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 20px;
 }
 
-.search-dropdown-menu input {
+.search-dropdown .dropdown-menu input {
     width: 90%;
     border: none;
     padding-left: 10px;
@@ -93,32 +82,41 @@ header {
     box-shadow: none;
 }
 
-.search-dropdown-menu input::placeholder {
+.search-dropdown .dropdown-menu input::placeholder {
     color: #CBCBCB;
     font-size: 14px;
 }
 
-.search-dropdown-menu p a {
+.search-dropdown .dropdown-menu p a {
     color: #1B75BB;
 }
 
-.search-dropdown-menu p a:hover {
+.search-dropdown .dropdown-menu p a:hover {
     text-decoration: none;
 }
 
-.search-results li a {
+.search-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+#header .search-results li a,
+.search-dropdown .search-results li a {
     font-size: 14px;
     color: #666666;
 }
 
-.search-results li {
+#header .search-results li,
+.search-dropdown .search-results li {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 20px;
     margin-top: 15px;
 }
 
-.search-results li:hover, .search-results li a:hover {
+#header .search-results li:hover, 
+#header .search-results li a:hover,
+.search-dropdown .search-results li:hover,
+.search-dropdown .search-results li a:hover {
     background-color: #EBF3F8;
     border-radius: 50px;
     color: #1B75BB;
@@ -135,11 +133,27 @@ header {
     background-color: #FFF;
 }
 
-button, .btn {
+.search-dropdown button, 
+.search-dropdown .btn-secondary,
+.search-dropdown .btn-secondary.dropdown-toggle
+ {
     height: 100%;
     font-size: 13px;
     border: none;
     border-radius: 0;
+    background-color: #FFF;
+    color: #7F7F7F;
+}
+
+.search-dropdown .btn-secondary.dropdown-toggle:active,
+.search-dropdown .btn-secondary.dropdown-toggle:focus,
+.search-dropdown .btn-secondary.dropdown-toggle:active:focus,
+.search-dropdown .btn-secondary.dropdown-toggle i:active,
+.search-dropdown .btn-secondary.dropdown-toggle i:focus,
+.search-dropdown .btn-secondary:active {
+    background: #FFF;
+    color: #1B75BB;
+    box-shadow: none;
 }
 
 #search-button {

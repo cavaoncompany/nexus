@@ -1,7 +1,5 @@
 <template>
-    <div class="dropdown traveller-dropdown">
-        <button type="button" class="btn btn-link traveller" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Traveller</button>
-        <div class="dropdown-menu traveller-dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <b-dropdown right class="dropdown traveller-dropdown" text="Traveller" no-caret>
             <div class="links" v-if="view===0">
                 <ul>
                     <li class="traveller-menu" v-on:click.stop="setView(1)">
@@ -93,8 +91,7 @@
                     <button type="submit" class="btn btn-primary">Find My Booking</button>
                 </form>
             </div>
-        </div>
-    </div>
+    </b-dropdown>
 </template>
 
 <script>
@@ -122,8 +119,8 @@ export default {
 }
 </script>
 
-<style scoped>
-.dropdown-menu {
+<style>
+.traveller-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;
@@ -132,7 +129,7 @@ export default {
     z-index: 1200;
 }
 
-.traveller-dropdown-menu {
+.traveller-dropdown .dropdown-menu {
     width: 381px;
     font-size: 14px;
     color: #1B75BB;
@@ -169,7 +166,11 @@ export default {
     padding-top: 20px;
 }
 
-.traveller-dropdown-menu h2 {
+.traveller-dropdown .dropdown-toggle::after {
+    display: none !important;
+}
+
+.traveller-dropdown .dropdown-menu h2 {
     color: #103A5B;
     font-size: 18px;
     font-weight: 700;
@@ -178,41 +179,41 @@ export default {
     padding-top: 25px;
 }
 
-.traveller-dropdown-menu input {
+.traveller-dropdown .dropdown-menu input {
     border-radius: 50px;
 }
 
-.traveller-dropdown-menu input::placeholder {
+.traveller-dropdown .dropdown-menu input::placeholder {
     color: #CBCBCB;
     padding-left: 10px;
 }
 
-.traveller-dropdown-menu form {
+.traveller-dropdown .dropdown-menu form {
     border-bottom: 1px solid #EFEFEF;
     margin-bottom: 25px;
     margin-top: 30px;
     padding-bottom: 25px;
 }
 
-.traveller-dropdown-menu .signup form {
+.traveller-dropdown .dropdown-menu .signup form {
     border-bottom: none;
     border-top: 1px solid #EFEFEF;
     padding-top: 35px;
     margin-top: 15px;
 }
 
-.traveller-dropdown-menu .manageBooking form {
+.traveller-dropdown .dropdown-menu .manageBooking form {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.traveller-dropdown-menu .traveller-form-label {
+.traveller-dropdown .dropdown-menu .traveller-form-label {
     font-size: 13px;
     color: #43494D;
 }
 
-.traveller-dropdown-menu a {
+.traveller-dropdown .dropdown-menu a {
     color: #1B75BB;
 }
 
@@ -260,7 +261,7 @@ input[type=checkbox] {
     opacity: 1;
 }
 
-button[type="submit"] {
+.traveller-dropdown button[type="submit"], .traveller-dropdown .btn-primary {
     width: 100%;
     border-radius: 50px;
     font-size: 14px;
@@ -276,7 +277,7 @@ button:hover {
     text-decoration: none;
 }
 
-button, .btn {
+.traveller-dropdown button, .traveller-dropdown .btn {
     height: 100%;
     font-size: 13px;
     color: #7F7F7F;
@@ -284,7 +285,7 @@ button, .btn {
     border-radius: 0;
 }
 
-.btn-link:active, .btn-link:focus {
+.traveller-dropdown .btn-link:active, .traveller-dropdown .btn-link:focus {
     background-color: #1B75BB;
     color: #FFF;
     text-decoration: none;
@@ -303,7 +304,7 @@ button, .btn {
     color: #3C3C3C;
 }
 
-.social-login {
+.traveller-dropdown .social-login {
     width: 100%;
     border-radius: 50px;
     background-color: #FFF;
@@ -320,7 +321,7 @@ button, .btn {
 
 .divider {
     position: absolute;
-    bottom: 147px;
+    bottom: 144px;
     left: 44%;
     background: #FFF;
     width: 40px;
@@ -330,7 +331,7 @@ button, .btn {
 
 .dividerTop {
     position: absolute;
-    bottom: 516px;
+    bottom: 554px;
     left: 44%;
     background: #FFF;
     width: 40px;
@@ -342,7 +343,7 @@ button, .btn {
     color: #7F7F7F;
     font-size: 12px;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 .manageBooking p {

@@ -2,11 +2,14 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg pt-0">
             <router-link to="/" v-show="mobileMenuOpen===false" class="pt-3"><img src="~/assets/images/logo1.png" alt="Nexus logo" id="mobileOffsetX"/></router-link>
-            <div class="row pt-0">
-                <HeaderSearch :windowWidth="windowWidth" :isMobile="isMobile" v-show="mobileMenuOpen===false" class="pt-3" />
+            <b-row class="row pt-0">
+                <HeaderSearch :windowWidth="windowWidth" :isMobile="isMobile" v-if="mobileMenuOpen===false" class="pt-3" />
                 <HeaderAgentMobile :windowWidth="windowWidth" :isMobile="isMobile" v-show="mobileMenuOpen===false" class="pt-3" />
-                <HeaderMobileMenu :windowWidth="windowWidth" :isMobile="isMobile" class="pt-3" />
-            </div>
+                <no-ssr>
+                    <HeaderMobileMenu :windowWidth="windowWidth" :isMobile="isMobile" class="pt-3" />
+                </no-ssr>
+                
+            </b-row>
         </nav>
     </header>
 </template>
@@ -52,6 +55,7 @@ export default {
 }
 
 header {
+    margin-top: 0;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: -8px;

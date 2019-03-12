@@ -1,10 +1,10 @@
 <template>
-    <div id="hotels" class="container-fluid"  @mouseenter="markButtonActive('hotels')">
-        <div class="row">
-            <div class="col-12 col-lg-8 border-bottom">
+    <b-container fluid id="hotels" class="container-fluid"  @mouseenter="markButtonActive('hotels')">
+        <b-row class="row">
+            <b-col cols="12" lg="8" class="border-bottom">
                 <h2 class="font-weight-bold mt-4 mb-5">HOTELS</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6" v-for="(hotel, index) in destination.hotels" :key="index">
+                <b-row class="row">
+                    <b-col cols="12" md="6" v-for="(hotel, index) in destination.hotels" :key="index">
                         <div class="card mb-4 border-0">
                             <div class="card-img-top">
                                 <img v-for="(image, index) in hotel.images" :key="index" :src="image" :alt="hotel.name" class="card-img-top w-50">
@@ -16,11 +16,11 @@
                                 <p>{{ hotel.telephone }}</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    </b-col>
+                </b-row>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
@@ -43,7 +43,7 @@ export default {
 #hotels {
     color: #3C3C3C;
     font-size: 14px;
-    line-height: 1.4em;
+    line-height: 1.4rem;
     max-width: 1200px;
 }
 

@@ -1,11 +1,11 @@
 <template>
-    <div class="search-results container-fluid mt-5">
-        <div class="row result-container" v-for="i in 9" :key="i">
-            <div class="col-12 col-sm-6 col-lg-3" v-for="result in paginatedData.slice((i-1)*8, i*8)" :key="result.id">
+    <b-container fluid class="tour-search-results container-fluid mt-5">
+        <b-row class="row result-container" v-for="i in 9" :key="i">
+            <b-col cols="12" sm="6" lg="3" v-for="result in paginatedData.slice((i-1)*8, i*8)" :key="result.id">
             <Result :result="result" :agent="agent"/>
-            </div>
+            </b-col>
             <Advert v-if="i === 1" class="w-100 mt-4 mb-5 ml-3 mr-3" />
-        </div>
+        </b-row>
         <nav aria-label="Page navigation" v-if="hasMoreThanOnePage">
             <ul class="pagination justify-content-center">
                 <li class="page-item border-0">
@@ -25,11 +25,11 @@
                 </li>
             </ul>
         </nav>
-    </div>
+    </b-container>
 </template>
 
 <script>
-import Result from './Result'
+import Result from './SearchResultsResult'
 import Advert from '../Shared/Advert'
 import EventBus from '../../event-bus.js'
 import { setTimeout } from 'timers';
@@ -182,7 +182,7 @@ export default {
 </script>
 
 <style>
-.search-results {
+.tour-search-results {
     max-width: 1200px;
 }
 
@@ -200,6 +200,8 @@ export default {
     color: #FFF;
     border-radius: 18px;
     width: 33px;
+    box-shadow: none;
+    border: none;
 }
 
 .selected {

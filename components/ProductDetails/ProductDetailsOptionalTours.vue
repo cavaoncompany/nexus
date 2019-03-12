@@ -1,84 +1,82 @@
 <template>
-    <div id="optional-tours" class="container-fluid">
-        <div class="row" @mouseenter="markButtonActive('optional-tours')">
-            <div class="col-12 col-lg-8 border-bottom">
+    <b-container fluid id="optional-tours" class="container-fluid">
+        <b-row class="row" @mouseenter="markButtonActive('optional-tours')">
+            <b-col cols="12" lg="8" class="border-bottom">
                 <h2 class="font-weight-bold mt-5 mb-5">OPTIONAL TOURS</h2>
                 <div class="optional-tour row mb-5" v-for="(tour, index) in destination.optionalTours" :key="index">
-                    <div class="col-12 col-md-3">
-                        <img :src="tour.image" :alt="tour.title" class="w-100">
-                    </div>
-                    <div class="col-12 col-md-9">
+                    <b-col cols="12" md="3">
+                        <img :src="tour.image" :alt="tour.title" class="w-100 optional-tour-img">
+                    </b-col>
+                    <b-col cols="12" md="9" class="optional-tours-text">
                         <div class="tour-description-container d-flex flex-column justify-content-between">
                             <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                             <p class="tour-description">{{ tour.description.substring(0, 320) }}
-                                <span v-if="optionalTourHasModal.includes(index)" data-toggle="modal" :data-target="'#optional-tour-modal'+index">... Read more</span>
+                                <span v-if="optionalTourHasModal.includes(index)" v-b-modal="'optional-tour-modal'+index">... Read more</span>
                             </p>
                         </div>
-                    </div>
-                    <div class="modal fade" :id="'optional-tour-modal'+index" tabindex="-1" role="dialog" aria-labelledby="optionalTourDescription" aria-hidden="true">
+                    </b-col>
+                    <b-modal centered scrollable size="lg" :id="'optional-tour-modal'+index">
                         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-body d-flex p-4 row">
-                                    <div class="col-12 col-md-3">
+                                    <b-col cols="12" md="3">
                                         <img :src="tour.image" :alt="tour.title" class="w-100">
-                                    </div>
-                                    <div class="col-12 col-md-9">
+                                    </b-col>
+                                    <b-col cols="12" md="9">
                                         <div class="tour-description d-flex flex-column justify-content-between">
-                                            <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
+                                            <h3 class="font-weight-bold mb-2 mt-sm-3">{{ tour.title }}</h3>
                                             <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                             <p>{{ tour.description }}</p>
-                                            <button type="button" class="btn btn-primary w-50 mt-5" data-dismiss="modal">OK</button>
                                         </div>
-                                    </div>
+                                    </b-col>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </b-modal>
                 </div>
-            </div>
-        </div>
-        <div class="row" @mouseenter="markButtonActive('extensions')">
+            </b-col>
+        </b-row>
+        <b-row class="row" @mouseenter="markButtonActive('extensions')">
             <div id="extensions" class="mb-5">
-                <div class="col-12 col-lg-8">
+                <b-col cols="12" lg="8">
                     <h2 class="font-weight-bold mt-5 mb-5">EXTENSIONS</h2>
                     <div class="extensions d-flex mb-5 row" v-for="(tour, index) in destination.extensions" :key="index">
-                        <div class="col-12 col-md-3">
-                            <img :src="tour.image" :alt="tour.title" class="w-100">
-                        </div>
-                        <div class="col-12 col-md-9">
+                        <b-col cols="12" md="3">
+                            <img :src="tour.image" :alt="tour.title" class="w-100 extensions-img">
+                        </b-col>
+                        <b-col cols="12" md="9" class="extensions-text">
                             <div class="tour-description-container d-flex flex-column justify-content-between">
                                 <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                 <p class="tour-description">{{ tour.description.substring(0, 320) }}
-                                    <span v-if="optionalTourHasModal.includes(index)" v-b-modal.extensions-modal data-toggle="modal" :data-target="'#extensions-modal'+index">... Read more</span>
+                                    <span v-if="optionalTourHasModal.includes(index)" v-b-modal="'extensions-modal'+index" data-toggle="modal" :data-target="'#extensions-modal'+index">... Read more</span>
                                 </p>
                             </div>
-                        </div>
-                        <div class="modal fade" :id="'extensions-modal'+index" tabindex="-1" role="dialog" aria-labelledby="extensionsDescription" aria-hidden="true">
+                        </b-col>
+                        <b-modal centered scrollable size="lg" :id="'extensions-modal'+index">
                             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body d-flex p-4 row">
-                                        <div class="col-12 col-md-3">
+                                        <b-col cols="12" md="4" lg="3">
                                             <img :src="tour.image" :alt="tour.title" class="w-100">
-                                        </div>
-                                        <div class="col-12 col-md-9">
+                                        </b-col>
+                                        <b-col cols="12" md="8" lg="9">
                                             <div class="tour-description d-flex flex-column justify-content-between">
-                                                <h3 class="font-weight-bold mb-2">{{ tour.title }}</h3>
+                                                <h3 class="font-weight-bold mb-2 mt-3">{{ tour.title }}</h3>
                                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                                 <p>{{ tour.description }}</p>
-                                                <button type="button" class="btn btn-primary w-50 mt-5" data-dismiss="modal">OK</button>
                                             </div>
-                                        </div>
+                                        </b-col>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </b-modal>
                     </div>
-                </div>
+                </b-col>
             </div>  
-        </div>
-    </div>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
@@ -89,7 +87,8 @@ export default {
     data() {
         return {
             optionalTourHasModal: [],
-            extensionsHasModal: []
+            extensionsHasModal: [],
+            show: false
         }
     },
     props: {
@@ -118,23 +117,23 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #optional-tours {
     color: #3C3C3C;
     font-size: 14px;
-    line-height: 1.8em;
+    line-height: 1.8rem;
     max-width: 1200px;
 }
 
-h2, h3 {
+#optional-tours h2, h3 {
     color: #103A5B;
 }
 
-h3 {
+#optional-tours h3 {
     font-size: 16px;
 }
 
-.price {
+#optional-tours .price {
     color: #FF5E19;
 }
 
@@ -146,14 +145,39 @@ h3 {
     cursor: pointer;
 }
 
-.modal-body img {
-    height: 220px;
+.optional-tour .modal-header,
+.optional-tour .modal-footer .btn-secondary,
+.extensions .modal-header,
+.extensions .modal-footer .btn-secondary {
+    display: none !important;
+    height: 0;
 }
 
-.btn-primary {
+.extensions .modal-footer,
+.optional-tour .modal-footer {
+    border: none;
+}
+
+.optional-tour .modal-content,
+.optional-tour .modal-dialog,
+.extensions .modal-content,
+.extensions .modal-dialog {
+    border: none;
+    margin-bottom: 0;
+}
+
+.optional-tour .modal-body,
+.extensions .modal-body {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.optional-tour .modal-footer .btn-primary,
+.extensions .modal-footer .btn-primary {
     background: #1B75BB;
     border-radius: 59px;
     font-size: 14px;
     height: 40px;
+    width: 40%;
 }
 </style>

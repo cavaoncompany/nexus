@@ -1,5 +1,5 @@
 <template>
-    <div class="breadcrumb container-fluid mt-3 mt-lg-4">
+    <b-container fluid class="breadcrumb container-fluid mt-3 mt-lg-4">
         <ul class="d-flex">
             <li class="mr-2"><router-link :to="{name: 'index'}">Home</router-link></li>
             <li class="mr-2">></li>
@@ -7,7 +7,7 @@
             <li class="mr-2">></li>
             <li class="lighter">{{ destination.tourTitle }}</li>
         </ul>
-    </div>
+    </b-container>
 </template>
 
 <script>

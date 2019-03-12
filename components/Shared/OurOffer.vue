@@ -1,13 +1,13 @@
 <template>
     <div id="our-offer" class="w-100">
-        <div class="row justify-content-center container-fluid ml-auto mr-auto pl-4 pr-2">
-            <div class="col-md-4" v-for="offer in ourOffer" :key="offer.id">
-                <div class="row offer-row">
+        <b-row class="row justify-content-center container-fluid ml-auto mr-auto pl-4 pr-2">
+            <b-col md="4" v-for="offer in ourOffer" :key="offer.id">
+                <b-row class="row offer-row">
                     <img src="~/assets/images/tick.png" class="mb-2 mt-2 mr-3" alt="Tick to show our offers">
                     <p class="mb-auto mt-auto"><span class="offer">{{ offer.offer }}</span> - {{ offer.description }}</p>
-                </div>
-            </div>
-        </div>
+                </b-row>
+            </b-col>
+        </b-row>
     </div>
 </template>
 

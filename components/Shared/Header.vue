@@ -1,46 +1,43 @@
 <template>
-    <header class="container-fluid" id="header">
-        <div class="row header-top">
-            <div class="col-12 col-md-4 left-column" id="offsetX">
+    <b-container fluid id="header">
+        <b-row class="row header-top">
+            <b-col cols="12" md="4" class="left-column" id="offsetX">
                 <a href="tel:+44-2076377760" class="header-content header-left">Call 020 7637 7760</a>
                 <button type="button" class="btn btn-link header-left">中文</button>
-                <div class="dropdown header-left">
-                    <button class="btn btn-link dropdown-toggle" type="button" id="currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</button>
-                    <div class="dropdown-menu currency-dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" v-for="currency in currencies" v-bind:key="currency.code" href="#" @click="showSelected(currency.code)">{{ currency.code }} {{currency.description}}</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 text-center">
+                <b-dropdown class="dropdown header-left" :text="selectedCurrency">
+                    <b-dropdown-item class="dropdown-item" v-for="currency in currencies" v-bind:key="currency.code" href="#" @click="showSelected(currency.code)">{{ currency.code }} {{currency.description}}</b-dropdown-item>
+                </b-dropdown>
+            </b-col>
+            <b-col cols="12" md="4" class="text-center">
                 <router-link to="/"><img src="~/assets/images/logo1.png" alt="Nexus logo"></router-link>
-            </div>
-            <div class="col-12 col-md-4 align-right">
-                <div class="row justify-content-end">
+            </b-col>
+            <b-col cols="12" md="4" class="align-right">
+                <b-row class="row header-dropdown-buttons justify-content-end">
                     <HeaderSearch class="col-md-cust" />
                     <HeaderAgent class="col-md-cust" />
                     <span>|</span>
                     <HeaderTraveller class="col-md-cust" /> 
-                </div>
-            </div>
-        </div> 
-        <div class="row header-bottom justify-content-md-center">
-            <div class="col-sm text-center">
+                </b-row>
+            </b-col>
+        </b-row> 
+        <b-row class="row header-bottom justify-content-md-center">
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Asia'}}).href"><button type="button" class="btn btn-link header-link">ASIA</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Americas'}}).href"><button type="button" class="btn btn-link header-link">AMERICAS</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Africa'}}).href"><button type="button" class="btn btn-link header-link">AFRICA</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Australia'}}).href"><button type="button" class="btn btn-link header-link">AUSTRALIA</button></a>
-            </div>
-            <div class="col-sm text-center">
+            </b-col>
+            <b-col class="col-sm text-center">
                 <a :href="$router.resolve({name:'destination', params:{destination:'Europe'}}).href"><button type="button" class="btn btn-link header-link">EUROPE</button></a>
-            </div>
-        </div>
-    </header>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
@@ -82,16 +79,17 @@ export default {
 }
 </script>
 
-<style scoped>
-header {
+<style>
+#header {
     max-width: 1200px;
     font-size: 0.932em;
     color: #6B797C;
+    margin: 0 auto;
     margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.dropdown-menu {
+#header .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;
@@ -111,15 +109,36 @@ header {
 .dropdown-item:hover {
     color: #1B75BB;
     background-color: #FFF;
+    box-shadow: none;
 }
 
-.dropdown-toggle::after {
+.btn-secondary:hover {
+    background: transparent;
+    text-decoration: none;
+    box-shadow: none;
+    color: #7F7F7F;
+}
+
+#header .dropdown-toggle:active, 
+#header .btn-secondary:active, 
+#header .btn-secondary.dropdown-toggle:active,
+#header .btn-secondary:not(:disabled):not(.disabled).active, 
+#header .btn-secondary:not(:disabled):not(.disabled).focus,
+#header .btn-secondary:not(:disabled):not(.disabled):active,
+#header .btn-secondary:not(:disabled):not(.disabled):focus, 
+#header .show>.btn-secondary.dropdown-toggle {
+    box-shadow: none;
+    color: #FFF;
+    background: #1B75BB;
+}
+
+#header .dropdown-toggle::after {
     font-family: FontAwesome;
     content: "\f107";
     border: none;
     position: absolute;
     font-size: 15px;
-    top: 0;
+    top: 30px;
     margin-top: -1px;
 }
 
@@ -150,8 +169,9 @@ header {
     color: #7F7F7F;
 }
 
-button, .btn {
+#header .btn-secondary, #header .btn-link {
     height: 100%;
+    background: transparent;
     font-size: 13px;
     color: #7F7F7F;
     border: none;
@@ -171,7 +191,7 @@ button, .btn {
     text-decoration: none;
 }
 
-.text-center img {
+#header .text-center img {
     margin-top: 15px;
 }
 
@@ -198,9 +218,10 @@ button, .btn {
     text-decoration: none;
 }
 
-.justify-content-end {
+.header-dropdown-buttons {
     margin: 0;
     width: 100%;
+    height: 100%;
 }
 
 

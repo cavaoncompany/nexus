@@ -1,7 +1,7 @@
 <template>
-    <div id="description" class="container-fluid" @mouseenter="markButtonActive('description')">
-        <div class="row">
-            <div class="col-12 col-md-8 border-bottom mb-4">
+    <b-container fluid id="description" class="container-fluid" @mouseenter="markButtonActive('description')">
+        <b-row class="row">
+            <b-col cols="12" md="7" lg="8" class="border-bottom mb-4">
                 <p class="tour-code mb-3">Tour code: {{ destination.tourCode }}</p>
                 <h1 class="font-weight-bold">{{ destination.tourTitle }}</h1>
                 <p class="tour-type mt-3">{{ destination.type }}</p>
@@ -22,8 +22,8 @@
                 <ul class="mt-4 mb-4">
                     <li v-for="(tour, index) in destination.optionalTours" :key="index">{{ tour.title }} £{{ tour.fromPrice }}</li>
                 </ul>
-            </div>
-            <div class="col-12 col-md-4 mb-5">
+            </b-col>
+            <b-col cols="12" md="4" class="mb-5">
                 <div class="prices d-flex mb-5">
                     <p class="from-price font-weight-bold mr-4"><span>From</span> <br/>£{{destination.fromPrice}}</p>
                     <p class="mt-auto original-price">{{ destination.originalPrice }}</p>
@@ -44,9 +44,9 @@
                     <a href=""><img src="~/assets/images/pinterest.png" alt="link to pinterest"></a>
                     <a href=""><img src="~/assets/images/twitter.png" alt="link to twitter"></a>
                 </div>
-            </div>
-        </div>  
-    </div>
+            </b-col>
+        </b-row>  
+    </b-container>
 </template>
 
 <script>
@@ -82,7 +82,7 @@ export default {
 #description {
     color: #3C3C3C;
     font-size: 14px;
-    line-height: 2em;
+    line-height: 2rem;
     max-width: 1200px;
 }
 
@@ -96,7 +96,7 @@ h1, h2, h3, .tour-type {
 
 h1 {
     font-size: 32px;
-    line-height: 1.3em;
+    line-height: 1.3rem;
 }
 
 .bullet-list li::before {

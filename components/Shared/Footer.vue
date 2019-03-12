@@ -1,20 +1,20 @@
 <template>
-    <footer class="container-fluid mt-5" id="footer">
-        <div class="row footer-top ml-auto mr-auto pt-3 mt-5">
-            <div class="col-lg-3 logo text-md-center text-lg-left">
+    <b-container fluid class="mt-5 mb-4" id="footer">
+        <b-row class="row footer-top ml-auto mr-auto pt-3 mt-5">
+            <b-col lg="3" class="logo text-md-center text-lg-left">
                 <img src="~/assets/images/logo1.png" alt="Nexus logo">
-            </div>
-            <div class="col-lg-2 social text-md-center text-lg-left">
+            </b-col>
+            <b-col lg="2" class="social text-md-center text-lg-left">
                 <a href="#"><img src="~/assets/images/Instagram Icon.png" alt="Instagram icon"></a>
                 <a href="#"><img src="~/assets/images/Facebook Icon.png" alt="Facebook icon"></a>
-            </div>
-            <div class="col-12 col-lg-7 newsletter-container">
-                <div class="row">
-                    <div class="col-md-5 col-lg-4 newsletter mt-1">
+            </b-col>
+            <b-col cols="12" lg="7" class="newsletter-container">
+                <b-row class="row">
+                    <b-col md="5" lg="4" class="newsletter mt-1">
                         <p class="join mb-1">Join our community</p>
                         <p class="subscribe mb-2">Subscribe to our newsletter</p>
-                    </div>
-                    <div class="col-md-7 col-lg-8">
+                    </b-col>
+                    <b-col md="7" lg="8">
                         <div class="input-group flex-nowrap desktop-footer" >
                             <input type="email" class="form-control" v-model="email" placeholder="Email address" aria-label="email" aria-describedby="addon-wrapping">
                             <div class="input-group-append">
@@ -27,47 +27,41 @@
                                 <button class="btn btn-outline-secondary" type="button">Subscribe</button>
                             </form>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row footer-bottom mt-5 ml-auto mr-auto w-100">
-            <div class="col-6 col-md-3 col-sm-3">
-                <h3>SITE</h3>
+                    </b-col>
+                </b-row>
+            </b-col>
+        </b-row>
+        <b-row class="row footer-bottom mt-5 ml-auto mr-auto w-100">
+            <b-col cols="6" sm="3" md="3">
+                <h3 class="mb-3">SITE</h3>
                 <ul>
                     <li v-for="item in site" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
-            </div>
-            <div class="col-6 col-md-3 col-sm-3">
-                <h3>RESOURCES</h3>
+            </b-col>
+            <b-col cols="6" sm="3" md="3">
+                <h3 class="mb-3">RESOURCES</h3>
                 <ul>
                     <li v-for="item in resources" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
-            </div>
-            <div class="col-6 col-md-3 col-sm-3">
-                <h3>ABOUT US</h3>
+            </b-col>
+            <b-col cols="6" sm="3" md="3">
+                <h3 class="mb-3">ABOUT US</h3>
                 <ul>
                     <li v-for="item in about" :key="item.name"><a :href="item.url">{{ item.name }}</a></li>
                 </ul>
-            </div>
+            </b-col>
             <img class="cardsMobile mobile-footer" src="~/assets/images/payment-types.png" alt="Visa and MasterCard accepted">
-            <div class="col-md-3 col-sm-3 text-md-right">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="footer-currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedCurrency }}</a>
-                    <div class="dropdown-menu" aria-labelledby="currency">
-                        <a v-for="currency in currencies" :key="currency.id" class="dropdown-item" href="#footer" @click="showSelected('currency', currency.currency)">{{ currency.currency }}</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ selectedLanguage }}</a>
-                    <div class="dropdown-menu" aria-labelledby="language">
-                        <a v-for="language in languages" :key="language.id" class="dropdown-item" href="#footer" @click="showSelected('language', language.language)">{{ language.language }}</a>
-                    </div>
-                </div>
+            <b-col sm="3" md="3" class="text-md-right">
+                <b-dropdown class="dropdown-menu-currency" :text="selectedCurrency">
+                    <a v-for="currency in currencies" :key="currency.id" class="dropdown-item" @click="showSelected('currency', currency.currency)">{{ currency.currency }}</a>
+                </b-dropdown>
+                <b-dropdown class="dropdown-menu-language" :text="selectedLanguage">
+                    <a v-for="language in languages" :key="language.id" class="dropdown-item" @click="showSelected('language', language.language)">{{ language.language }}</a>
+                </b-dropdown>
                 <img class="desktop-footer" src="~/assets/images/payment-types.png" alt="Visa and MasterCard accepted">
-            </div>
-        </div>
-    </footer>
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
@@ -152,14 +146,13 @@ export default {
             } else if (type === 'language') {
                 this.selectedLanguage = selected
             }
-        },
-
+        }
     }
 }
 </script>
 
-<style scoped>
-footer {
+<style>
+#footer {
     max-width: 1200px;
 }
 
@@ -212,7 +205,7 @@ footer {
 
 .footer-bottom li a {
     font-size: 14px;
-    line-height: 40px;
+    line-height: 35px;
     color: #666666;
 }
 
@@ -227,9 +220,14 @@ footer {
     height: 50px;
     margin-bottom: 20px;
     text-align: left;
+    width: 100%;
 }
 
-.footer-bottom .dropdown a, .footer-bottom .dropdown a:active, .show>.btn-secondary.dropdown-toggle, .dropdown-toggle, #footer-currency {
+.footer-bottom .dropdown a, 
+.footer-bottom .dropdown a:active, 
+#footer .btn-secondary,
+#footer.show>.btn-secondary.dropdown-toggle, 
+#footer-currency {
     background-color: transparent;
     border: none;
     padding-top: 12px;
@@ -241,7 +239,7 @@ footer {
     box-shadow: none;
 }
 
-.dropdown-toggle::after {
+#footer .dropdown-toggle::after {
     font-family: FontAwesome;
     content: "\f107";
     border: none;
@@ -251,9 +249,23 @@ footer {
     margin-top: -5px;
 }
 
-.dropdown-menu {
+.dropdown-menu-currency .dropdown-menu,
+.dropdown-menu-language .dropdown-menu {
     min-width: 100%;
     border: none;
+}
+
+#footer .dropdown-toggle:active, 
+#footer .btn-secondary:active, 
+#footer .btn-secondary.dropdown-toggle:active,
+#footer .btn-secondary:not(:disabled):not(.disabled).active, 
+#footer .btn-secondary:not(:disabled):not(.disabled).focus,
+#footer .btn-secondary:not(:disabled):not(.disabled):active,
+#footer .btn-secondary:not(:disabled):not(.disabled):focus, 
+#footer .show>.btn-secondary.dropdown-toggle {
+    box-shadow: none;
+    color: #666666;
+    background: transparent;
 }
 
 .cardsMobile {

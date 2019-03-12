@@ -1,8 +1,5 @@
 <template>
-    <div class="dropdown agent-dropdown">
-        <button type="button" class="btn btn-link agent header-lg" id="agent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Agent</button>
-        <div class="dropdown-menu agent-dropdown-menu" aria-labelledby="dropdownMenu"
-            v-bind:style="[isMobile ? {width: windowWidth + 'px !important'}:{width: '381px !important'}]">
+    <b-dropdown right offset="90" class="dropdown agent-dropdown" text="Agent" no-caret>
             <h2>AGENT LOG IN</h2>
             <p>Welcome back, Nexus Travel agents</p>
             <form>
@@ -26,8 +23,7 @@
             </form>
             <h3 class="mb-2">New Travel Agent?</h3>
             <p>If you are interested in becoming our travel agent, please call <a href="tel:+4420-7637-7760">020-7637-7760</a> or email <a href="mailto: london@nexusholidays.com">london@nexusholidays.com</a>.</p>
-        </div>
-    </div>
+    </b-dropdown>
 </template>
 
 <script>
@@ -46,8 +42,8 @@ export default {
 }
 </script>
 
-<style scoped>
-.agent-dropdown-menu {
+<style>
+.agent-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;
@@ -66,7 +62,7 @@ export default {
     text-decoration: none;
 }
 
-.agent-dropdown-menu h2 {
+.agent-dropdown .dropdown-menu h2 {
     color: #103A5B;
     font-size: 18px;
     font-weight: 700;
@@ -74,38 +70,42 @@ export default {
     margin-bottom: 15px;
 }
 
-.agent-dropdown-menu h3 {
+.agent-dropdown .dropdown-menu h3 {
     font-size: 14px;
     color: #103A5B;
     font-weight: 600;
 }
 
-.agent-dropdown-menu input {
+.agent-dropdown .dropdown-menu input {
     border-radius: 50px;
 }
 
-.agent-dropdown-menu input::placeholder {
+.agent-dropdown .dropdown-toggle::after {
+    display: none !important;
+}
+
+.agent-dropdown .dropdown-menu input::placeholder {
     color: #CBCBCB;
     padding-left: 10px;
 }
 
-.agent-dropdown-menu form {
+.agent-dropdown .dropdown-menu form {
     border-bottom: 1px solid #EFEFEF;
     margin-bottom: 25px;
     margin-top: 30px;
     padding-bottom: 25px;
 }
 
-.agent-dropdown-menu .agent-form-label {
+.agent-dropdown .dropdown-menu .agent-form-label {
     font-size: 13px;
 }
 
-.agent-dropdown-menu a {
+.agent-dropdown .dropdown-menu a {
     color: #1B75BB;
 }
 
-.agent-dropdown-menu p {
-    line-height: 1.5em;
+.agent-dropdown .dropdown-menu p {
+    line-height: 1.5rem;
 }
 
 .form-check-input {
@@ -114,15 +114,15 @@ export default {
     margin-right: .5em;
 }
 
-button, .btn, .btn-link {
-    height: 100%;
+.dropdown-menu button, .agent-dropdown .btn, .agent-dropdown .btn-secondary {
+    height: 73px;
     font-size: 13px;
     border: none;
     border-radius: 0;
     color: #7F7F7F;
 }
 
-button[type="submit"] {
+.agent-dropdown button[type="submit"], .agent-dropdown .btn-primary {
     width: 100%;
     border-radius: 50px;
     color: #FFF;

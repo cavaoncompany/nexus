@@ -1,9 +1,6 @@
 <template>
-    <div class="btn-group dropright">
-        <button type="button" class="btn btn-link pr-4 pl-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" @click="openMobileMenu">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="dropdown-menu text-left">
+    <b-dropdown split dropright id="header-mobile-menu" class="btn-group header-mobile-menu" no-caret>
+        <template slot="button-content"><i class="fas fa-bars"></i></template>
             <ul class="mb-5">
                 <li class="pl-3 pt-2"><h2 class="text-left">CURRENCY</h2></li>
                 <li class="pl-3">EUR</li>
@@ -17,8 +14,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
-    </div>
+    </b-dropdown>
 </template>
 
 <script>
@@ -47,55 +43,71 @@ export default {
         isMobile: Boolean,
         windowWidth: Number
     },
-    methods: {
-        openMobileMenu: function() {
-            this.mobileMenuOpen = !this.mobileMenuOpen
-            EventBus.$emit('openMobileMenu', this.mobileMenuOpen)
-        }
+    mounted() {
+            document.querySelector('#header-mobile-menu__BV_toggle_').addEventListener('click', function() {
+                this.mobileMenuOpen = !this.mobileMenuOpen
+                EventBus.$emit('openMobileMenu', this.mobileMenuOpen)
+                console.log(this.mobileMenuOpen)
+            })
     }
 }
 </script>
 
-<style scoped>
-.dropright .dropdown-menu {
+<style>
+.header-mobile-menu .dropdown-menu {
     background: #103A5B;
     color: #FFF;
     height: 100vh;
-    width: 100vw;
+    width: calc(100vw - 42px);
     z-index: 1200;
+    left: calc(100vw - 42px);
 }
 
-.dropright .dropdown-menu a {
+.header-mobile-menu .dropdown-menu a {
     color: #FFF;
     text-decoration: none;
 }
 
-.dropright h2 {
+#header-mobile-menu.show>.btn-secondary.dropdown-toggle,
+.header-mobile-menu .btn-secondary {
+    background-color: #FFF;
+    border: none;
+    color: #7F7F7F;
+}
+
+.header-mobile-menu h2 {
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
 }
 
-.dropright i {
-    color: #7F7F7F;
-    border: none;
-}
-
-.dropright ul li {
+.header-mobile-menu ul li {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    line-height: 2.5em;
+    line-height: 2.5rem;
 }
 
-.dropright ul li:first-child {
+.header-mobile-menu ul li:first-child {
     border-top: none;
 }
 
-.dropright i:active, .dropright:focus, .dropright i[data-v-34876a38]:active, .dropright[data-v-34876a38]:focus {
+.header-mobile-menu i:active, 
+.header-mobile-menu:focus, 
+.header-mobile-menu i:active, 
+.header-mobile-menu:focus {
     color: #1B75BB;
 }
 
-.hide {
-    display: none;
+.header-mobile-menu .dropdown-toggle::after,
+.dropright .dropdown-toggle::after {
+    display:none !important;
 }
 
+#header-mobile-menu__BV_toggle_ {
+    opacity: 0;
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 40px;
+}
 </style>

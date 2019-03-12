@@ -1,11 +1,11 @@
 <template>
-    <div class="product-details-summary container-fluid">
+    <b-container fluid class="product-details-summary container-fluid">
         <Breadcrumb :destination="destination" />
         <ProductDetailsDescription :destination="destination" :agent="agent" />
         <ProductDetailsItinerary :destination="destination" />
         <ProductDetailsHotels :destination="destination" />
         <ProductDetailsOptionalTours :destination="destination" />
-    </div>
+    </b-container>
 </template>
 
 <script>
@@ -36,8 +36,7 @@ export default {
     created() {
         let tour = this.$route.params.title.replace(/-/g, ' ')
         this.destination = (this.destinations.filter(result => result.tourTitle.toLowerCase().indexOf(tour.toLowerCase()) > -1))[0]
-        if (process.client)console.log('here', location.hash)
-        
+       
     }
 }
 </script>

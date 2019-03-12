@@ -1,8 +1,6 @@
 <template>
-    <div class="dropdown .mobile-agent-dropdown">
-        <button type="button" class="btn btn-link agent header-sm" id="mobile-agent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle"></i></button>
-        <div class="dropdown-menu mobile-agent-dropdown-menu p-0" aria-labelledby="dropdownMenu"
-            v-bind:style="[isMobile ? {width: windowWidth + 'px !important'}:{width: '381px !important'}]">
+    <b-dropdown class="dropdown mobile-agent-dropdown" id="mobile-agent-dropdown" right no-caret>
+        <template slot="button-content"><i class="fas fa-user-circle"></i></template>
             <div class="navigation d-flex h-100">
             <button class="btn btn-link w-50 tab-link" v-on:click.stop="toggle('traveller')" v-bind:class="{'active': !agent}" >Traveller</button>
             <button class="btn btn-link w-50 tab-link" v-on:click.stop="toggle('agent')" v-bind:class="{'active': agent}" >Agent</button>
@@ -127,8 +125,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+    </b-dropdown>
 </template>
 
 <script>
@@ -171,8 +168,8 @@ export default {
 }
 </script>
 
-<style scoped>
-.mobile-agent-dropdown-menu {
+<style>
+.mobile-agent-dropdown .dropdown-menu {
     border: 1px solid #EFEFEF;
     border-top: 3px solid #1B75BB;
     margin-top: 0;
@@ -187,7 +184,7 @@ export default {
     font-size: 20px;
 }
 
-.mobile-agent-dropdown-menu h2 {
+.mobile-agent-dropdown .dropdown-menu h2 {
     color: #103A5B;
     font-size: 18px;
     font-weight: 700;
@@ -195,7 +192,11 @@ export default {
     margin-bottom: 15px;
 }
 
-.btn-link:active, .btn-link:focus {
+.mobile-agent-dropdown .dropdown-toggle::after {
+    display: none !important;
+}
+
+.mobile-agent-dropdown .btn-link:active, .mobile-agent-dropdown .btn-link:focus {
     color: #1B75BB;
     text-decoration: none;
     background: #FFF;
@@ -207,49 +208,52 @@ export default {
     color: #FFF;
 }
 
-.navigation .tab-link:active, .navigation .tab-link:focus, .tab-link.focus, .tab-link.active {
+.navigation .tab-link:active, 
+.navigation .tab-link:focus, 
+.tab-link.focus, 
+.tab-link.active {
     background: #FFF;
     color: #1B75BB;
 }
 
 .tab-agent p {
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
-.mobile-agent-dropdown-menu h3 {
+.mobile-agent-dropdown .dropdown-menu h3 {
     font-size: 14px;
     color: #103A5B;
     font-weight: 600;
 }
 
-.mobile-agent-dropdown-menu input {
+.mobile-agent-dropdown .dropdown-menu input {
     border-radius: 50px;
 }
 
-.mobile-agent-dropdown-menu input::placeholder {
+.mobile-agent-dropdown .dropdown-menu input::placeholder {
     color: #CBCBCB;
     padding-left: 10px;
 }
 
-.mobile-agent-dropdown-menu form {
+.mobile-agent-dropdown .dropdown-menu form {
     border-bottom: 1px solid #EFEFEF;
     margin-bottom: 25px;
     margin-top: 30px;
     padding-bottom: 25px;
 }
 
-.mobile-agent-dropdown-menu .mobile-sign-up-form {
+.mobile-agent-dropdown .dropdown-menu .mobile-sign-up-form {
     border-bottom: none;
     border-top: 1px solid #EFEFEF;
     margin-top: 30px;
     padding-top: 30px;
 }
 
-.mobile-agent-dropdown-menu .agent-form-label {
+.mobile-agent-dropdown .dropdown-menu .agent-form-label {
     font-size: 13px;
 }
 
-.mobile-agent-dropdown-menu a {
+.mobile-agent-dropdown .dropdown-menu a {
     color: #1B75BB;
 }
 
@@ -259,11 +263,28 @@ export default {
     margin-right: .5em;
 }
 
-button, .btn {
+.mobile-agent-dropdown button, 
+.mobile-agent-dropdown .btn-secondary,
+.mobile-agent-dropdown .show>.btn-secondary.dropdown-toggle {
     height: 100%;
     font-size: 13px;
     border: none;
     border-radius: 0;
+    background: #FFF;
+    color: #7F7F7F;
+}
+
+#mobile-agent-dropdown.show>.btn-secondary.dropdown-toggle,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle:active,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle.active,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle:focus,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle.focus,
+.mobile-agent-dropdown .show>.btn-secondary.dropdown-toggle:active,
+.mobile-agent-dropdown .show>.btn-secondary.dropdown-toggle:focus,
+.mobile-agent-dropdown .btn-secondary.dropdown-toggle:active:focus {
+    background: #FFF;
+    color: #1B75BB;
+    box-shadow: none;
 }
 
 input[type=checkbox] {
@@ -314,7 +335,7 @@ input[type=checkbox] {
     float: right;
 }
 
-.traveller-dropdown-menu {
+.mobile-agent-dropdown .traveller-dropdown .dropdown-menu {
     width: 381px;
     font-size: 14px;
     color: #1B75BB;
@@ -351,7 +372,7 @@ input[type=checkbox] {
     padding-top: 20px;
 }
 
-.traveller-dropdown-menu h2 {
+.traveller-dropdown .dropdown-menu h2 {
     color: #103A5B;
     font-size: 18px;
     font-weight: 700;
@@ -360,41 +381,34 @@ input[type=checkbox] {
     padding-top: 25px;
 }
 
-.traveller-dropdown-menu input {
+.traveller-dropdown .dropdown-menu input {
     border-radius: 50px;
 }
 
-.traveller-dropdown-menu input::placeholder {
+.traveller-dropdown .dropdown-menu input::placeholder {
     color: #CBCBCB;
     padding-left: 10px;
 }
 
-/* .traveller-dropdown-menu form {
-    border-bottom: 1px solid #EFEFEF;
-    margin-bottom: 25px;
-    margin-top: 30px;
-    padding-bottom: 25px;
-} */
-
-.traveller-dropdown-menu .signup form {
+.traveller-dropdown .dropdown-menu .signup form {
     border-bottom: none;
     border-top: 1px solid #EFEFEF;
     padding-top: 35px;
     margin-top: 15px;
 }
 
-.traveller-dropdown-menu .manageBooking form {
+.traveller-dropdown .dropdown-menu .manageBooking form {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.traveller-dropdown-menu .traveller-form-label {
+.traveller-dropdown .dropdown-menu .traveller-form-label {
     font-size: 13px;
     color: #43494D;
 }
 
-.traveller-dropdown-menu a {
+.traveller-dropdown .dropdown-menu a {
     color: #1B75BB;
 }
 
@@ -402,7 +416,7 @@ input[type=checkbox] {
     visibility: hidden;
 }
 
-button[type="submit"] {
+.mobile-agent-dropdown button[type="submit"], .mobile-agent-dropdown .btn-primary {
     width: 100%;
     border-radius: 50px;
     font-size: 14px;
@@ -418,14 +432,6 @@ button:hover {
     text-decoration: none;
 }
 
-button, .btn {
-    height: 100%;
-    font-size: 13px;
-    color: #7F7F7F;
-    border: none;
-    border-radius: 0;
-}
-
 .forgotPassword {
     float: right;
 }
@@ -439,7 +445,7 @@ button, .btn {
     color: #3C3C3C;
 }
 
-.social-login {
+.mobile-agent-dropdown .social-login {
     width: 100%;
     border-radius: 50px;
     background-color: #FFF;
@@ -455,9 +461,9 @@ button, .btn {
     height: 25px;
 }
 
-.divider {
+.mobile-agent-dropdown .divider {
     position: absolute;
-    bottom: 155px;
+    bottom: 159px;
     left: 44%;
     background: #FFF;
     width: 40px;
@@ -465,9 +471,9 @@ button, .btn {
     color: #CBCBCB;
 }
 
-.dividerTop {
+.mobile-agent-dropdown .dividerTop {
     position: absolute;
-    bottom: 520px;
+    bottom: 568px;
     left: 44%;
     background: #FFF;
     width: 40px;
@@ -479,7 +485,7 @@ button, .btn {
     color: #7F7F7F;
     font-size: 12px;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 .manageBooking p {

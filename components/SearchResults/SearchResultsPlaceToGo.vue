@@ -34,7 +34,7 @@ export default {
 .place-to-go .description {
     font-size: 13px;
     color: #7F7F7F;
-    line-height: 1.3em;
+    line-height: 1.3rem;
 }
 
 .place-to-go:hover, .place-to-go:active, .place-to-go:focus {

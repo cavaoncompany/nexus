@@ -1,6 +1,6 @@
 <template>
-    <a :href="$router.resolve({name:'dest-title', params:{dest: deal.region, title:deal.tourTitle.replace(/\s+/g, '-')}}).href" class="card special-deal">
-        <div>
+    <a :href="$router.resolve({name:'dest-title', params:{dest: deal.region, title:deal.tourTitle.replace(/\s+/g, '-')}}).href" class="card special-deal mb-3">
+        <div class="special-deal-card">
             <img :src="deal.img" class="card-img-top" :alt="deal.tourTitle">
             <div class="offer-end card-img-overlay">
                 <p>OFFER END - {{deal.endDate}}</p>
@@ -43,6 +43,10 @@ export default {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
+.special-deal-card .card-img-top {
+    height: 200px;
+}
+
 .offer-end {
     font-size: 12px;
     color: #1B75BB;
@@ -52,7 +56,7 @@ export default {
     border-radius: 15px;
     height: 32px;
     display: inline-block;
-    margin-top: 52%;
+    margin-top: 185px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -77,7 +81,7 @@ export default {
     font-size: 16px;
     font-weight: 600;
     color: #103A5B;
-    line-height: 1.2em;
+    line-height: 1.2rem;
 }
 
 .deal-type {
