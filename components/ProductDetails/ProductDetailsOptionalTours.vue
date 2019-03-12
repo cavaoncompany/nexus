@@ -21,7 +21,7 @@
                             <div class="modal-content">
                                 <div class="modal-body d-flex p-4 row">
                                     <b-col cols="12" md="3">
-                                        <img :src="tour.image" :alt="tour.title" class="w-100">
+                                        <img :src="tour.image" :alt="tour.title" class="w-100 mt-sm-3">
                                     </b-col>
                                     <b-col cols="12" md="9">
                                         <div class="tour-description d-flex flex-column justify-content-between">
@@ -59,11 +59,11 @@
                                 <div class="modal-content">
                                     <div class="modal-body d-flex p-4 row">
                                         <b-col cols="12" md="4" lg="3">
-                                            <img :src="tour.image" :alt="tour.title" class="w-100">
+                                            <img :src="tour.image" :alt="tour.title" class="w-100 mt-sm-3">
                                         </b-col>
                                         <b-col cols="12" md="8" lg="9">
                                             <div class="tour-description d-flex flex-column justify-content-between">
-                                                <h3 class="font-weight-bold mb-2 mt-3">{{ tour.title }}</h3>
+                                                <h3 class="font-weight-bold mb-2 mt-sm-3">{{ tour.title }}</h3>
                                                 <p class="price mb-4">From £{{ tour.fromPrice }}</p>
                                                 <p>{{ tour.description }}</p>
                                             </div>
